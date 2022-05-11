@@ -24,17 +24,19 @@ In HTML you can type words directly into the code and it will appear, unformatte
 
 --- task ---
 
-Open the starter project: https://trinket.io/html/2d58893157 
+Open the [starter project](https://trinket.io/html/2d58893157){:target="_blank"}.
 
 --- /task ---
 
 Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
 
-### Let’s add a header 
+### Add a header 
 
 The starter project already has `<header>` tags; everything you add here will appear in your webpage header. 
 
 --- task ---
+
+A tag lets the browser know what you would like to do with the content inside it. A `<h1>` tag is used to say that this content is the largest header on the page. 
 
 On line 29, add in the `<h1></h1>` **tags**.
 
@@ -53,10 +55,6 @@ line_highlights: 29
 
 --- /code ---
 
-
-
-A tag lets the browser know what you would like to do with the content inside it. A `<h1>` tag is used to say that this content is the largest header on the page. 
-
 **TIP**: In HTML, you don’t need to add in the indents for the code to work. However, it is a good idea to indent the sections of your code to make them easier for you and others to read. 
 
 --- /task ---
@@ -65,7 +63,20 @@ A tag lets the browser know what you would like to do with the content inside it
 
 Add the text `Draw anime with me` between the two `<h1>` tags. 
 
-	<h1>Draw anime with me</h1>
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 26
+line_highlights: 29
+---
+  <body>
+    <!-- The page header code goes here -->
+    
+    <h1>Draw anime with me</h1>
+
+--- /code ---
 
 --- /task ---
 
@@ -79,9 +90,19 @@ You are now going to add a subheading in the **main** part of your webpage. Any 
 
 Add the subheading tags `<h2>` to line 34.
 
-   <main>
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 32
+line_highlights: 34
+---
+     <main>
       
       <h2></h2>
+
+--- /code ---
 
 --- /task ---
 
@@ -89,9 +110,19 @@ Add the subheading tags `<h2>` to line 34.
 
 Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
 
-   <main>
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 32
+line_highlights: 34
+---
+     <main>
       
       <h2>Facial expressions</h2>
+
+--- /code ---
 
 Notice how the text is slightly smaller than the big heading above and has the bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
 
@@ -103,10 +134,20 @@ You are now going to add a paragraph of text as an introduction to your anime we
 
 Add the paragraph `<p>` tags to line 35. 
 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 32
+line_highlights: 35
+---
    <main>
  
       <h2>Facial expressions</h2>     
       <p></p>
+
+--- /code ---
 
 --- /task ---
 
@@ -118,10 +159,20 @@ Between the `<p>` tags, you need to add in the introductory text. This is:
 
 Your code should look like this:
 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 32
+line_highlights: 35
+---
    <main>
   
       <h2>Facial expressions</h2>     
       <p>Take a look at these facial expressions and try them in your own drawings.</p>
+
+--- /code ---
 
 --- /task ---
 

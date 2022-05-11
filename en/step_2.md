@@ -28,7 +28,7 @@ Open the starter project: https://trinket.io/html/2d58893157
 
 --- /task ---
 
-Typically, a webpage has three parts. A header, the main content and a footer. 
+Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
 
 ### Let’s add a header 
 
@@ -38,16 +38,18 @@ The starter project already has `<header>` tags; everything you add here will ap
 
 On line 29, add in the `<h1></h1>` **tags**.
 
-
 --- code ---
 ---
 language: html
-filename: 
+filename: index.html
 line_numbers: true
-line_number_start: 29
+line_number_start: 26
 line_highlights: 29
 ---
-	<h1></h1>
+  <body>
+    <!-- The page header code goes here -->
+    
+    <h1></h1>
 
 --- /code ---
 

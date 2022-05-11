@@ -180,5 +180,7 @@ You can now see that the text appears under the subheading and uses the default 
 
 Well done! Your page now has a header, subheading and an introductory paragraph. 
 
+[A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
+
 --- save ---
 

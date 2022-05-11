@@ -24,20 +24,108 @@ In HTML you can type words directly into the code and it will appear, unformatte
 
 --- task ---
 
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+Open the starter project: https://trinket.io/html/2d58893157 
 
-You should see...
- 
-![starter project](images/starter_project.png)
+--- /task ---
+
+Typically, a webpage has three parts. A header, the main content and a footer. 
+
+### Let’s add a header 
+
+The starter project already has `<header>` tags; everything you add here will appear in your webpage header. 
+
+--- task ---
+
+On line 29, add in the `<h1></h1>` **tags**.
+
+
+--- code ---
+---
+language: html
+filename: 
+line_numbers: true
+line_number_start: 29
+line_highlights: 29
+---
+	<h1></h1>
+
+--- /code ---
+
+
+
+A tag lets the browser know what you would like to do with the content inside it. A `<h1>` tag is used to say that this content is the largest header on the page. 
+
+**TIP**: In HTML, you don’t need to add in the indents for the code to work. However, it is a good idea to indent the sections of your code to make them easier for you and others to read. 
 
 --- /task ---
 
 --- task ---
 
-Step content...
+Add the text `Draw anime with me` between the two `<h1>` tags. 
+
+	<h1>Draw anime with me</h1>
 
 --- /task ---
 
+You can now see that some styling has been applied to the text. It is bold and much larger than before. 
+
+### The main content
+
+--- task ---
+
+You are now going to add a subheading in the **main** part of your webpage. Any main content should be placed between the `<main>` tags. 
+
+Add the subheading tags `<h2>` to line 34.
+
+   <main>
+      
+      <h2></h2>
+
+--- /task ---
+
+--- task ---
+
+Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
+
+   <main>
+      
+      <h2>Facial expressions</h2>
+
+Notice how the text is slightly smaller than the big heading above and has the bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
+
+--- /task ---
+
+--- task ---
+
+You are now going to add a paragraph of text as an introduction to your anime webpage. 
+
+Add the paragraph `<p>` tags to line 35. 
+
+   <main>
+ 
+      <h2>Facial expressions</h2>     
+      <p></p>
+
+--- /task ---
+
+--- task ---
+
+Between the `<p>` tags, you need to add in the introductory text. This is:
+
+`Take a look at these facial expressions and try them in your own drawings.`
+
+Your code should look like this:
+
+   <main>
+  
+      <h2>Facial expressions</h2>     
+      <p>Take a look at these facial expressions and try them in your own drawings.</p>
+
+--- /task ---
+
+You can now see that the text appears under the subheading and uses the default paragraph styling. 
+
+Well done! Your page now has a header, subheading and an introductory paragraph. 
+
 --- save ---
+

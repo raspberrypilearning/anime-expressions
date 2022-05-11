@@ -2,7 +2,7 @@
 
 Add an introductory sentence. What will learners achieve by the end of this step?
 
-<iframe src="https://trinket.io/embed/html/d932ddf89f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/d932ddf89f" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- task ---
 

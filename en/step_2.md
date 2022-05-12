@@ -42,19 +42,29 @@ Typically, a webpage has three parts. A **header**, the **main** content and a *
 
 ### Add a header 
 
-The starter project already has `<header>` tags; everything you add here will appear in your webpage header. 
+--- task ---
 
-A **tag** lets the browser know what you would like to do with the content inside it. 
+Find the comment '<!-- The page header code goes here -->'. Comments are useful for understanding and organising your code. 
+
+--- /task ---
+
+A **tag** lets the browser know what you would like to do with the content inside it. Tags start and end with angle brackets `<>`. Most tags have a start tag and an end tag. Note that the end tag has a `/` to show that it is an end tag.
 
 --- task ---
 
+Find the `<header>` and `</header>` start and end tags in the starter project; everything you add here will appear in your webpage header.
+
+--- /task ---
+
 An `<h1>` tag is used to say that this content is the largest header on the page. 
 
-Your code already contains the comment '<!-- The page header code goes here -->'. Comments are useful for understanding and organising your code. 
+--- task ---
 
 Below the comment are <header></header> tags, anything written inside these tags will be in the header part of your page.
 
 Add `<h1></h1>` **tags** inside your <header></header> tags.
+
+**Tip:** When you add a start tag, the end tag will automatically be added so you don't need to type it.
 
 --- code ---
 ---
@@ -104,13 +114,15 @@ line_highlights: 29
 
 --- /task ---
 
-### The main content
+### Add your main content
 
 --- task ---
 
-You are now going to add a subheading in the **main** part of your webpage. Any main content should be placed between the `<main>` tags. 
+Any main content should be placed between the `<main>` tags. 
 
-Add the subheading tags `<h2>` between the `<main>` tags.
+Your webpage will have an Introduction section, add <section></section> tags between the `<main>` tags. 
+
+**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the <section> and </section> tag then press enter on your keyboard to split the tags across multiple lines. 
 
 --- code ---
 ---
@@ -120,9 +132,34 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 34
 ---
-     <main>    
-      <h2></h2>
-     </main>
+     <main>   
+      <section> 
+      </section> 
+
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+You are now going to add a subheading within the section that you have just created.
+
+Add the subheading tags `<h2>` between the `<section>` tags.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
+line_highlights: 35
+---
+    <main>
+      <section>    
+        <h2></h2>
+      </section> 
+    </main>
 
 --- /code ---
 
@@ -138,10 +175,12 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 34
+line_highlights: 35
 ---
      <main>
-      <h2>Facial expressions</h2>
+      <section>
+        <h2>Facial expressions</h2>
+      </section>
 
 --- /code ---
 
@@ -155,17 +194,19 @@ You are now going to add a paragraph of text as an introduction to your anime we
 
 Underneath your '<h2>' heading code, add the paragraph `<p>` tags. 
 
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 33
-line_highlights: 35
----
-   <main>
-      <h2>Facial expressions</h2>     
-      <p></p>
+  --- code ---
+  ---
+  language: html
+  filename: index.html
+  line_numbers: true
+  line_number_start: 33
+  line_highlights: 36
+  ---
+    <main>
+      <section>
+        <h2>Facial expressions</h2>     
+        <p></p>
+      </section>
 
 --- /code ---
 
@@ -187,11 +228,13 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 35
+line_highlights: 36
 ---
    <main>
-      <h2>Facial expressions</h2>     
-      <p>Take a look at these facial expressions and try them in your own drawings.</p>
+      <section>
+        <h2>Facial expressions</h2>     
+        <p>Take a look at these facial expressions and try them in your own drawings.</p>
+      </section>
 
 --- /code ---
 

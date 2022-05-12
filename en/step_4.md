@@ -27,21 +27,21 @@ Unfold the `<head>` section of your code so that you can view the code inside it
 
 Every rule in CSS is made up of two parts: the **selector** and the **declaration**.
 
-The **selector** is the part of HTML that you want to style. 
+The **selector** is the part of HTML that you want to style. In this example it is `h1`. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#ccc; background-color:#383533; font-family:Consolas; font-size: 1em">h1 </span
-  ><span style=" color:#999;  font-family:Consolas; font-size: 1em">{
+  <pre><span style="color:#ccc; background-color:#d2d2d2; font-family:Consolas; font-size: 1em">h1 </span
+  ><span style=" color:#ccc;  font-family:Consolas; font-size: 1em">{
     color:blue;
     font-size:12px;
   }</span></pre>
 </div>
 
-The declaration, in curly brackets, and gives instructions of the styles that should be used. 
+The **declaration** is in curly brackets `{}`, it gives instructions of the styles that should be used. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#999; font-family:Consolas; font-size: 1em">h1 </span
-><span style=" color:#ccc; background-color:#383533; font-family:Consolas; font-size: 1em">{
+<pre><span style="color:#ccc; font-family:Consolas; font-size: 1em">h1 </span
+><span style=" color:#ccc; background-color:#d2d2d2; font-family:Consolas; font-size: 1em">{
   color:blue;
   font-size:12px;
 }</span></pre>

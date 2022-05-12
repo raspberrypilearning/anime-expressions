@@ -27,19 +27,11 @@ Unfold the `<head>` section of your code so that you can view the code inside it
 
 Every rule in CSS is made up of two parts: the **selector** and the **declaration**.
 
-<div style="background-color:#000000">
-<pre><span style="color:#ffffff; font-family:Consolas;">h1 </span
-><span style=" color:#ffffff; font-family:Consolas;">{
-  color:blue;
-  font-size:12px;
-}</span></pre>
-</div>
-
 The **selector** is the part of HTML that you want to style. 
 
-<div style="background-color:#000000">
-<pre><span style="color:#ffffff; font-family:Consolas; font-weight: bolder">h1 </span
-><span style=" color:#b9b9bb; font-family:Consolas;">{
+<div style="background-color:#2d2d2d">
+<pre><span style="color:#ccc; font-family:Consolas; font-size: 1em">h1 </span
+><span style=" color:#999; font-family:Consolas; font-size: 1em">{
   color:blue;
   font-size:12px;
 }</span></pre>
@@ -47,9 +39,9 @@ The **selector** is the part of HTML that you want to style.
 
 The declaration, in curly brackets, and gives instructions of the styles that should be used. 
 
-<div style="background-color:#000000">
-<pre><span style="color:#b9b9bb; font-family:Consolas;">h1 </span
-><span style=" color:#ffffff; font-family:Consolas; font-weight: bolder">{
+<div style="background-color:#2d2d2d">
+<pre><span style="color:#999; font-family:Consolas; font-size: 1em">h1 </span
+><span style=" color:#ccc; font-family:Consolas; font-size: 1em">{
   color:blue;
   font-size:12px;
 }</span></pre>

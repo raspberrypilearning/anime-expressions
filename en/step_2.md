@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="300" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 </div>
 </div>
@@ -179,7 +179,7 @@ You can now see that the text appears under the subheading and uses the default 
 
 Well done! Your page now has a header, subheading and an introductory paragraph. 
 
-[A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
+![A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
 
 --- save ---
 

@@ -44,11 +44,13 @@ Typically, a webpage has three parts. A **header**, the **main** content and a *
 
 --- task ---
 
-Find the comment `<!-- The page header code goes here -->`. Comments are useful for understanding and organising your code. 
+Find the comment `<!-- The page header code goes here -->`. Comments are useful for understanding and organising your code. Comments are ignored by the web browser. 
 
 --- /task ---
 
-A **tag** lets the browser know what you would like to do with the content inside it. Tags start and end with angle brackets `<>`. Most tags have a start tag and an end tag. Note that the end tag has a `/` to show that it is an end tag.
+HTML documents contain **elements** including paragraphs, headings and images. An element is typically made up of a starting tag, some content and a closing tag.
+
+A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/` to show that it is an end tag. 
 
 --- task ---
 

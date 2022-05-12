@@ -44,7 +44,7 @@ Typically, a webpage has three parts. A **header**, the **main** content and a *
 
 --- task ---
 
-Find the comment '<!-- The page header code goes here -->'. Comments are useful for understanding and organising your code. 
+Find the comment `<!-- The page header code goes here -->`. Comments are useful for understanding and organising your code. 
 
 --- /task ---
 
@@ -60,9 +60,9 @@ An `<h1>` tag is used to say that this content is the largest header on the page
 
 --- task ---
 
-Below the comment are <header></header> tags, anything written inside these tags will be in the header part of your page.
+Below the comment are `<header></header>` tags, anything written inside these tags will be in the header part of your page.
 
-Add `<h1></h1>` **tags** inside your <header></header> tags.
+Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
 **Tip:** When you add a start tag, the end tag will automatically be added so you don't need to type it.
 
@@ -120,9 +120,9 @@ line_highlights: 29
 
 Any main content should be placed between the `<main>` tags. 
 
-Your webpage will have an Introduction section, add <section></section> tags between the `<main>` tags. 
+Your webpage will have an Introduction section, add `<section></section>` tags between the `<main>` tags. 
 
-**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the <section> and </section> tag then press enter on your keyboard to split the tags across multiple lines. 
+**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the `<section>` and `</section>` tag then press enter on your keyboard to split the tags across multiple lines. 
 
 --- code ---
 ---

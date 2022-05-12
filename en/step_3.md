@@ -47,10 +47,31 @@ line_highlights: 40-42
 
 image
 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
+line_highlights: 40-42
+---
+    <main>
+      <section>
+        <h2>Facial expressions</h2>
+        <p>Take a look at these facial expressions and try them in your own drawings.</p>
+      </section>
+       
+      <!-- The first drawing and instructions goes here -->     
+      <section>
+          
+      </section> 
+
+--- /code ---
+
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is used  . 
+<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is used to tell  . 
 </p>
 
 --- task ---

@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-![A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG){:width="300px"}
+<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -50,8 +50,9 @@ line_highlights: 29
 ---
   <body>
     <!-- The page header code goes here -->
-    
-    <h1></h1>
+    <header>
+      <h1></h1>
+    </header>
 
 --- /code ---
 
@@ -68,8 +69,8 @@ Add the text `Draw anime with me` between the two `<h1>` tags.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 29
+line_number_start: 31
+line_highlights: 34
 ---
   <body>
     <!-- The page header code goes here -->

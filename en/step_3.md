@@ -8,7 +8,7 @@ In this step you will add the first drawing and instruction to your web page.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -129,7 +129,7 @@ line_highlights: 41
 
 **Test:** The instructions will appear below your image. 
 
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /task ---
 

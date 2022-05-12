@@ -6,7 +6,6 @@ In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
 </div>
 </div>
 
@@ -29,17 +28,33 @@ Open the [starter project](https://trinket.io/html/2d58893157){:target="_blank"}
 
 --- /task ---
 
+--- task ---
+
+Your starter project contains some HTML that you will learn more about throughout the project. To make your code easier to read you can collapse parts of it that you don't need to focus on right now. 
+
+Click on the small triangle next to line 3 to collapse the `<head>`.
+
+![A short animation demonstrating the mouse clicking on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+
+--- /task ---
+
 Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
 
 ### Add a header 
 
 The starter project already has `<header>` tags; everything you add here will appear in your webpage header. 
 
+A **tag** lets the browser know what you would like to do with the content inside it. 
+
 --- task ---
 
-A tag lets the browser know what you would like to do with the content inside it. A `<h1>` tag is used to say that this content is the largest header on the page. 
+An `<h1>` tag is used to say that this content is the largest header on the page. 
 
-On line 29, add in the `<h1></h1>` **tags**.
+Your code already contains the comment '<!-- The page header code goes here -->'. Comments are useful for understanding and organising your code. 
+
+Below the comment are <header></header> tags, anything written inside these tags will be in the header part of your page.
+
+Add `<h1></h1>` **tags** inside your <header></header> tags.
 
 --- code ---
 ---
@@ -57,7 +72,13 @@ line_highlights: 29
 
 --- /code ---
 
-**TIP**: In HTML, you don’t need to add in the indents for the code to work. However, it is a good idea to indent the sections of your code to make them easier for you and others to read. 
+**Tip:**: It's a good idea to add spaces at the beginning of lines to indent your code to make it easier to read. In HTML, you don’t need to add in the indents for the code to work.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Your web page will update as you type. You can see that some styling has been applied to the text. It is bold and large. 
 
 --- /task ---
 
@@ -83,15 +104,13 @@ line_highlights: 29
 
 --- /task ---
 
-You can now see that some styling has been applied to the text. It is bold and much larger than before. 
-
 ### The main content
 
 --- task ---
 
 You are now going to add a subheading in the **main** part of your webpage. Any main content should be placed between the `<main>` tags. 
 
-Add the subheading tags `<h2>` to line 34.
+Add the subheading tags `<h2>` between the `<main>` tags.
 
 --- code ---
 ---
@@ -103,6 +122,7 @@ line_highlights: 34
 ---
      <main>    
       <h2></h2>
+     </main>
 
 --- /code ---
 
@@ -125,7 +145,7 @@ line_highlights: 34
 
 --- /code ---
 
-Notice how the text is slightly smaller than the big heading above and has the bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
+Notice how the text is slightly smaller than the big heading above and has bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
 
 --- /task ---
 
@@ -133,7 +153,7 @@ Notice how the text is slightly smaller than the big heading above and has the b
 
 You are now going to add a paragraph of text as an introduction to your anime webpage. 
 
-Add the paragraph `<p>` tags to line 35. 
+Underneath your '<h2>' heading code, add the paragraph `<p>` tags. 
 
 --- code ---
 ---
@@ -157,6 +177,8 @@ Between the `<p>` tags, you need to add in the introductory text. This is:
 
 `Take a look at these facial expressions and try them in your own drawings.`
 
+**Tip:** You can highlight the text above and then right-click (tap and hold on mobile) and choose 'Copy'. Then click between the `<p>` tags in your code and then right-click and choose 'Paste'.
+
 Your code should look like this:
 
 --- code ---
@@ -175,11 +197,36 @@ line_highlights: 35
 
 --- /task ---
 
-You can now see that the text appears under the subheading and uses the default paragraph styling. 
+--- task ---
+
+**Test:** You can now see that the text appears under the subheading and uses the default paragraph styling. 
 
 Well done! Your page now has a header, subheading and an introductory paragraph. 
 
 ![A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
 
---- save ---
+--- /task ---
 
+## Save your project
+
+Your project is saved automatically. If you return to the starter link in the same web browser then you will see your changes. 
+
+--- collapse ---
+
+---
+title: I accidentally closed my web project
+---
+
+Click on the [starter project](https://trinket.io/html/2d58893157){:target="_blank"} link to open your project. If you are using the same web browser you will see your changes.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: If you have a Trinket account
+---
+
+Click the 'Remix' button to create a copy of the project in your Trinket account. This will save a copy of the trinket on your 'My Trinkets' profile.
+
+--- /collapse ---

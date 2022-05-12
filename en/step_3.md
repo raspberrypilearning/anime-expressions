@@ -45,7 +45,7 @@ line_highlights: 40-42
 
 --- task ---
 
-image
+Inside your new section, add
 
 --- code ---
 ---
@@ -71,7 +71,7 @@ line_highlights: 40-42
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is used to tell  . 
+<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is important in accessible  . 
 </p>
 
 --- task ---

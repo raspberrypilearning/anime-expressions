@@ -1,4 +1,4 @@
-## Add a header and introduction
+## Start your web page
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -88,12 +88,6 @@ line_highlights: 29
 
 --- task ---
 
-**Test:** Your web page will update as you type. You can see that some styling has been applied to the text. It is bold and large. 
-
---- /task ---
-
---- task ---
-
 Add the text `Draw anime with me` between the two `<h1>` tags. 
 
 --- code ---
@@ -114,7 +108,13 @@ line_highlights: 29
 
 --- /task ---
 
-### Add your main content
+--- task ---
+
+**Test:** Your web page will update as you type. You can see that some styling has been applied to the text. It is bold and large. 
+
+--- /task ---
+
+### Add the first section in your main content
 
 --- task ---
 

@@ -5,7 +5,8 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="300" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 </div>
 </div>
 
@@ -69,13 +70,14 @@ Add the text `Draw anime with me` between the two `<h1>` tags.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 31
-line_highlights: 34
+line_number_start: 26
+line_highlights: 29
 ---
   <body>
     <!-- The page header code goes here -->
-    
-    <h1>Draw anime with me</h1>
+    <header>
+      <h1>Draw anime with me</h1>
+    </header>
 
 --- /code ---
 
@@ -96,11 +98,10 @@ Add the subheading tags `<h2>` to line 34.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
+line_number_start: 33
 line_highlights: 34
 ---
-     <main>
-      
+     <main>    
       <h2></h2>
 
 --- /code ---
@@ -116,11 +117,10 @@ Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
+line_number_start: 33
 line_highlights: 34
 ---
      <main>
-      
       <h2>Facial expressions</h2>
 
 --- /code ---
@@ -140,11 +140,10 @@ Add the paragraph `<p>` tags to line 35.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
+line_number_start: 33
 line_highlights: 35
 ---
    <main>
- 
       <h2>Facial expressions</h2>     
       <p></p>
 
@@ -165,11 +164,10 @@ Your code should look like this:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
+line_number_start: 33
 line_highlights: 35
 ---
    <main>
-  
       <h2>Facial expressions</h2>     
       <p>Take a look at these facial expressions and try them in your own drawings.</p>
 

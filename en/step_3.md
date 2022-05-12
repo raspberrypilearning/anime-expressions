@@ -50,7 +50,7 @@ image
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description . 
+<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is used  . 
 </p>
 
 --- task ---

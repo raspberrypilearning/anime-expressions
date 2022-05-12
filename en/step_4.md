@@ -39,12 +39,12 @@ The **selector** is the part of HTML that you want to style.
 
 The declaration, in curly brackets, and gives instructions of the styles that should be used. 
 
-<div style="background-color:#2d2d2d">
-<pre><span style="color:#999; font-family:Consolas; font-size: 1em">h1 </span
-><span style=" color:#ccc; font-family:Consolas; font-size: 1em">{
-  color:blue;
-  font-size:12px;
-}</span></pre>
+<div style="background-color:#2d2d2d; padding: 1em;">
+  <pre><span style="color:#ccc; background-color:#383533; font-family:Consolas; font-size: 1em">h1 </span
+  ><span style=" color:#999;  font-family:Consolas; font-size: 1em">{
+    color:blue;
+    font-size:12px;
+  }</span></pre>
 </div>
 
 

@@ -38,31 +38,31 @@ Click on the small triangle next to line 3 to collapse the `<head>`.
 
 --- /task ---
 
-Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
-
 ### Add a header 
+
+Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
 
 --- task ---
 
-Find the comment `<!-- The page header code goes here -->`. Comments are useful for understanding and organising your code. Comments are ignored by the web browser. 
+Comments are useful for understanding and organising your code. Comments are ignored by the web browser. 
+
+Find the comment `<!-- The page header code goes here -->`.
 
 --- /task ---
 
 HTML documents contain **elements** including paragraphs, headings and images. An element is typically made up of a starting tag, some content and a closing tag.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/` to show that it is an end tag. 
+A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/`. 
 
 --- task ---
 
-Find the `<header>` and `</header>` start and end tags in the starter project; everything you add here will appear in your webpage header.
+Underneath the comment, find the `<header>` and `</header>` tags; everything you add here will appear in your webpage header and will be styled as a header using CSS.
 
 --- /task ---
 
 An `<h1>` tag is used to say that this content is the largest header on the page. 
 
 --- task ---
-
-Below the comment are `<header></header>` tags, anything written inside these tags will be in the header part of your page.
 
 Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
@@ -112,7 +112,7 @@ line_highlights: 29
 
 --- task ---
 
-**Test:** Your web page will update as you type. You can see that some styling has been applied to the text. It is bold and large. 
+**Test:** Your web page will update as you type. You can see that some basic styling has been applied to the text. It is bold and large. 
 
 --- /task ---
 
@@ -120,7 +120,7 @@ line_highlights: 29
 
 --- task ---
 
-Any main content should be placed between the `<main>` tags. 
+Any main content should be placed between the `<main>` tags. On this webpage, the main content is broken down into **sections**. 
 
 Your webpage will have an Introduction section, add `<section></section>` tags between the `<main>` tags. 
 
@@ -194,7 +194,7 @@ Notice how the text is slightly smaller than the big heading above and has bold 
 
 You are now going to add a paragraph of text as an introduction to your anime webpage. 
 
-Underneath your '<h2>' heading code, add the paragraph `<p>` tags. 
+Underneath your `<h2>` heading code, add the paragraph `<p>` tags. 
 
   --- code ---
   ---

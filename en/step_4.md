@@ -108,13 +108,15 @@ This rule states which font should be used, how the text should be aligned and h
 
 --- /task ---
 
-You can write your own rules in CSS to tell the browser how something should look. The starter project has some custom CSS rules written for you.
+When you add CSS styling to an **element** it will apply that styling to every single element on the page that has the same tag. Sometimes you want to apply custom styling to different parts of the page. For this, you would use a **class**. A class is a unique name that can be added as an **attribute** to your HTML code to let the browser know what styling should be applied. The class styling will override any element styling that has already been applied.  
 
 --- task ---
 
-The CSS file has a custom CSS class called `border-bottom` this will add a thick, solid coloured line border to the bottom of any HTML element that uses it.
+Your CSS file has a custom CSS class called `border-bottom` which adds a thick, solid coloured line border to the bottom of any HTML element that uses it.
 
-Go to your `index.html` file find your `header` add code to apply `border-bottom` the CSS rules. 
+Go to your `index.html` file and find your `header`. 
+
+Add `class="border-bottom"` to the right of `header` text. 
 
 --- code ---
 ---
@@ -122,7 +124,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 26
-line_highlights: 29
+line_highlights: 28
 ---
   <body>
     <!-- The page header code goes here -->
@@ -136,7 +138,7 @@ line_highlights: 29
 
 --- task ---
 
-Add the `border-top` custom CSS class to your `footer` code to apply a thick coloured line to the top of the footer. 
+Add the `border-top` class to your `footer` code to apply a thick coloured line to the top of the footer. 
 
 --- code ---
 ---
@@ -144,7 +146,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 26
-line_highlights: 29
+line_highlights: 27
 ---
   <!-- Webpage footer -->
     <footer class="secondary">

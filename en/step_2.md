@@ -187,7 +187,7 @@ line_highlights: 35
 
 --- /code ---
 
-Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
+Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
 
 --- /task ---
 

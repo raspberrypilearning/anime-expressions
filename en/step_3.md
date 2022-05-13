@@ -1,9 +1,8 @@
 ## Add a facial expression
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;"
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step you will add the first drawing and instruction to your web page.
-
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="370" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

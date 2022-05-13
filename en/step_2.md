@@ -60,7 +60,7 @@ Underneath the comment, find the `<header>` and `</header>` tags; everything you
 
 --- /task ---
 
-An `<h1>` tag is used to say that this content is the largest header on the page. 
+A `<h1>` tag is used to say that this content is the largest header on the page. 
 
 --- task ---
 
@@ -84,7 +84,7 @@ line_highlights: 29
 
 --- /code ---
 
-**Tip:**: It's a good idea to add spaces at the beginning of lines to indent your code to make it easier to read. In HTML, you don’t need to add in the indents for the code to work.
+**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code to make it easier to read. In HTML, you don’t need to add in the indents for the code to work.
 
 --- /task ---
 
@@ -132,10 +132,11 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 34
+line_highlights: 34-36
 ---
      <main>   
-      <section> 
+      <section>
+
       </section> 
 
 
@@ -186,7 +187,7 @@ line_highlights: 35
 
 --- /code ---
 
-Notice how the text is slightly smaller than the big heading above and has bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
+Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2> ` is a smaller heading than `<h1>`.
 
 --- /task ---
 

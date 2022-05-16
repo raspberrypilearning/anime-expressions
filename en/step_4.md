@@ -31,7 +31,7 @@ The **selector** is the part of HTML that you want to style. In this example it 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
   <pre><span style="color:#000; background-color:#d2d2d2; font-family:Consolas; font-size: 1em"> h1 </span
-  ><span style=" color:#ccc;  font-family:Consolas; font-size: 1em">{
+  ><span style=" color:#ccc;  font-family:Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
     color:blue;
     font-size:12px;
   }</span></pre>
@@ -40,7 +40,7 @@ The **selector** is the part of HTML that you want to style. In this example it 
 The **declaration** is in curly brackets `{}`, it gives instructions of the styles that should be used. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family:Consolas; font-size: 1em"> h1 </span
+<pre><span style="color:#ccc; font-family:Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em"> h1 </span
 ><span style=" color:#000; background-color:#d2d2d2; font-family:Consolas; font-size: 1em"> { 
   color:blue; 
   font-size:12px; 

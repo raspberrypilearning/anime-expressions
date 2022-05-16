@@ -47,7 +47,6 @@ The **declaration** is in curly brackets `{}`, it gives instructions of the styl
  } </span></pre>
 </div>
 
-
 The starter project includes a CSS file which contains a set of useful rules. 
 
 --- task ---
@@ -138,7 +137,9 @@ line_highlights: 28
 
 --- task ---
 
-Add the `border-top` class to your `footer` code to apply a thick coloured line to the top of the footer. 
+--- /task ---
+
+Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer. 
 
 --- code ---
 ---
@@ -149,7 +150,24 @@ line_number_start: 26
 line_highlights: 27
 ---
   <!-- Webpage footer -->
-    <footer class="secondary">
+    <footer class="border-top">
+
+--- /code ---
+
+--- task ---
+
+Add the `secondary` class to your `footer` code to apply a different colour background to your footer. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 26
+line_highlights: 27
+---
+  <!-- Webpage footer -->
+    <footer class="border-top secondary">
 
 --- /code ---
 

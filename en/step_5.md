@@ -184,6 +184,6 @@ The text should move below the image. This is the layout that users with a mobil
 
 Drag the bar back after testing so you can see the image and text side-by side. 
 
-<mark>Add animated gif</mark>
+![In Trinket, the vertical space between the two panes is being dragged from left to right to show the webpage adjusting for smaller screens.](images/drag-window.gif)
 
 --- /task ---

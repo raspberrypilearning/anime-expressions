@@ -137,8 +137,6 @@ line_highlights: 28
 
 --- task ---
 
---- /task ---
-
 Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer. 
 
 --- code ---
@@ -153,6 +151,8 @@ line_highlights: 27
     <footer class="border-top">
 
 --- /code ---
+
+--- /task ---
 
 --- task ---
 

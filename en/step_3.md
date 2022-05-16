@@ -1,9 +1,8 @@
 ## Add a facial expression
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;"
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step you will add the first drawing and instruction to your web page.
-
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="370" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -120,6 +119,32 @@ line_highlights: 41
       </section> 
 
 --- /code ---
+
+--- /task ---
+
+The `<strong>` tag makes important text **bold**.
+
+--- task ---
+
+Add `<strong>` tags around the word 'love':
+
+-- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---   
+      <!-- The first drawing and instructions goes here -->     
+      <section>
+        <img src="love.png" alt="The love facial expression.">
+        <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+      </section> 
+
+--- /code ---
+
+--- /task ---
 
 --- /task ---
 

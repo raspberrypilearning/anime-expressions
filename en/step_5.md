@@ -176,6 +176,30 @@ line_highlights: 42
 
 --- /task ---
 
+You can also add coloured borders in different styles to HTML elements. The `bordered-box` class in the style file creates a large dotted border. 
+
+--- task ---
+
+Add the `bordered-box` class to the `<img>`. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---
+<!-- The first drawing and instructions goes here -->
+<section class="wrap">
+  <img class="bordered-box" src="love.png" alt="The love facial expression.">
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+</section>
+
+--- /code ---
+
+--- /task ---
+
 --- task ---
 
 **Test:** Drag the bar between the text editor and your web page and make the web page narrower. 

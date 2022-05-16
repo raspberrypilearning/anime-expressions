@@ -122,6 +122,32 @@ line_highlights: 41
 
 --- /task ---
 
+The `<strong>` tag makes important text **bold**.
+
+--- task ---
+
+Add `<strong>` tags around the word 'love':
+
+-- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---   
+      <!-- The first drawing and instructions goes here -->     
+      <section>
+        <img src="love.png" alt="The love facial expression.">
+        <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+      </section> 
+
+--- /code ---
+
+--- /task ---
+
+--- /task ---
+
 --- task ---
 
 **Test:** The instructions will appear below your image. 

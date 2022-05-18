@@ -7,7 +7,7 @@ In this step you will add classes to customise the styles on your page.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/b72e02e1d2?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/b72e02e1d2?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 

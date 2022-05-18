@@ -30,5 +30,5 @@ Explore the anime expressions webpage. Can you spot things on this webpage that 
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png)
+![Completed project](images/solution.PNG)
 --- /print-only ---

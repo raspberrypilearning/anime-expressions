@@ -7,7 +7,7 @@ You have used HTML to add tags to your webpage. Now it is time to use CSS to add
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -119,7 +119,7 @@ At the moment the `<h2>` heading is aligned to the left.
 
 Change the `text-align` property of the h2 rule to `center`.
 
--- code ---
+--- code ---
 ---
 language: css
 filename: style.css

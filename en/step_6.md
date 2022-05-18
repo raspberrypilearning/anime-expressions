@@ -7,7 +7,7 @@ In this step you will try out different colour palette and font choices.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -60,6 +60,8 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 `3rem` means that this font should be 3 times the normal font size. 
 
 `'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can, and if it isn't available it should use a cursive (handwriting) font. 
+
+--- task ---
 
 **Find** the variables that set the fonts for your web page:
 

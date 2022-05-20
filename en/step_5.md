@@ -169,7 +169,7 @@ line_highlights: 42
    <!-- The first drawing and instructions goes here -->
 <section class="wrap">
   <img src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
 </section>
 
 --- /code ---
@@ -193,7 +193,7 @@ line_highlights: 41
 <!-- The first drawing and instructions goes here -->
 <section class="wrap">
   <img class="bordered-box" src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
 </section>
 
 --- /code ---

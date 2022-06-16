@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="350" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="500" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -26,13 +26,15 @@ In HTML you can type words directly into the code and it will appear, unformatte
 
 --- task ---
 
-Open the [starter project](https://trinket.io/html/2d58893157){:target="_blank"}.
+Open the [Anime expressions starter project](https://trinket.io/html/2d58893157){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Your starter project contains some HTML that you will learn more about throughout the project. To make your code easier to read you can collapse parts of it that you don't need to focus on right now. 
+Your starter project contains some HTML that you will learn more about throughout the project. 
+
+To make your code easier to read you can collapse parts of it that you don't need to focus on right now. 
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
@@ -48,7 +50,7 @@ Typically, a webpage has three parts. A **header**, the **main** content and a *
 
 Comments are useful for understanding and organising your code. Comments are ignored by the web browser. 
 
-Find the comment `<!-- The page header code goes here -->`.
+**Find:** the comment `<!-- The page header code goes here -->`.
 
 --- /task ---
 
@@ -116,13 +118,15 @@ line_highlights: 29
 
 **Test:** Your web page will update as you type. You can see that some basic styling has been applied to the text. It is bold and large. 
 
+![The words 'Draw anime with me' are shown in the output area with a large, bold font.](images/heading-test.png)
+
 --- /task ---
 
 ### Add the first section in your main content
 
---- task ---
+Any main content should be placed between the `<main>` tags. On your webpage, the main content is broken down into **sections**. 
 
-Any main content should be placed between the `<main>` tags. On this webpage, the main content is broken down into **sections**. 
+--- task ---
 
 Your webpage will have an Introduction section, add `<section></section>` tags between the `<main>` tags. 
 
@@ -140,7 +144,6 @@ line_highlights: 34-36
       <section>
 
       </section> 
-
 
 --- /code ---
 
@@ -265,7 +268,7 @@ Your project is saved automatically. If you return to the starter link in the sa
 title: I accidentally closed my web project
 ---
 
-Click on the [starter project](https://trinket.io/html/2d58893157){:target="_blank"} link to open your project. If you are using the same web browser you will see your changes.
+Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target="_blank"} link to open your project. If you are using the same web browser you will see your changes.
 
 --- /collapse ---
 

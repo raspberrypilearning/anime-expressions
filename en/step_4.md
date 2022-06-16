@@ -7,19 +7,9 @@ You have used HTML to add tags to your webpage. Now it is time to use CSS to add
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
-
---- task ---
-
-Unfold the `<head>` section of your code so that you can view the code inside it.
-
-![A short animation demonstrating the mouse clicking on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
-
---- /task ---
-
-### Linking the CSS file
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look. Including the positioning, colours and fonts. 
@@ -49,25 +39,36 @@ The **declaration** is in curly brackets `{}`, it gives instructions of the styl
 </div>
 <br/>
 
-The starter project includes a CSS file which contains a set of useful rules. 
+### Linking the CSS file
+
+The starter project includes CSS files which contains a set of useful rules. 
 
 --- task ---
 
-At the bottom of your `<head></head>` section, there is a link to the CSS style sheet that is currently commented out so that it appears in a different colour and is ignored by the web browser. 
+Unfold the `<head>` section of your code so that you can view the code inside it.
 
-Remove the `<!--` and `-->` arrows from the start and end of the code on line 23.
+![A short animation demonstrating the mouse clicking on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+
+--- /task ---
+
+--- task ---
+
+At the bottom of your `<head></head>` section, there are links to two CSS style sheets that are currently commented out so that they are ignored by the web browser. 
+
+Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 21
-line_highlights: 23
+line_number_start: 23
+line_highlights: 23-24
 ---   
     <!-- Include CSS style file -->
 
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="candy.css" rel="stylesheet" type="text/css" />
   </head>
 
 --- /code ---
@@ -80,7 +81,7 @@ line_highlights: 23
 
 Take a look at your webpage in the right hand pane. Note that the styles and layout of your output has now changed. 
 
-When you have seen the change you can collapse the `<head>` section by clicking the arrow next to it. 
+**Tip:** When you have seen the change you can collapse the `<head>` section by clicking the arrow next to it. 
 
 --- /task ---
 
@@ -90,15 +91,15 @@ Click on the `style.css` tab in Trinket to view the code in the CSS file. This C
 
 When you add CSS styling to an **element** it will apply that styling to every single element on the page that has the same tag. 
 
-**Find:** the rule that controls the style of the `<h2>` elements on line 162. 
+**Find:** the rule that controls the style of the `<h2>`. 
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 162
-line_highlights: 162-166
+line_number_start: 109
+line_highlights: 109-113
 ---  
 
 h2 {
@@ -124,8 +125,8 @@ Change the `text-align` property of the h2 rule to `center`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 162
-line_highlights: 164
+line_number_start: 109
+line_highlights: 11
 ---  
 
 h2 {
@@ -143,6 +144,8 @@ h2 {
 **Test:** Look at your web page and make sure the 'Facial expressions' text is centered. 
 
 **Debug:** Check the spelling of the word `center` - HTML uses American English spelling. 
+
+<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /task ---
 

@@ -18,7 +18,9 @@ In HTML you can type words directly into the code and it will appear, unformatte
 + What happens if you type multiple lines of text? 
 + Would you like to view a webpage that looked like this? 
 
-<iframe src="https://trinket.io/embed/html/d932ddf89f" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/1bb91117a9" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+**Tip:** If you are using a mobile device you might have to click on the pencil icon to write your text then click on the run icon to view it. 
 
 --- /task ---
 

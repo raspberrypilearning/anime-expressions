@@ -12,8 +12,10 @@ You will:
 + Add images and text content to your webpage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**Web designer**</span> is someone who plans, designs and creates websites. There are hundreds of millions of active websites so using HTML with CSS helps your website stand out.
+A <span style="color: #0faeb0">**Web designer**</span> is someone who plans and designs websites. There are hundreds of millions of active websites so using HTML with CSS helps your website stand out.
 </p>
+
+**Tip:** Drag the scroll bar down to see the full web page. 
 
 --- no-print ---
 --- task ---
@@ -21,6 +23,8 @@ A <span style="color: #0faeb0">**Web designer**</span> is someone who plans, des
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Explore the anime expressions webpage. Can you spot things on this webpage that you have seen on other webpages?
+
+
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/b2ccbccbef?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

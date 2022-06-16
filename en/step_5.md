@@ -7,7 +7,7 @@ In this step you will add classes to customise the styles on your page.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/b72e02e1d2?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/b72e02e1d2?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -28,8 +28,8 @@ Add `class="border-bottom"` to the right of `header` text.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 28
+line_number_start: 28
+line_highlights: 30
 ---
   <body>
     <!-- The page header code goes here -->
@@ -50,8 +50,8 @@ Add the `border-top` class to your `footer` code to apply a thick border to the 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 27
+line_number_start: 57
+line_highlights: 58
 ---
   <!-- Webpage footer -->
     <footer class="border-top">
@@ -71,8 +71,8 @@ Add the `secondary` class to your `footer` code to apply a different colour back
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 27
+line_number_start: 57
+line_highlights: 58
 ---
   <!-- Webpage footer -->
     <footer class="border-top secondary">
@@ -90,8 +90,8 @@ Add `class=primary` to `<main>`:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
-line_highlights: 33
+line_number_start: 34
+line_highlights: 35
 ---
     <!-- The main content for the web page goes between the main tags -->
     <main class="primary">

@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will add the first drawing and instruction to your web page.
+In this step you will add the first drawing and instruction to your webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="370" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -102,7 +102,7 @@ line_highlights: 41
 
 Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression. 
 
-You can copy the paragraph and paste it into your code `To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.`
+You can copy the paragraph and paste it into your code `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>`
 
 --- code ---
 ---
@@ -134,7 +134,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 39
-line_highlights: 41
+line_highlights: 42
 ---   
       <!-- The first drawing and instructions goes here -->     
       <section>
@@ -148,7 +148,7 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** The instructions will appear below your image. 
+**Test:** The instructions will appear below your image and the word **love** will be bold. 
 
 <iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

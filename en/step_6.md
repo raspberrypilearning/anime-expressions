@@ -19,17 +19,17 @@ Colours are specified using hexadecimal notation (hex) and begin with '#'. There
 
 --- task ---
 
-Go to your `style.css` file and take a look at lines 24 onwards. 
+Go to your `candy.css` file. This file sets the colour variables for the Candy colour palette.
 
 In the Candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
 
 --- code ---
 ---
 language: html
-filename: style.css
+filename: candy.css
 line_numbers: true
-line_number_start: 24
-line_highlights: 27-36
+line_number_start: 2
+line_highlights: 5
 ---
 /* Candy colour palette & fonts */
 
@@ -44,12 +44,6 @@ line_highlights: 27-36
   --onpage: #000000;
   --detail: #e697b9;
   --detail2: #415a89;
-
-  --body-font: 1rem 'Verdana', sans-serif;
-  --header-font: 3rem 'Fredoka One', cursive;
-  --title-font: 2rem 'Fredoka One', cursive;
-  --quote-font: lighter 1.5rem 'Chewy', cursive;
-}
 
 --- /code ---
 
@@ -70,10 +64,10 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 --- code ---
 ---
 language: html
-filename: style.css
+filename: candy.css
 line_numbers: true
-line_number_start: 40
-line_highlights: 41-44
+line_number_start: 16
+line_highlights: 16-19
 ---
 
   --body-font: 1rem 'Verdana', sans-serif;
@@ -86,9 +80,7 @@ line_highlights: 41-44
 
 --- /task ---
 
-CSS uses different comment markers to HTML. Multi-line comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers.
-
-The starter project also includes a vivid colour palette with different fonts. 
+The starter project also includes a vivid colour palette file called `vivid.css`. 
 
 --- task ---
 

@@ -110,7 +110,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 39
-line_highlights: 41
+line_highlights: 42
 ---   
       <!-- The first drawing and instructions goes here -->     
       <section>

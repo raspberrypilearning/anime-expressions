@@ -21,7 +21,7 @@ Your CSS file has a custom CSS class called `border-bottom` which adds a thick, 
 
 Go to your `index.html` file and find your `header`. 
 
-Add `class="border-bottom"` to the right of `header` text. 
+Add `class="border-bottom"` to the right inside your `header` tag. 
 
 --- code ---
 ---
@@ -176,11 +176,11 @@ line_highlights: 42
 
 --- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `bordered-box` class in the style file creates a large dotted border. 
+You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border. 
 
 --- task ---
 
-Add the `bordered-box` class to the `<img>`. 
+Add the `dashed-border` class to the `<img>`. 
 
 --- code ---
 ---
@@ -192,7 +192,33 @@ line_highlights: 41
 ---
 <!-- The first drawing and instructions goes here -->
 <section class="wrap">
-  <img class="bordered-box" src="love.png" alt="The love facial expression.">
+  <img class="dashed-border" src="love.png" alt="The love facial expression.">
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+</section>
+
+--- /code ---
+
+--- /task ---
+
+--- /task ---
+
+You can also make the corners of an element rounded by using the `rounded` class. 
+
+--- task ---
+
+Add the `rounded` class to the `<img>`. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---
+<!-- The first drawing and instructions goes here -->
+<section class="wrap">
+  <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
   <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
 </section>
 

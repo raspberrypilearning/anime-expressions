@@ -29,13 +29,15 @@ Create a new `<section>` for each new tutorial step. Look at the section you hav
 
 You can also change:
 
-+ The colour palette. Use comments `/*` and `*/` to control which palette is used. 
++ The colour palette to `default` or `candy`. 
 
-+ The colours in the CSS file. You can find more colours at ()[]. <mark> add colours website</mark> As well as hex colours, you can also use colour names such as 'teal' and 'coral'.
++ The colours in the colour palette CSS file. *Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use. 
+
++ As well as hex colours, you can also use colour names such as 'teal' and 'coral'.
 
 + The size of the fonts used. `1rem` is normal font size. `3rem` is three times as big. 
 
-+ Try different border effects in the `bordered-box` style. 
++ Try different border effects in the `dashed-border` style or switch to the `solid-border` class. 
 
 --- /task ---
 

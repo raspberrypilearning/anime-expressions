@@ -25,7 +25,7 @@ In the Candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pal
 
 --- code ---
 ---
-language: html
+language: CSS
 filename: candy.css
 line_numbers: true
 line_number_start: 2
@@ -65,7 +65,7 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 
 --- code ---
 ---
-language: html
+language: CSS
 filename: candy.css
 line_numbers: true
 line_number_start: 16
@@ -86,53 +86,16 @@ The starter project also includes a vivid colour palette file called `vivid.css`
 
 --- task ---
 
-Add begin `/*` and end `*/` comment markers to comment out the candy colour palette.  
+**Find** the `vivid.css` file. 
+
+Notice that the colour and font variables have the same name but that the colours and fonts used are different in this colour palette. 
 
 --- code ---
 ---
-language: html
-filename: style.css
+language: CSS
+filename: vivid.css
 line_numbers: true
-line_number_start: 24
-line_highlights: 25, 42
----
-/* Candy colour palette & fonts */
-/*
-:root {
-  --primary: #ebeaeb;
-  --onprimary: #625d61;
-  --secondary: #f5bdd5;
-  --onsecondary: #1d3d58;
-  --tertiary: #b5a9b2;
-  --ontertiary: #422215;
-  --page: #ffffff;
-  --onpage: #000000;
-  --detail: #e697b9;
-  --detail2: #415a89;
-
-  --body-font: 1rem 'Verdana', sans-serif;
-  --header-font: 3rem 'Fredoka One', cursive;
-  --title-font: 2rem 'Fredoka One', cursive;
-  --quote-font: lighter 1.5rem 'Chewy', cursive;
-}*/
-
---- /code ---
-
-Note how the styling has been removed from your webpage. 
-
---- /task --- 
-
---- task ---
-
-**Find** the vivid colour palette and delete the begin and end comment markers around it. 
-
---- code ---
----
-language: html
-filename: style.css
-line_numbers: true
-line_number_start: 45
-line_highlights: 46, 63
+line_number_start: 1
 ---
 
 /* Vivid colour palette & fonts */
@@ -161,6 +124,30 @@ line_highlights: 46, 63
 
 --- task ---
 
+Go to `index.html` and change the CSS link code to link to the `vivid.css` file: 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 23
+line_highlights: 24
+---   
+    <!-- Include CSS style file -->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="vivid.css" rel="stylesheet" type="text/css" />
+  </head>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
 **Test:** Make sure your web page is now using the brighter colours and different fonts. 
+
+<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /task ---

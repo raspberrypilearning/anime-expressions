@@ -12,7 +12,7 @@ You have used HTML to add tags to your webpage. Now it is time to use CSS to add
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look. Including the positioning, colours and fonts. 
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look. Including the positioning, colours and fonts. We call this the style.
 </p>
 
 Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.

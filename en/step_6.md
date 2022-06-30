@@ -82,6 +82,8 @@ line_highlights: 16-19
 
 --- /task ---
 
+The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them. 
+
 The starter project also includes a vivid colour palette file called `vivid.css`. 
 
 --- task ---

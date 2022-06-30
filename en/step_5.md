@@ -60,7 +60,7 @@ line_highlights: 58
 
 --- /task ---
 
-The `primary`, `secondary` and `tertiary` classes set different combinations of contrasting background and text colour. 
+The `primary` class sets a contrasting background and text colour which is designed to be used for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the primary colours.
 
 --- task ---
 
@@ -197,8 +197,6 @@ line_highlights: 41
 </section>
 
 --- /code ---
-
---- /task ---
 
 --- /task ---
 

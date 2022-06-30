@@ -15,12 +15,12 @@ In HTML you can type words directly into the code and it will appear, unformatte
 
 **Try it:** Type some words into the left-hand side of the project below. The words you type will automatically appear on the webpage to the right. 
 
+**Tip:** If you are using a mobile device you might have to click on the pencil icon to write your text then click on the refresh icon to view the output. 
+
 + What happens if you type multiple lines of text? 
 + Would you like to view a webpage that looked like this? 
 
 <iframe src="https://trinket.io/embed/html/1bb91117a9" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-**Tip:** If you are using a mobile device you might have to click on the pencil icon to write your text then click on the run icon to view it. 
 
 --- /task ---
 
@@ -52,6 +52,18 @@ Comments are useful for understanding and organising your code. Comments are ign
 
 **Find:** the comment `<!-- The page header code goes here -->`.
 
+--- collapse ---
+
+---
+title: I can't find the comment
+---
+
+Have you accidentally collapsed the `<body>` or another section of your webpage? 
+
+Click on the ▸ triangle to expand the code.
+
+--- /collapse ---
+
 --- /task ---
 
 HTML documents contain **elements** including paragraphs, headings and images. An element is typically made up of a starting tag, some content and a closing tag.
@@ -60,7 +72,7 @@ A **tag** lets the browser know what kind of element it is. Tags start and end w
 
 --- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags; everything you add here will appear in your webpage header and will be styled as a header using CSS.
+Underneath the comment, find the `<header>` and `</header>` tags; everything you add here will appear in your webpage header and will be styled as a header.
 
 --- /task ---
 
@@ -77,8 +89,8 @@ Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 29
+line_number_start: 27
+line_highlights: 30
 ---
   <body>
     <!-- The page header code goes here -->
@@ -101,8 +113,8 @@ Add the text `Draw anime with me` between the two `<h1>` tags.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 29
+line_number_start: 27
+line_highlights: 30
 ---
   <body>
     <!-- The page header code goes here -->
@@ -116,7 +128,7 @@ line_highlights: 29
 
 --- task ---
 
-**Test:** Your web page will update as you type. You can see that some basic styling has been applied to the text. It is bold and large. 
+**Test:** Your web page will update as you type. You can see that some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
 
 ![The words 'Draw anime with me' are shown in the output area with a large, bold font.](images/heading-test.png)
 
@@ -138,12 +150,14 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 34-36
+line_highlights: 35-37
 ---
-     <main>   
+    <!-- The main content for the web page goes between the main tags -->
+    <main>
       <section>
 
-      </section> 
+      </section>
+        <!-- The first drawing and instructions goes here -->  
 
 --- /code ---
 
@@ -161,13 +175,15 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 35
+line_highlights: 36
 ---
+    <!-- The main content for the web page goes between the main tags -->
     <main>
-      <section>    
+      <section>
         <h2></h2>
-      </section> 
-    </main>
+      </section>
+        <!-- The first drawing and instructions goes here --> 
+
 
 --- /code ---
 
@@ -183,12 +199,14 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 35
+line_highlights: 36
 ---
-     <main>
+    <!-- The main content for the web page goes between the main tags -->
+    <main>
       <section>
         <h2>Facial expressions</h2>
       </section>
+        <!-- The first drawing and instructions goes here --> 
 
 --- /code ---
 
@@ -208,13 +226,15 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
   filename: index.html
   line_numbers: true
   line_number_start: 33
-  line_highlights: 36
+  line_highlights: 37
   ---
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
-        <h2>Facial expressions</h2>     
+        <h2>Facial expressions</h2>
         <p></p>
       </section>
+        <!-- The first drawing and instructions goes here --> 
 
 --- /code ---
 
@@ -236,13 +256,15 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 36
+line_highlights: 37
 ---
-   <main>
+    <!-- The main content for the web page goes between the main tags -->
+    <main>
       <section>
-        <h2>Facial expressions</h2>     
+        <h2>Facial expressions</h2>
         <p>Take a look at these facial expressions and try them in your own drawings.</p>
       </section>
+        <!-- The first drawing and instructions goes here --> 
 
 --- /code ---
 
@@ -255,6 +277,8 @@ line_highlights: 36
 Well done! Your page now has a header, subheading and an introductory paragraph. 
 
 ![A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
+
+
 
 --- /task ---
 

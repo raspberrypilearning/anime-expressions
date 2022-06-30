@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step you will add classes to customise the styles on your page.
+In this step you will add classes to customise the styles on your page. 
 
 </div>
 <div>
@@ -13,7 +13,7 @@ In this step you will add classes to customise the styles on your page.
 
 If you want to apply styling to specific elements, you can create a **class** in a CSS file and then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied. 
   
-The class styling will override any element styling that has already been applied. 
+The class styling will override any element styling that has already been applied. You will see the changes take place as you add the classes to your code.
 
 --- task ---
 

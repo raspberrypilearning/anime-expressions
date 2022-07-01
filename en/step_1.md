@@ -12,7 +12,7 @@ You will:
 + Add images and text content to your webpage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**Web designer**</span> is someone who plans and designs websites. There are hundreds of millions of active websites so using HTML with CSS helps your website stand out.
+A <span style="color: #0faeb0">**Web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages so using HTML with CSS helps your webpage stand out.
 </p>
 
 **Tip:** Drag the scroll bar down to see the full web page. 

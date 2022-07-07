@@ -38,7 +38,7 @@ To make your code easier to read, you can collapse parts of it that you don't ne
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
-![A short animation demonstrating the mouse clicking on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![alt=""](images/collapse.gif)
 
 --- /task ---
 
@@ -48,7 +48,7 @@ Typically, a webpage has three parts. A **header**, the **main** content, and a 
 
 --- task ---
 
-Comments are useful for understanding and organising your code. Comments are ignored by the web browser. 
+You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser. 
 
 **Find:** the comment `<!-- The page header code goes here -->`.
 

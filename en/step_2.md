@@ -1,4 +1,4 @@
-## Start your web page
+## Start your webpage
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -15,7 +15,7 @@ In HTML you can type words directly into the code and it will appear, unformatte
 
 **Try it:** Type some words into the left-hand side of the project below. The words you type will automatically appear on the webpage to the right. 
 
-**Tip:** If you are using a mobile device you might have to click on the pencil icon to write your text then click on the refresh icon to view the output. 
+**Tip:** If you are using a mobile device, you might have to click on the pencil icon to write your text and then click on the refresh icon to view the output. 
 
 + What happens if you type multiple lines of text? 
 + Would you like to view a webpage that looked like this? 
@@ -34,7 +34,7 @@ Open the [Anime expressions starter project](https://trinket.io/html/2d58893157)
 
 Your starter project contains some HTML that you will learn more about throughout the project. 
 
-To make your code easier to read you can collapse parts of it that you don't need to focus on right now. 
+To make your code easier to read, you can collapse parts of it that you don't need to focus on right now. 
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
@@ -44,7 +44,7 @@ Click on the small triangle next to line 3 to collapse the `<head>`.
 
 ### Add a header 
 
-Typically, a webpage has three parts. A **header**, the **main** content and a **footer**. 
+Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**. 
 
 --- task ---
 
@@ -66,13 +66,13 @@ Click on the ▸ triangle to expand the code.
 
 --- /task ---
 
-HTML documents contain **elements** including paragraphs, headings and images. An element is typically made up of a starting tag, some content and a closing tag.
+HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
 
 A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/`. 
 
 --- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags; everything you add here will appear in your webpage header and will be styled as a header.
+Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here will appear in your webpage header and be styled as a header.
 
 --- /task ---
 
@@ -82,7 +82,7 @@ A `<h1>` tag is used to say that this content is the largest header on the page.
 
 Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
-**Tip:** When you add a start tag, the end tag will automatically be added so you don't need to type it.
+**Tip:** When you add a start tag, the end tag is automatically added so you don't need to type it.
 
 --- code ---
 ---
@@ -128,7 +128,7 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Your web page will update as you type. You can see that some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
+**Test:** Your webpage will update as you type. You can see that some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
 
 ![The words 'Draw anime with me' are shown in the output area with a large, bold font.](images/heading-test.png)
 
@@ -140,9 +140,9 @@ Any main content should be placed between the `<main>` tags. On your webpage, th
 
 --- task ---
 
-Your webpage will have an Introduction section, add `<section></section>` tags between the `<main>` tags. 
+Your webpage will have an introduction section, add `<section></section>` tags between the `<main>` tags. 
 
-**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the `<section>` and `</section>` tag then press enter on your keyboard to split the tags across multiple lines. 
+**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines. 
 
 --- code ---
 ---
@@ -152,7 +152,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 35-37
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
 
@@ -177,7 +177,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 36
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
         <h2></h2>
@@ -201,7 +201,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 36
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>
@@ -228,7 +228,7 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
   line_number_start: 33
   line_highlights: 37
   ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>
@@ -258,7 +258,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 37
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>
@@ -274,9 +274,9 @@ line_highlights: 37
 
 **Test:** You can now see that the text appears under the subheading and uses the default paragraph styling. 
 
-Well done! Your page now has a header, subheading and an introductory paragraph. 
+Well done! Your page now has a header, a subheading, and an introductory paragraph. 
 
-![A screenshot of the output of step 2. A webpage with a heading, subheading and introductory text.](images/step2-output.PNG)
+![A webpage with a heading, a subheading, and introductory text.](images/step2-output.PNG)
 
 
 
@@ -284,7 +284,7 @@ Well done! Your page now has a header, subheading and an introductory paragraph.
 
 ## Save your project
 
-Your project is saved automatically. If you return to the starter link in the same web browser then you will see your changes. 
+Your project is saved automatically. Return to the starter link in the same web browser to see your changes. 
 
 --- collapse ---
 
@@ -292,7 +292,7 @@ Your project is saved automatically. If you return to the starter link in the sa
 title: I accidentally closed my web project
 ---
 
-Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target="_blank"} link to open your project. If you are using the same web browser you will see your changes.
+Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target="_blank"} link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 
@@ -302,6 +302,6 @@ Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target
 title: If you have a Trinket account
 ---
 
-Click the 'Remix' button to create a copy of the project in your Trinket account. This will save a copy of the trinket on your 'My Trinkets' profile.
+Click the 'Remix' button to create a copy of the project in your Trinket account. This means you can save a copy of the trinket on your 'My Trinkets' profile.
 
 --- /collapse ---

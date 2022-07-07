@@ -67,7 +67,7 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** The `love.png` image will appear on your webpage.
+**Test:** The `love.png` image appears on your webpage.
 
 --- /task ---
 

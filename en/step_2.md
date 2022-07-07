@@ -100,7 +100,7 @@ line_highlights: 30
 
 --- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code to make it easier to read. In HTML, you don’t need to add in the indents for the code to work.
+**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.  
 
 --- /task ---
 
@@ -128,9 +128,9 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Your webpage will update as you type. You can see that some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
+**Test:** Your webpage will update as you type. Some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
 
-![The words 'Draw anime with me' are shown in the output area with a large, bold font.](images/heading-test.png)
+![alt=""](images/heading-test.png)
 
 --- /task ---
 
@@ -140,9 +140,9 @@ Any main content should be placed between the `<main>` tags. On your webpage, th
 
 --- task ---
 
-Your webpage will have an introduction section, add `<section></section>` tags between the `<main>` tags. 
+Your webpage needs an introduction section. Add `<section></section>` tags between the `<main>` tags. 
 
-**Tip:** Your section will have other tags inside it as you build your webpage. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines. 
+**Tip:** As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines. 
 
 --- code ---
 ---
@@ -276,7 +276,7 @@ line_highlights: 37
 
 Well done! Your page now has a header, a subheading, and an introductory paragraph. 
 
-![A webpage with a heading, a subheading, and introductory text.](images/step2-output.PNG)
+![alt=""](images/step2-output.PNG)
 
 
 

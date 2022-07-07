@@ -1,13 +1,13 @@
 title: Anime expressions
 hero_image: images/banner.png
-description: Create and style a web page for an anime drawing tutorial.
+description: Create and style a webpage for an anime drawing tutorial.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-11"
 steps:
   - title: Introduction
-  - title: Start your web page
+  - title: Start your webpage
   - title: Add a facial expression
     completion: engaged
   - title: Style your page

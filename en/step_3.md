@@ -2,14 +2,14 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will add the first drawing and instruction to your webpage.
+In this step, add the first drawing and instruction to your webpage.
 </div>
 <div>
 <iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
 
-You will create a section for each facial expression on the webpage. 
+Create a section for each facial expression on the webpage. 
 
 --- task ---
 
@@ -40,7 +40,7 @@ line_highlights: 40-42
 
 --- /task ---
 
-Your starter project contains images to use in this project. To include an image on a web page you need to know the filename. First you will be adding an image called `love.png`.
+Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, you will be adding an image called `love.png`.
 
 --- task ---
 
@@ -67,12 +67,12 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** The `love.png` image will appear on your webpage.
+**Test:** The `love.png` image appears on your webpage.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text will not appear on the webpage but will be read aloud by screen readers.
+<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text does not appear on the webpage but it is read aloud by screen readers.
 </p>
 
 --- task ---
@@ -148,7 +148,7 @@ line_highlights: 42
 
 --- task ---
 
-**Test:** The instructions will appear below your image and the word **love** will be bold. 
+**Test:** The instructions appear below your image and the word **love** is in bold. 
 
 <iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. By the end of this step your webpage will have different colours, fonts and layout. 
+You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. By the end of this step, your webpage will have different colours, fonts, and layout. 
 
 </div>
 <div>
@@ -12,7 +12,7 @@ You have used HTML to add tags to your webpage. Now it is time to use CSS to add
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look. Including the positioning, colours and fonts. We call this the style.
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, including the positioning, colours, and fonts. We call this the style.
 </p>
 
 Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
@@ -57,12 +57,32 @@ At the bottom of your `<head></head>` section, there are links to two CSS style 
 
 Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
 
+**Before**
+
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 23
+line_number_start: 21
+line_highlights: 23-24
+---   
+    <!-- Include CSS style file -->
+
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+
+--- /code ---
+
+**After**
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 21
 line_highlights: 23-24
 ---   
     <!-- Include CSS style file -->
@@ -72,7 +92,6 @@ line_highlights: 23-24
   </head>
 
 --- /code ---
-
 --- /task ---
 
 --- task ---
@@ -91,7 +110,7 @@ Click on the `style.css` tab in Trinket to view the code in the CSS file. This C
 
 When you add CSS styling to an **element** it will apply that styling to every single element on the page that has the same tag. 
 
-**Find:** the rule that controls the style of the `<h2>`. 
+**Find:** Scroll down and find the rule that controls the style of the `<h2>`. 
 
 --- code ---
 ---
@@ -126,7 +145,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 109
-line_highlights: 11
+line_highlights: 111
 ---  
 
 h2 {

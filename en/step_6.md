@@ -133,14 +133,13 @@ Go to `index.html` and change the CSS link code to link to the `vivid.css` file:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 23
+line_number_start: 21
 line_highlights: 24
 ---   
     <!-- Include CSS style file -->
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="vivid.css" rel="stylesheet" type="text/css" />
-  </head>
 
 --- /code ---
 

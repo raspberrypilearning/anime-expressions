@@ -1,21 +1,21 @@
 ## Introduction
 
-In this project, you will create and style a web page for an anime drawing tutorial. 
+In this project, you will create and style a webpage for an anime drawing tutorial. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a web page. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a web page should look. Without CSS a web page would look really boring.
+<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.
 </p>
 
 You will:
-+ Use **HTML** tags to structure a web page
-+ Use **CSS** styles to apply layout, colour palettes and fonts to your webpage
++ Use **HTML** tags to structure a webpage
++ Use **CSS** styles to apply layout, colour palettes, and fonts to your webpage
 + Add images and text content to your webpage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**Web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages so using HTML with CSS helps your webpage stand out.
+A <span style="color: #0faeb0">**web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages, so using HTML with CSS helps your webpage stand out.
 </p>
 
-**Tip:** Drag the scroll bar down to see the full web page. 
+**Tip:** Drag the scroll bar down to see the full webpage. 
 
 --- no-print ---
 --- task ---

@@ -57,12 +57,32 @@ At the bottom of your `<head></head>` section, there are links to two CSS style 
 
 Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
 
+**Before**
+
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 23
+line_number_start: 21
+line_highlights: 23-24
+---   
+    <!-- Include CSS style file -->
+
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+
+--- /code ---
+
+**After**
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 21
 line_highlights: 23-24
 ---   
     <!-- Include CSS style file -->
@@ -72,7 +92,6 @@ line_highlights: 23-24
   </head>
 
 --- /code ---
-
 --- /task ---
 
 --- task ---
@@ -91,7 +110,7 @@ Click on the `style.css` tab in Trinket to view the code in the CSS file. This C
 
 When you add CSS styling to an **element** it will apply that styling to every single element on the page that has the same tag. 
 
-**Find:** the rule that controls the style of the `<h2>`. 
+**Find:** Scroll down and find the rule that controls the style of the `<h2>`. 
 
 --- code ---
 ---
@@ -126,7 +145,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 109
-line_highlights: 11
+line_highlights: 111
 ---  
 
 h2 {

@@ -28,8 +28,8 @@ Add `class="border-bottom"` to the right inside your `header` tag.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 28
-line_highlights: 30
+line_number_start: 27
+line_highlights: 29
 ---
   <body>
     <!-- The page header code goes here -->
@@ -50,8 +50,8 @@ Add the `border-top` class to your `footer` code to apply a thick border to the 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 57
-line_highlights: 58
+line_number_start: 55
+line_highlights: 56
 ---
   <!-- Webpage footer -->
     <footer class="border-top">
@@ -71,8 +71,8 @@ Add the `secondary` class to your `footer` code to apply a different colour back
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 57
-line_highlights: 58
+line_number_start: 55
+line_highlights: 56
 ---
   <!-- Webpage footer -->
     <footer class="border-top secondary">
@@ -90,8 +90,8 @@ Add `class=primary` to `<main>`:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 34
-line_highlights: 35
+line_number_start: 33
+line_highlights: 34
 ---
     <!-- The main content for the web page goes between the main tags -->
     <main class="primary">
@@ -109,8 +109,8 @@ Add `secondary` to `<header>`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 27
-line_highlights: 28
+line_number_start: 28
+line_highlights: 29
 ---
     <!-- The page header code goes here -->
     <header class="border-bottom secondary">
@@ -132,8 +132,8 @@ Also, add `class="xcenter"` to the `<p>` in the same section.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
-line_highlights: 34, 36
+line_number_start: 33
+line_highlights: 35, 37
 ---
     <!-- The main content for the web page goes between the main tags -->
     <main class="primary">
@@ -164,7 +164,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 39
-line_highlights: 42
+line_highlights: 40
 ---
    <!-- The first drawing and instructions goes here -->
 <section class="wrap">

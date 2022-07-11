@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. This step shows you how change the colours, fonts, and layout on your webpage.   
+You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. This step shows you how to change the colours, fonts, and layout on your webpage.   
   
 </div>
 <div>
@@ -39,7 +39,7 @@ The **declaration** is in curly brackets `{}`. It gives instructions of the styl
 </div>
 <br/>
 
-### Linking the CSS file
+### Link the CSS file
 
 The starter project includes CSS files, which contain a set of useful rules. 
 
@@ -137,7 +137,7 @@ This rule states which font should be used, how the text should be aligned, and 
 
 At the moment, the `<h2>` heading is aligned to the left.
 
-Change the `text-align` property of the h2 rule to `center`.
+Change the `text-align` property of the `h2` rule to `center`.
 
 --- code ---
 ---
@@ -160,7 +160,7 @@ h2 {
 
 --- task ---
 
-**Test:** Look at your webpage and make sure the 'Facial expressions' text is centered. 
+**Test:** Look at your webpage and make sure the 'Facial expressions' text is centred. 
 
 **Debug:** Check the spelling of the word `center`. HTML uses American English spelling. 
 

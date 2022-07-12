@@ -24,6 +24,3 @@ Watch the animations on this web page. How often do they repeat? Can you spot a 
 --- /task ---
 
 --- /no-print ---
-
-If you want to have more fun exploring HTML, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript).
- 

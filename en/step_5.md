@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step you will add classes to customise the styles on your page. 
+This step shows you how to add classes to customise the styles on your page. 
 
 </div>
 <div>
@@ -11,13 +11,13 @@ In this step you will add classes to customise the styles on your page.
 </div>
 </div>
 
-If you want to apply styling to specific elements, you can create a **class** in a CSS file and then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied. 
+If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied. 
   
-The class styling will override any element styling that has already been applied. You will see the changes take place as you add the classes to your code.
+The class styling overrides any element styling that has already been applied. Notice the changes take place as you add the classes to your code.
 
 --- task ---
 
-Your CSS file has a custom CSS class called `border-bottom` which adds a thick, solid coloured line border to the bottom of any HTML element that uses it.
+Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
 
 Go to your `index.html` file and find your `header`. 
 
@@ -60,7 +60,7 @@ line_highlights: 56
 
 --- /task ---
 
-The `primary` class sets a contrasting background and text colour which is designed to be used for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the primary colours.
+The `primary` class sets a contrasting background and text colour that is designed to be used for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the primary colours.
 
 --- task ---
 
@@ -93,7 +93,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 34
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main class="primary">
 
 --- /code ---
@@ -135,7 +135,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 35, 37
 ---
-    <!-- The main content for the web page goes between the main tags -->
+    <!-- The main content for the webpage goes between the main tags -->
     <main class="primary">
       <section class="tertiary">
         <h2>Facial expressions</h2>
@@ -147,10 +147,10 @@ line_highlights: 35, 37
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Web pages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your site on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC it should respond to a larger screen. 
+Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your site on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC it should respond to a larger screen. 
 </p>
 
-As well as changing colours, fonts and borders, CSS can also be used to change the layout on the page. 
+As well as changing colours, fonts, and borders, CSS can also be used to change the layout on the page. 
 
 --- task ---
 
@@ -226,12 +226,12 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** Drag the bar between the text editor and your web page and make the web page narrower. 
+**Test:** Drag the bar between the text editor and your webpage and make the webpage narrower. 
 
-The text should move below the image. This is the layout that users with a mobile phone in portrait mode will see. 
+The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
 
-Drag the bar back after testing so you can see the image and text side-by side. 
+Drag the bar back after you test it, so you can see the image and text side-by-side. 
 
-![In Trinket, the vertical space between the two panes is being dragged from left to right to show the webpage adjusting for smaller screens.](images/drag-window.gif)
+![In Trinket, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
 
 --- /task ---

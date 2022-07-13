@@ -31,7 +31,7 @@ You can also change:
 
 + The colour palette to `default` or `candy`. 
 
-+ The colours in the colour palette CSS file. *Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use. 
++ The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use. 
 
 + Your webpage to use colour names, such as 'teal' and 'coral'.
 

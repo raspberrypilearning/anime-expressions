@@ -47,7 +47,7 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multi-line comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. `/* Candy colour palette and fonts */` is an example of a CSS comment.
+**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. `/* Candy colour palette and fonts */` is an example of a CSS comment.
 
 --- /task ---
 

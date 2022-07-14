@@ -11,7 +11,7 @@ In this step, you can try out different colour palette and font choices.
 </div>
 </div>
 
-Now that you have started to add custom classes to your code, you may have noticed that colour is being added to the page. In CSS you can use **variables** to create a colour palette for your webpage. 
+Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage. 
 
 CSS variables start with two dashes: `--primary`. 
 
@@ -61,7 +61,7 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 
 --- task ---
 
-**Find** the variables that set the fonts for your webpage:
+**Find** the variables that set the fonts for your webpage.
 
 --- code ---
 ---

@@ -79,7 +79,7 @@ line_highlights: 41
 
 Add the `alt` property to provide alternative text for people who cannot view the image. 
 
-You can copy the description of your image and paste it into your code `The love facial expression.`
+You can copy the description of your image and paste it into your code: `The love facial expression.`
 
 --- code ---
 ---

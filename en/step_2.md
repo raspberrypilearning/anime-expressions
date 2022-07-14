@@ -9,11 +9,11 @@ In this step, you will add a header and an introduction to your anime webpage.
 </div>
 </div>
 
-In HTML you can type words directly into the code and it will appear, unformatted, on the webpage.
+In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
 
 --- task ---
 
-**Try it:** Type some words into the left-hand side of the project below. The words you type will automatically appear on the webpage to the right. 
+**Try it:** Type some words into the left-hand side of the project below. The words you type automatically appear on the webpage to the right. 
 
 **Tip:** If you are using a mobile device, you might have to click on the pencil icon to write your text and then click on the refresh icon to view the output. 
 
@@ -34,7 +34,7 @@ Open the [Anime expressions starter project](https://trinket.io/html/2d58893157)
 
 Your starter project contains some HTML that you will learn more about throughout the project. 
 
-To make your code easier to read, you can collapse parts of it that you don't need to focus on right now. 
+To make your code easier to read, you can collapse the parts of it that you don't need right now. 
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
@@ -50,7 +50,7 @@ Typically, a webpage has three parts. A **header**, the **main** content, and a 
 
 You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser. 
 
-**Find:** the comment `<!-- The page header code goes here -->`.
+**Find** the comment `<!-- The page header code goes here -->`.
 
 --- collapse ---
 
@@ -68,11 +68,11 @@ Click on the ▸ triangle to expand the code.
 
 HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/`. 
+A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`. 
 
 --- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here will appear in your webpage header and be styled as a header.
+Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
 
 --- /task ---
 
@@ -128,7 +128,7 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Your webpage will update as you type. Some basic styling has been applied to the text because it is inside `<h1>` tags. It is bold and large. 
+**Test:** Your webpage updates as you type. Some basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
 
 ![alt=""](images/heading-test.png)
 
@@ -242,7 +242,7 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
 
 --- task ---
 
-Between the `<p>` tags, you need to add in the introductory text. This is:
+Between the `<p>` tags, you need to add in this introductory text:
 
 `Take a look at these facial expressions and try them in your own drawings.`
 

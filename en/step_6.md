@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step you will try out different colour palette and font choices.
+In this step, you can try out different colour palette and font choices.
 
 </div>
 <div>
@@ -11,17 +11,17 @@ In this step you will try out different colour palette and font choices.
 </div>
 </div>
 
-Now that you have started to add custom classes to your code, you will have noticed that colour is being added to the page. In CSS you can create a colour palette for your webpage using **variables**. 
+Now that you have started to add custom classes to your code, you may have noticed that colour is being added to the page. In CSS you can use **variables** to create a colour palette for your webpage. 
 
 CSS variables start with two dashes: `--primary`. 
 
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of web sites where you can find hex colours to use. 
+Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use. 
 
 --- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the Candy colour palette.
+Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
 
-In the Candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
+In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
 
 --- code ---
 ---
@@ -31,7 +31,7 @@ line_numbers: true
 line_number_start: 2
 line_highlights: 5
 ---
-/* Candy colour palette & fonts */
+/* Candy colour palette and fonts */
 
 :root {
   --primary: #ebeaeb;
@@ -47,21 +47,21 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multi-line comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. `/* Candy colour palette & fonts */` is an example of a CSS comment.
+**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. `/* Candy colour palette and fonts */` is an example of a CSS comment.
 
 --- /task ---
 
 You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
 
-`3rem` means that this font should be 3 times the normal font size. 
+`3rem` means that this font should be three times the normal font size. 
 
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can, and if it isn't available it should use the **fallback font**, which is `cursive`. 
+`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`. 
 
 [[[web-fonts]]]
 
 --- task ---
 
-**Find** the variables that set the fonts for your web page:
+**Find** the variables that set the fonts for your webpage:
 
 --- code ---
 ---
@@ -90,7 +90,7 @@ The starter project also includes a vivid colour palette file called `vivid.css`
 
 **Find** the `vivid.css` file. 
 
-Notice that the colour and font variables have the same name but that the colours and fonts used are different in this colour palette. 
+Notice that the colour and font variables have the same name, but that the colours and fonts used are different in this colour palette. 
 
 --- code ---
 ---
@@ -100,7 +100,7 @@ line_numbers: true
 line_number_start: 1
 ---
 
-/* Vivid colour palette & fonts */
+/* Vivid colour palette and fonts */
 
 :root {
   --primary: #68bbe5;
@@ -147,7 +147,7 @@ line_highlights: 24
 
 --- task ---
 
-**Test:** Make sure your web page is now using the brighter colours and different fonts. 
+**Test:** Make sure your webpage now uses the brighter colours and different fonts. 
 
 <iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

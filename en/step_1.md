@@ -8,11 +8,11 @@ In this project, you will create and style a webpage for an anime drawing tutori
 
 You will:
 + Use **HTML** tags to structure a webpage
-+ Use **CSS** styles to apply layout, colour palettes, and fonts to your webpage
++ Use **CSS** styles to apply layouts, colour palettes, and fonts to your webpage
 + Add images and text content to your webpage
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages, so using HTML with CSS helps your webpage stand out.
+A <span style="color: #0faeb0">**web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages, so if you use HTML with CSS, it can help your webpage attract people's attention. 
 </p>
 
 **Tip:** Drag the scroll bar down to see the full webpage. 

@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You have created a web page using HTML and CSS.
+Well done. You have created a webpage using HTML and CSS.
 
 Answer the three questions below to reflect on what you've learnt.
 
@@ -12,7 +12,7 @@ You will be guided towards the correct answer. You can do this activity as many 
 legend: Question 1 of 3
 ---
 
-**Hypertext Markup Language (HTML)** is used to structure a web page. In this HTML code, which item is the **tag**?:
+**Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
 
 --- code ---
 ---
@@ -38,7 +38,7 @@ line_numbers: false
 
   --- feedback ---
 
-Not quite, this is an **attribute**. The attribute being used here is the source attribute. It lets the browser know where the image is stored.
+Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
 
   --- /feedback ---
 

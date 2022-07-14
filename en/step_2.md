@@ -9,7 +9,7 @@ In this step, you will add a header and an introduction to your anime webpage.
 </div>
 </div>
 
-In HTML you can type words directly into the code and the words appear, unformatted, on the webpage.
+In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
 
 --- task ---
 

@@ -68,11 +68,11 @@ Click on the ▸ triangle to expand the code.
 
 HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. Note that the end tag has a `/`. 
+A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`. 
 
 --- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here will appear in your webpage header and be styled as a header.
+Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
 
 --- /task ---
 

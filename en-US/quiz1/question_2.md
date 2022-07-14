@@ -7,7 +7,7 @@ legend: Question 2 of 3
 
 CSS styles can be applied to HTML code to decide on how the content should appear in the web browser.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right hand side.
+Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
 
 --- code ---
 ---
@@ -41,7 +41,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   --- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right hand side.
+  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
 
   --- /feedback ---
 

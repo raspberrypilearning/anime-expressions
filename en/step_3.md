@@ -40,7 +40,7 @@ line_highlights: 40-42
 
 --- /task ---
 
-Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, you will be adding an image called `love.png`.
+Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, add an image called `love.png`.
 
 --- task ---
 

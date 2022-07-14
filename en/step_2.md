@@ -34,7 +34,7 @@ Open the [Anime expressions starter project](https://trinket.io/html/2d58893157)
 
 Your starter project contains some HTML that you will learn more about throughout the project. 
 
-To make your code easier to read, you can collapse parts of it that you don't need to focus on right now. 
+To make your code easier to read, you can collapse the parts of it that you don't need right now. 
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 

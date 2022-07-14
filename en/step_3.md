@@ -9,7 +9,7 @@ In this step, add the first drawing and instruction to your webpage.
 </div>
 </div>
 
-Create a section for each facial expression on the webpage. 
+First, create a section for each facial expression on the webpage. 
 
 --- task ---
 

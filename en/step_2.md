@@ -50,7 +50,7 @@ Typically, a webpage has three parts. A **header**, the **main** content, and a 
 
 You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser. 
 
-**Find:** the comment `<!-- The page header code goes here -->`.
+**Find** the comment `<!-- The page header code goes here -->`.
 
 --- collapse ---
 
@@ -242,7 +242,7 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
 
 --- task ---
 
-Between the `<p>` tags, you need to add in the introductory text. This is:
+Between the `<p>` tags, you need to add in this introductory text:
 
 `Take a look at these facial expressions and try them in your own drawings.`
 

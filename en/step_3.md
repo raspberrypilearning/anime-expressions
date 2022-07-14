@@ -13,7 +13,7 @@ First, create a section for each facial expression on the webpage.
 
 --- task ---
 
-Find the comment `<!-- The first drawing and instructions goes here -->`.
+Find the comment `<!-- The first drawing and instructions go here -->`.
 
 Add in the `<section></section>` tags for your first drawing and instruction content. 
 
@@ -31,7 +31,7 @@ line_highlights: 40-42
         <p>Take a look at these facial expressions and try them in your own drawings.</p>
       </section>
        
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section>
           
       </section> 
@@ -56,7 +56,7 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 41
 ---
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png">
       </section> 
@@ -89,7 +89,7 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 41
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png" alt="The love facial expression.">
       </section> 
@@ -112,7 +112,7 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 42
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png" alt="The love facial expression.">
         <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
@@ -136,7 +136,7 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 42
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png" alt="The love facial expression.">
         <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>

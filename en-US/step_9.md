@@ -1,10 +1,10 @@
 ## What next?
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Top five emoji](https://projects.raspberrypi.org/en/projects/top-5-emoji-list) project. In this project, you can make a top 5 list of emoji with animation effects.
+If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Top five emojis](https://projects.raspberrypi.org/en/projects/top-5-emoji-list) project. In this project, make a list of your favourite five emojis, with use of animation effects.
 
 --- print-only ---
 
-![The finished top 5 emoji project.](images/emoji-solution.PNG)
+![The finished top 5 emojis project.](images/emoji-solution.PNG)
 
 --- /print-only ---
 

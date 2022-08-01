@@ -144,7 +144,7 @@ line_highlights: 35-37
       <section>
     
       </section>
-        <!-- The first drawing and instructions goes here -->  
+        <!-- The first drawing and instructions go here -->  
 
 --- /code ---
 
@@ -166,7 +166,7 @@ line_highlights: 36
 
 <section>
 ## </section>
-        <!-- The first drawing and instructions goes here --> 
+        <!-- The first drawing and instructions go here --> 
 
 
 --- /code ---
@@ -187,7 +187,7 @@ line_highlights: 36
 
 <section>
 ## Facial expressions</section>
-        <!-- The first drawing and instructions goes here --> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 
@@ -212,7 +212,7 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
 ## Facial expressions
 
 </section>
-        <!-- The first drawing and instructions goes here --> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 
@@ -240,7 +240,7 @@ line_highlights: 37
 ## Facial expressions
 
 Take a look at these facial expressions and try them in your own drawings.</section>
-        <!-- The first drawing and instructions goes here --> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 

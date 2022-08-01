@@ -9,11 +9,11 @@ In this step, add the first drawing and instruction to your webpage.
 </div>
 </div>
 
-Create a section for each facial expression on the webpage.
+First, create a section for each facial expression on the webpage.
 
 --- task ---
 
-Find the comment `<!-- The first drawing and instructions goes here -->`.
+Find the comment `<!-- The first drawing and instructions go here -->`.
 
 Add in the `<section></section>` tags for your first drawing and instruction content.
 
@@ -29,14 +29,14 @@ line_highlights: 40-42
 
 Take a look at these facial expressions and try them in your own drawings.</section>
        
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section> </section>
 
 --- /code ---
 
 --- /task ---
 
-Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, you will be adding an image called `love.png`.
+Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, add an image called `love.png`.
 
 --- task ---
 
@@ -49,7 +49,7 @@ Inside your new section, add an `<img>` tag to display an image. The `src` **att
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 41
 ---
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section> 
 
 ![](love.png) </section>
@@ -72,14 +72,14 @@ line_highlights: 41
 
 Add the `alt` property to provide alternative text for people who cannot view the image.
 
-You can copy the description of your image and paste it into your code `The love facial expression.`
+You can copy the description of your image and paste it into your code: `The love facial expression.`
 
 --- code ---
 ---
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 41
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section> 
 
 ![The love facial expression.](love.png) </section>
@@ -92,14 +92,14 @@ line_highlights: 41
 
 Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression.
 
-You can copy the paragraph and paste it into your code `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>`
+You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>`
 
 --- code ---
 ---
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 42
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section> 
 
 ![The love facial expression.](love.png)
@@ -121,7 +121,7 @@ Add `<strong>` tags around the word 'love':
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 42
 ---   
-      <!-- The first drawing and instructions goes here -->     
+      <!-- The first drawing and instructions go here -->     
       <section> 
 
 ![The love facial expression.](love.png)

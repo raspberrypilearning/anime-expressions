@@ -21,7 +21,7 @@ Your CSS file has a custom CSS class called `border-bottom`. This class adds a t
 
 Go to your `index.html` file and find your `header`. 
 
-Add `class="border-bottom"` to the right inside your `header` tag. 
+Add `class="border-bottom"` after the word `header` in your `header` tag. 
 
 --- code ---
 ---

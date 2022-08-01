@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-CSS styles can be applied to HTML code to decide on how the content should appear in the web browser. 
+CSS classes can be applied to HTML code to decide on how the content should appear in the web browser. 
 
 Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
 

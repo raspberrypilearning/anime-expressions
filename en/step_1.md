@@ -36,3 +36,5 @@ Explore the anime expressions webpage. Can you spot things on this webpage that 
 --- print-only ---
 ![Completed project](images/solution.PNG)
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_coderdojo_anime.png)

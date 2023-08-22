@@ -26,7 +26,7 @@ In HTML you can type words directly into the code to make the words appear, unfo
 
 --- task ---
 
-Open the [Anime expressions starter project](https://trinket.io/html/2d58893157){:target="_blank"}.
+Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions){:target="_blank"}.
 
 --- /task ---
 

@@ -1,7 +1,7 @@
-NAME: 'Anime expressions'
-IDENTIFIER: 'anime-expressions-example'
-TYPE: 'html'
-COMPONENTS:
+name: 'Anime expressions'
+identifier: 'anime-expressions-example'
+type: 'html'
+components:
   - name: 'index'
     extension: 'html'
     location: 'index.html'
@@ -27,7 +27,7 @@ COMPONENTS:
     location: vivid.css
     index: 4
     default: false
-IMAGES:
+image:
   - "annoyed.png"
   - "happy.png"
   - "love.png"

@@ -48,7 +48,7 @@ You can also change:
 title: Completed project
 ---
 
-You can view the [completed project here](https://staging-editor.raspberrypi.org/en/anime-expressions-complete){:target="_blank"}.
+You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-complete){:target="_blank"}.
 
 --- /collapse ---
 

@@ -24,6 +24,11 @@ A <span style="color: #0faeb0">**web designer**</span> is someone who plans and 
 <div style="flex-basis: 175px; flex-grow: 1">  
 Explore the anime expressions webpage. Can you spot things on this webpage that you have seen on other webpages?
 
+<<<<<<< HEAD
+=======
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+>>>>>>> parent of fc0c874 (Update step_1.md)
 
 </div>
 <div>

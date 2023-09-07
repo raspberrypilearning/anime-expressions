@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="500" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -13,20 +13,7 @@ In HTML you can type words directly into the code to make the words appear, unfo
 
 --- task ---
 
-**Try it:** Type some words into the left-hand side of the project below. The words you type automatically appear on the webpage to the right. 
-
-**Tip:** If you are using a mobile device, you might have to click on the pencil icon to write your text and then click on the refresh icon to view the output. 
-
-+ What happens if you type multiple lines of text? 
-+ Would you like to view a webpage that looked like this? 
-
-<iframe src="https://editor.raspberrypi.org/en/embed/blank-html-starter" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-
---- /task ---
-
---- task ---
-
-Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions){:target="_blank"}.
+Open the [Anime expressions starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 --- /task ---
 

@@ -1,5 +1,5 @@
-name: 'Anime expressions'
-identifier: 'anime-expressions-example'
+name: 'Anime expressions starter'
+identifier: 'anime-expressions-starter'
 type: 'html'
 components:
   - name: 'index'

@@ -150,7 +150,6 @@ line_highlights: 42
 
 **Test:** The instructions appear below your image and the word **love** is in bold. 
 
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="350" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 --- /task ---
 

@@ -7,7 +7,7 @@ You have used HTML to add tags to your webpage. Now it is time to use CSS to add
   
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -47,7 +47,7 @@ The starter project includes CSS files, which contain a set of useful rules.
 
 Unfold the `<head>` section of your code so that you can view the code inside it.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
 
 --- /task ---
 
@@ -164,7 +164,7 @@ h2 {
 
 **Debug:** Check the spelling of the word `center`. HTML uses American English spelling. 
 
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
 

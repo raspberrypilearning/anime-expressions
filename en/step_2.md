@@ -25,7 +25,7 @@ To make your code easier to read, you can collapse the parts of it that you don'
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
-![alt=""](images/collapse.gif)
+![alt=""](images/step_2_collapse.gif)
 
 --- /task ---
 
@@ -279,7 +279,7 @@ Your project is saved automatically. Return to the starter link in the same web 
 title: I accidentally closed my web project
 ---
 
-Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}. link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 

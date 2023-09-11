@@ -106,7 +106,13 @@ Take a look at your webpage in the right-hand pane. Notice that the styles and l
 
 --- task ---
 
-Click on the `style.css` tab in Trinket to view the code in the CSS file. This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tabe.
+
+![the code editor with the Project files icon highlighted](images/select-file.png)
+
+![the code editor with the style.css file highlighted](images/select-style.png)
+
+This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
 
 When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag. 
 

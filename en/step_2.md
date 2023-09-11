@@ -286,9 +286,9 @@ Click on the [starter project](https://staging-editor.raspberrypi.org/en/project
 --- collapse ---
 
 ---
-title: If you have a Trinket account
+title: If you have a Code Editor account
 ---
 
-Click the 'Remix' button to create a copy of the project in your Trinket account. This means you can save a copy of the trinket on your 'My Trinkets' profile.
+Click the 'Remix' button to create a copy of the project in your Raspberry Pi account. This means you can save a copy of the project.
 
 --- /collapse ---

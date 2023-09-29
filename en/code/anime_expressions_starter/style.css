@@ -108,7 +108,7 @@ h1 {
 
 h2 {
   font: var(--title-font); /* Font style stored in the title-font variable */
-  text-align: center; /* Align the text */
+  text-align: left; /* Align the text */
   padding: 1.5rem; /* Add some space all around the heading */
 }
 

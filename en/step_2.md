@@ -115,7 +115,7 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Your webpage updates as you type. Some basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
+**Test:** Some basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
 
 ![alt=""](images/heading-test.png)
 

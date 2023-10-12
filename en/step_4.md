@@ -3,7 +3,11 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. This step shows you how to change the colours, fonts, and layout on your webpage.   
+You have used HTML to add tags to your webpage. 
+
+Now it is time to use CSS to add styles to your page. 
+
+This step shows you how to change the colours, fonts, and layout on your webpage.   
   
 </div>
 <div>
@@ -20,22 +24,22 @@ Every **rule** in CSS is made up of two parts: the **selector** and the **declar
 The **selector** is the part of HTML that you want to style. In this example it is `h1`. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#000; background-color:#d2d2d2; font-family:Consolas; font-size: 1em"> h1 </span
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
   ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
     color: blue;
     font-size: 12px;
-  }</span></pre>
+}</span></pre>
 </div>
 <br/>
 
 The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em"> h1 </span
-><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas; font-size: 1em"> { 
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{ 
   color: blue; 
   font-size: 12px; 
- } </span></pre>
+}</span></pre>
 </div>
 <br/>
 

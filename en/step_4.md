@@ -100,7 +100,9 @@ line_highlights: 23-24
 
 --- task ---
 
-**Test:** HTML elements have default browser styles that you have seen as you have written your HTML code. 
+**Test:** Click the **Run** button. 
+
+HTML elements have default browser styles that you have seen as you have written your HTML code. 
 
 Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed. 
 
@@ -110,11 +112,11 @@ Take a look at your webpage in the right-hand pane. Notice that the styles and l
 
 --- task ---
 
-Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tabe.
+Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
 
-![the code editor with the Project files icon highlighted](images/select-file.png)
+![The Code Editor with the Project files icon highlighted](images/select-file.png)
 
-![the code editor with the style.css file highlighted](images/select-style.png)
+![The Code Editor with the style.css file highlighted](images/select-style.png)
 
 This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
 
@@ -170,9 +172,11 @@ h2 {
 
 --- task ---
 
-**Test:** Look at your webpage and make sure the 'Facial expressions' text is centred. 
+**Test:** Click the **Run** button. 
 
-**Debug:** Check the spelling of the word `center`. HTML uses American English spelling. 
+Look at your webpage and make sure the 'Facial expressions' text is centred. 
+
+**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling. 
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

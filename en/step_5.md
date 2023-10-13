@@ -53,7 +53,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top">
 
 --- /code ---
@@ -74,7 +74,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top secondary">
 
 --- /code ---
@@ -226,7 +226,9 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** Drag the bar between the text editor and your webpage to make the webpage narrower. 
+**Test:** Click the **Run** button. 
+
+Drag the bar between the text editor and your webpage to make the webpage narrower. 
 
 The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
 

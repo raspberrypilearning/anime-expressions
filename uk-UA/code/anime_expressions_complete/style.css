@@ -174,21 +174,21 @@ a:visited {
   border: 0.25rem solid var(--detail2);
 }
 
-/* Styles for the div tags that are inside a .wrap class */
+/* Стилі для тегів div, що знаходяться всередині класу .wrap */
 
 .wrap > div {
   width: 14rem;
   padding: 0rem;
 }
 
-/* Styles for the img tags that are inside a .wrap class */
+/* Стилі для тегів img, що знаходяться всередині класу .wrap */
 
 .wrap > img {
   width: 14rem;
   display: block;
 }
 
-/* Styles for the p tags that are inside a .wrap class */
+/* Стилі для тегів p, що знаходяться всередині класу .wrap */
 
 .wrap > p,
 .wrap > span {
@@ -196,14 +196,14 @@ a:visited {
   display: block;
 }
 
-/* Specific styles for this project */
+/* Особливі стилі для цього проєкту */
 
 .bigfont {
   font-size: 3rem;
 }
 
 .hugefont {
-  /* Used to make a large emoji */
+  /* Використовується для створення великих емоджі */
   font-size: 6rem;
   text-align: center;
   padding: 1rem;
@@ -230,7 +230,7 @@ cite {
   font-size: small;
 }
 
-/* Specific styles for this project */
+/* Особливі стилі для цього проєкту */
 
 .tile {
   height: 9.4rem;
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #888888; /* right and bottom shadow size, blur, spread and colour */
+   box-shadow: 5px 5px 3px 0px #888888; /* розмір тіні, розмиття, поширення та колір справа та знизу */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -294,10 +294,10 @@ cite {
   padding: 0.5rem;
 }
 
-/* Printed photo style */
+/* Стиль друкованої фотографії */
 
 .photo {
-  border: 1px solid #D0D0D0; /* Add a solid border */
+  border: 1px solid #D0D0D0; /* Додати суцільну межу */
   width: 14rem;
   height: 15rem;
   background: #ffffff;
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* розмір тіні, розмиття, поширення та колір справа та знизу */
   transform: rotate(3deg);
 }

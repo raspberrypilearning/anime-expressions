@@ -37,7 +37,7 @@ Typically, a webpage has three parts. A **header**, the **main** content, and a 
 
 You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser.
 
-**Find** the comment `<!--- The page header code goes here --->`.
+**Find** the comment `<!-- The page header code goes here -->`.
 
 --- collapse ---
 
@@ -76,7 +76,7 @@ Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 language: html filename: index.html line_numbers: true line_number_start: 27
 line_highlights: 30
 ---
-    <!--- The page header code goes here --->
+    <!-- The page header code goes here -->
     <header>
 # </header></p>
 
@@ -95,7 +95,7 @@ Add the text `Draw anime with me` between the two `<h1>` tags.
 language: html filename: index.html line_numbers: true line_number_start: 27
 line_highlights: 30
 ---
-    <!--- The page header code goes here --->
+    <!-- The page header code goes here -->
     <header>
 # Draw anime with me</header></p>
 
@@ -130,12 +130,12 @@ Your webpage needs an introduction section. Add `<section></section>` tags betwe
 language: html filename: index.html line_numbers: true line_number_start: 33
 line_highlights: 35-37
 ---
-    <!--- The main content for the webpage goes between the main tags --->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
     
       </section>
-        <!--- The first drawing and instructions go here --->  
+        <!-- The first drawing and instructions go here -->  
 
 --- /code ---
 
@@ -152,12 +152,12 @@ Add the subheading tags `<h2>` between the `<section>` tags.
 language: html filename: index.html line_numbers: true line_number_start: 33
 line_highlights: 36
 ---
-    <!--- The main content for the webpage goes between the main tags --->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
 
 <section>
 ## </section>
-        <!--- The first drawing and instructions go here ---> 
+        <!-- The first drawing and instructions go here --> 
 
 
 --- /code ---
@@ -173,12 +173,12 @@ Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your
 language: html filename: index.html line_numbers: true line_number_start: 33
 line_highlights: 36
 ---
-    <!--- The main content for the webpage goes between the main tags --->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
 
 <section>
 ## Facial expressions</section>
-        <!--- The first drawing and instructions go here ---> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 
@@ -202,14 +202,14 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
   ---
   language: html filename: index.html line_numbers: true line_number_start: 33 line_highlights: 37
   ---
-    <!--- The main content for the webpage goes between the main tags --->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
 
 <section>
 ## Facial expressions
 
 </section>
-        <!--- The first drawing and instructions go here ---> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 
@@ -230,14 +230,14 @@ Your code should look like this:
 language: html filename: index.html line_numbers: true line_number_start: 33
 line_highlights: 37
 ---
-    <!--- The main content for the webpage goes between the main tags --->
+    <!-- The main content for the webpage goes between the main tags -->
     <main>
 
 <section>
 ## Facial expressions
 
 Take a look at these facial expressions and try them in your own drawings.</section>
-        <!--- The first drawing and instructions go here ---> 
+        <!-- The first drawing and instructions go here --> 
 
 --- /code ---
 
@@ -265,7 +265,7 @@ Your project is saved automatically. Return to the starter link in the same web 
 title: I accidentally closed my project
 ---
 
-Click on the [starter project](https://staging-editor.raspberrypi.org/uk-UA/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/uk-UA-anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 

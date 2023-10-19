@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/uk-UA/pathways/web-intro) path, you can move on to the [Top five emojis](https://projects.raspberrypi.org/uk-UA/projects/top-5-emoji-list) project. In this project, make a list of your favourite five emojis, with use of animation effects.
+If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Top five emojis](https://projects.raspberrypi.org/en/projects/top-5-emoji-list) project. In this project, make a list of your favourite five emojis, with use of animation effects.
 
 --- print-only ---
 
@@ -19,7 +19,7 @@ Watch the animations on this webpage. How often do they repeat? Can you spot a l
 
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/uk-UA/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 --- /task ---

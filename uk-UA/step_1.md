@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create and style a webpage for an anime drawing tutorial.
+In this project, you will create and style a webpage for an anime drawing tutorial. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.

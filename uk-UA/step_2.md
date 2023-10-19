@@ -73,12 +73,17 @@ Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 27
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 27
 line_highlights: 30
 ---
+  <body>
     <!-- The page header code goes here -->
     <header>
-# </header></p>
+      <h1></h1>
+    </header>
 
 --- /code ---
 
@@ -92,12 +97,17 @@ Add the text `Draw anime with me` between the two `<h1>` tags.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 27
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 27
 line_highlights: 30
 ---
+  <body>
     <!-- The page header code goes here -->
     <header>
-# Draw anime with me</header></p>
+      <h1>Draw anime with me</h1>
+    </header>
 
 --- /code ---
 
@@ -127,13 +137,16 @@ Your webpage needs an introduction section. Add `<section></section>` tags betwe
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 35-37
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main>
       <section>
-    
+
       </section>
         <!-- The first drawing and instructions go here -->  
 
@@ -149,14 +162,17 @@ Add the subheading tags `<h2>` between the `<section>` tags.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 36
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main>
-
-<section>
-## </section>
+      <section>
+        <h2></h2>
+      </section>
         <!-- The first drawing and instructions go here --> 
 
 
@@ -170,14 +186,17 @@ Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 36
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main>
-
-<section>
-## Facial expressions</section>
+      <section>
+        <h2>Facial expressions</h2>
+      </section>
         <!-- The first drawing and instructions go here --> 
 
 --- /code ---
@@ -200,15 +219,18 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
 
   --- code ---
   ---
-  language: html filename: index.html line_numbers: true line_number_start: 33 line_highlights: 37
+  language: html
+  filename: index.html
+  line_numbers: true
+  line_number_start: 33
+  line_highlights: 37
   ---
     <!-- The main content for the webpage goes between the main tags -->
     <main>
-
-<section>
-## Facial expressions
-
-</section>
+      <section>
+        <h2>Facial expressions</h2>
+        <p></p>
+      </section>
         <!-- The first drawing and instructions go here --> 
 
 --- /code ---
@@ -227,16 +249,18 @@ Your code should look like this:
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 37
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main>
-
-<section>
-## Facial expressions
-
-Take a look at these facial expressions and try them in your own drawings.</section>
+      <section>
+        <h2>Facial expressions</h2>
+        <p>Take a look at these facial expressions and try them in your own drawings.</p>
+      </section>
         <!-- The first drawing and instructions go here --> 
 
 --- /code ---

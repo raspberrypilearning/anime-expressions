@@ -178,7 +178,7 @@ Look at your webpage and make sure the 'Facial expressions' text is centred.
 
 **Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling. 
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
 

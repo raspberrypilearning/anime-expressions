@@ -45,10 +45,10 @@ You can also change:
 --- collapse ---
 
 ---
-title: Completed project
+title: Upgraded project
 ---
 
-You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-complete){:target="_blank"}.
+You can view the [upgraded project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
 
 --- /collapse ---
 

@@ -20,7 +20,7 @@ You can use these descriptions or write your own:
 Create a new `<section>` for each new tutorial step. Look at the section you have already created to remind yourself of the HTML tags and CSS classes you need to use.
 
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="400" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 </div>
 
@@ -45,10 +45,10 @@ You can also change:
 --- collapse ---
 
 ---
-title: Completed project
+title: Upgraded project
 ---
 
-You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-complete){:target="_blank"}.
+You can view the [upgraded project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
 
 --- /collapse ---
 

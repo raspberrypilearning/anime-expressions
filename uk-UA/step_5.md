@@ -52,7 +52,9 @@ line_highlights: 56
 
 --- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the colours in the `primary` class.
+The `primary` class sets a contrasting background and text colour for most of the main content.
+
+The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
 
 --- task ---
 
@@ -102,18 +104,16 @@ line_highlights: 29
 
 --- /task ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
 
 --- task ---
 
 Add `class="tertiary"` to the **first** `<section>` element.
 
-Also, add `class="xcenter"` to the `<p>` in the same section.
-
 --- code ---
 ---
 language: html filename: index.html line_numbers: true line_number_start: 33
-line_highlights: 35, 37
+line_highlights: 35
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main class="primary">
@@ -125,6 +125,30 @@ line_highlights: 35, 37
 </p></section>
 
 --- /code ---
+
+The `xcenter` class in your CSS file aligns items horizontally across the page.
+
+--- task ---
+
+Add `class="xcenter"` to the `<p>` in the same section.
+
+--- code ---
+---
+language: html filename: index.html line_numbers: true line_number_start: 33
+line_highlights: 37
+---
+    <!-- The main content for the webpage goes between the main tags -->
+    <main class="primary">
+    <section class="tertiary">
+## Facial expressions
+
+<p class="xcenter">
+  Take a look at these facial expressions and try them in your own drawings.
+</p></section>
+
+--- /code ---
+
+--- /task ---
 
 --- /task ---
 

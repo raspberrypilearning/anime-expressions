@@ -111,7 +111,7 @@ The output will appear on the right:
 
 ![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
 
-You will see that basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large.
+You will see that the text inside the `<h1>` tags is styled as bold with a large font.
 
 --- /task ---
 
@@ -251,7 +251,9 @@ The text appears under the subheading and uses the default paragraph styling.
 
 Well done! Your page now has a header, a subheading, and an introductory paragraph.
 
-![alt=""](images/step2-output.PNG)
+<div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
 
 --- /task ---
 

@@ -19,6 +19,7 @@ There are hundreds of millions of active <span style="color: #0faeb0">**webpages
 
 --- no-print ---
 --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -28,7 +29,8 @@ Explore the anime expressions webpage.
 + What would you improve?
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-
+</div>
+</div>
 
 --- /task ---
 --- /no-print ---

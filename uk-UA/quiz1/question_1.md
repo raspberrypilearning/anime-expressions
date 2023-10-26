@@ -16,7 +16,8 @@ legend: Question 1 of 3
 
 --- code ---
 ---
-language: html filename: index.html
+language: html 
+filename: index.html
 line_numbers: false
 ---
 <img src="star.png" alt="A five-pointed yellow star." />

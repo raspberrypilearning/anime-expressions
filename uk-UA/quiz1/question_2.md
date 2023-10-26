@@ -11,7 +11,9 @@ Below is some CSS code for styling a subheading. Which line of code would you ch
 
 --- code ---
 ---
-language: css filename: style.css line_numbers: true line_number_start: 1
+language: css 
+filename: style.css 
+line_numbers: true line_number_start: 1
 line_highlights:
 ---
 

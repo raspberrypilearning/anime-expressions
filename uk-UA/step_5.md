@@ -128,6 +128,8 @@ line_highlights: 35
 
 The `xcenter` class in your CSS file aligns items horizontally across the page.
 
+--- /task ---
+
 --- task ---
 
 Add `class="xcenter"` to the `<p>` in the same section.
@@ -147,8 +149,6 @@ line_highlights: 37
 </p></section>
 
 --- /code ---
-
---- /task ---
 
 --- /task ---
 

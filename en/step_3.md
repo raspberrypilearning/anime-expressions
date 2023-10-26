@@ -104,7 +104,8 @@ line_highlights: 41
 
 Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression. 
 
-You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
+You can copy the paragraph and paste it into your code: 
+`<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
 
 --- code ---
 ---

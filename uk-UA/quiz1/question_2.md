@@ -13,11 +13,16 @@ Below is some CSS code for styling a subheading. Which line of code would you ch
 ---
 language: css 
 filename: style.css 
-line_numbers: true line_number_start: 1
+line_numbers: true 
+line_number_start: 1
 line_highlights:
 ---
 
-h2 { font: var(--title-font); text-align: left; padding: 1.5rem; }
+h2 { 
+    font: var(--title-font); 
+    text-align: left; 
+    padding: 1.5rem; 
+}
 
 --- /code ---
 

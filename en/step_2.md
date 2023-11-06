@@ -13,7 +13,6 @@ In HTML you can type words directly into the code to make the words appear, unfo
 
 --- task ---
 
-<<<<<<< HEAD
 Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 --- /task ---

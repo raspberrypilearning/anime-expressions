@@ -19,9 +19,9 @@ line_highlights:
 ---  
 
 h2 {
-  font: var(--title-font); 
-  text-align: left; 
-  padding: 1.5rem; 
+    font: var(--title-font); 
+    text-align: left; 
+    padding: 1.5rem; 
 }
 
 --- /code ---

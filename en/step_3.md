@@ -5,7 +5,7 @@
 In this step, add the first drawing and instruction to your webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -67,7 +67,9 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** The `love.png` image appears on your webpage.
+**Test:** Click the **Run** button. 
+
+The `love.png` image appears on your webpage.
 
 --- /task ---
 
@@ -77,7 +79,7 @@ line_highlights: 41
 
 --- task ---
 
-Add the `alt` property to provide alternative text for people who cannot view the image. 
+Add the `alt` attribute to provide alternative text for people who cannot view the image. 
 
 You can copy the description of your image and paste it into your code: `The love facial expression.`
 
@@ -102,7 +104,8 @@ line_highlights: 41
 
 Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression. 
 
-You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>`
+You can copy the paragraph and paste it into your code: 
+`<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
 
 --- code ---
 ---
@@ -115,7 +118,7 @@ line_highlights: 42
       <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png" alt="The love facial expression.">
-        <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+        <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
       </section> 
 
 --- /code ---
@@ -139,7 +142,7 @@ line_highlights: 42
       <!-- The first drawing and instructions go here -->     
       <section>
         <img src="love.png" alt="The love facial expression.">
-        <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. Remember to add highlight to the corners to create a better effect.</p>
+        <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
       </section> 
 
 --- /code ---
@@ -148,9 +151,10 @@ line_highlights: 42
 
 --- task ---
 
-**Test:** The instructions appear below your image and the word **love** is in bold. 
+**Test:** Click the **Run** button. 
 
-<iframe src="https://trinket.io/embed/html/893f1c44ad?outputOnly=true" width="350" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+The instructions appear below your image and the word **love** is in bold. 
 
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 --- /task ---
 

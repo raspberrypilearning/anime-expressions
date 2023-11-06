@@ -7,7 +7,7 @@ In this step, you can try out different colour palette and font choices.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -28,8 +28,8 @@ In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pal
 language: CSS
 filename: candy.css
 line_numbers: true
-line_number_start: 2
-line_highlights: 5
+line_number_start: 1
+line_highlights: 4
 ---
 /* Candy colour palette and fonts */
 
@@ -47,7 +47,9 @@ line_highlights: 5
 
 --- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. `/* Candy colour palette and fonts */` is an example of a CSS comment.
+**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. 
+
+`/* Candy colour palette and fonts */` is an example of a CSS comment.
 
 --- /task ---
 
@@ -68,8 +70,8 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 language: CSS
 filename: candy.css
 line_numbers: true
-line_number_start: 16
-line_highlights: 16-19
+line_number_start: 15
+line_highlights: 15-18
 ---
 
   --body-font: 1rem 'Verdana', sans-serif;
@@ -90,7 +92,7 @@ The starter project also includes a vivid colour palette file called `vivid.css`
 
 **Find** the `vivid.css` file. 
 
-Notice that the colour and font variables have the same name, but that the colours and fonts used are different in this colour palette. 
+Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
 
 --- code ---
 ---
@@ -147,8 +149,10 @@ line_highlights: 24
 
 --- task ---
 
-**Test:** Make sure your webpage now uses the brighter colours and different fonts. 
+**Test:** Click the **Run** button. 
 
-<iframe src="https://trinket.io/embed/html/cff6fa893b?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---

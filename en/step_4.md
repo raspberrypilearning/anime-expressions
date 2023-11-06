@@ -3,11 +3,15 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage. Now it is time to use CSS to add styles to your page. This step shows you how to change the colours, fonts, and layout on your webpage.   
+You have used HTML to add tags to your webpage. 
+
+Now it is time to use CSS to add styles to your page. 
+
+This step shows you how to change the colours, fonts, and layout on your webpage.   
   
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -20,22 +24,22 @@ Every **rule** in CSS is made up of two parts: the **selector** and the **declar
 The **selector** is the part of HTML that you want to style. In this example it is `h1`. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#000; background-color:#d2d2d2; font-family:Consolas; font-size: 1em"> h1 </span
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
   ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
-    color: blue;
-    font-size: 12px;
-  }</span></pre>
+  color: blue;
+  font-size: 12px;
+}</span></pre>
 </div>
 <br/>
 
 The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used. 
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em"> h1 </span
-><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas; font-size: 1em"> { 
-  color: blue; 
-  font-size: 12px; 
- } </span></pre>
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  color: blue;
+  font-size: 12px;
+}</span></pre>
 </div>
 <br/>
 
@@ -47,7 +51,7 @@ The starter project includes CSS files, which contain a set of useful rules.
 
 Unfold the `<head>` section of your code so that you can view the code inside it.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/collapse.gif)
+![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
 
 --- /task ---
 
@@ -96,7 +100,9 @@ line_highlights: 23-24
 
 --- task ---
 
-**Test:** HTML elements have default browser styles that you have seen as you have written your HTML code. 
+**Test:** Click the **Run** button. 
+
+HTML elements have default browser styles that you have seen as you have written your HTML code. 
 
 Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed. 
 
@@ -106,7 +112,13 @@ Take a look at your webpage in the right-hand pane. Notice that the styles and l
 
 --- task ---
 
-Click on the `style.css` tab in Trinket to view the code in the CSS file. This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
+
+![The Code Editor with the Project files icon highlighted](images/select-file.png)
+
+![The Code Editor with the style.css file highlighted](images/select-style.png)
+
+This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
 
 When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag. 
 
@@ -160,11 +172,13 @@ h2 {
 
 --- task ---
 
-**Test:** Look at your webpage and make sure the 'Facial expressions' text is centred. 
+**Test:** Click the **Run** button. 
 
-**Debug:** Check the spelling of the word `center`. HTML uses American English spelling. 
+Look at your webpage and make sure the 'Facial expressions' text is centred. 
 
-<iframe src="https://trinket.io/embed/html/931f275be7?outputOnly=true" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling. 
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
 

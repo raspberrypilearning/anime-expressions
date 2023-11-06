@@ -19,7 +19,7 @@ Watch the animations on this webpage. How often do they repeat? Can you spot a l
 
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 --- /task ---

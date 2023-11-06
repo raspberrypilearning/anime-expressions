@@ -7,7 +7,7 @@ In this step, you can try out different colour palette and font choices.
 
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -153,6 +153,6 @@ line_highlights: 24
 
 Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---

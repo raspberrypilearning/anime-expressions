@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -13,7 +13,7 @@ In HTML you can type words directly into the code to make the words appear, unfo
 
 --- task ---
 
-Open the [Anime expressions starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -276,7 +276,7 @@ The text appears under the subheading and uses the default paragraph styling.
 Well done! Your page now has a header, a subheading, and an introductory paragraph. 
 
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
 --- /task ---
@@ -291,7 +291,7 @@ Your project is saved automatically. Return to the starter link in the same web 
 title: I accidentally closed my project
 ---
 
-Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 

@@ -40,4 +40,3 @@ Explore the anime expressions webpage.
 --- /print-only ---
 
 ![](http://code.org/api/hour/begin_coderdojo_anime.png)
-

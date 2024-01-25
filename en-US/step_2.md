@@ -5,7 +5,7 @@
 In this step, you will add a header and an introduction to your anime webpage.
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/dd0c7afd18?outputOnly=true" width="500" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -13,20 +13,7 @@ In HTML you can type words directly into the code to make the words appear, unfo
 
 --- task ---
 
-**Try it:** Type some words into the left-hand side of the project below. The words you type automatically appear on the webpage to the right.
-
-**Tip:** If you are using a mobile device, you might have to click on the pencil icon to write your text and then click on the refresh icon to view the output.
-
-+ What happens if you type multiple lines of text?
-+ Would you like to view a webpage that looked like this?
-
-<iframe src="https://trinket.io/embed/html/1bb91117a9" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
---- /task ---
-
---- task ---
-
-Open the [Anime expressions starter project](https://trinket.io/html/2d58893157){:target="_blank"}.
+Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -38,7 +25,7 @@ To make your code easier to read, you can collapse the parts of it that you don'
 
 Click on the small triangle next to line 3 to collapse the `<head>`.
 
-![alt=""](images/collapse.gif)
+![alt=""](images/step_2_collapse.gif)
 
 --- /task ---
 
@@ -118,9 +105,13 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Your webpage updates as you type. Some basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large.
+**Test:** Click the **Run** button.
 
-![alt=""](images/heading-test.png)
+The output will appear on the right:
+
+![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
+
+You will see that the text inside the `<h1>` tags is styled as bold with a large font.
 
 --- /task ---
 
@@ -191,6 +182,12 @@ line_highlights: 36
 
 --- /code ---
 
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button.
+
 Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
 
 --- /task ---
@@ -248,13 +245,15 @@ Take a look at these facial expressions and try them in your own drawings.</sect
 
 --- task ---
 
-**Test:** You can now see that the text appears under the subheading and uses the default paragraph styling.
+**Test:** Click the **Run** button.
+
+The text appears under the subheading and uses the default paragraph styling.
 
 Well done! Your page now has a header, a subheading, and an introductory paragraph.
 
-![alt=""](images/step2-output.PNG)
-
-
+<div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
 
 --- /task ---
 
@@ -265,19 +264,19 @@ Your project is saved automatically. Return to the starter link in the same web 
 --- collapse ---
 
 ---
-title: I accidentally closed my web project
+title: I accidentally closed my project
 ---
 
-Click on the [starter project](https://trinket.io/embed/html/2d58893157){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: If you have a Trinket account
+title: If you have a Code Editor account
 ---
 
-Click the 'Remix' button to create a copy of the project in your Trinket account. This means you can save a copy of the trinket on your 'My Trinkets' profile.
+Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
 
 --- /collapse ---

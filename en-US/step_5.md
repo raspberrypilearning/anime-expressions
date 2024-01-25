@@ -7,7 +7,7 @@ This step shows you how to add classes to customise the styles on your page.
 
 </div>
 <div>
-<iframe src="https://trinket.io/embed/html/b72e02e1d2?outputOnly=true" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -45,14 +45,16 @@ Add the `border-top` class to your `footer` code to apply a thick border to the 
 language: html filename: index.html line_numbers: true line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top">
 
 --- /code ---
 
 --- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the colours in the `primary` class.
+The `primary` class sets a contrasting background and text colour for most of the main content.
+
+The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
 
 --- task ---
 
@@ -63,7 +65,7 @@ Add the `secondary` class to your `footer` code to apply a different colour back
 language: html filename: index.html line_numbers: true line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top secondary">
 
 --- /code ---
@@ -102,18 +104,40 @@ line_highlights: 29
 
 --- /task ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
 
 --- task ---
 
 Add `class="tertiary"` to the **first** `<section>` element.
 
-Also, add `class="xcenter"` to the `<p>` in the same section.
+--- code ---
+---
+language: html filename: index.html line_numbers: true line_number_start: 33
+line_highlights: 35
+---
+    <!-- The main content for the webpage goes between the main tags -->
+    <main class="primary">
+    <section class="tertiary">
+## Facial expressions
+
+<p class="xcenter">
+  Take a look at these facial expressions and try them in your own drawings.
+</p></section>
+
+--- /code ---
+
+The `xcenter` class in your CSS file aligns items horizontally across the page.
+
+--- /task ---
+
+--- task ---
+
+Add `class="xcenter"` to the `<p>` in the same section.
 
 --- code ---
 ---
 language: html filename: index.html line_numbers: true line_number_start: 33
-line_highlights: 35, 37
+line_highlights: 37
 ---
     <!-- The main content for the webpage goes between the main tags -->
     <main class="primary">
@@ -145,11 +169,12 @@ Add `class="wrap"` to the `<section>` tag.
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 40
 ---
-   <!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap"> 
+
+![The love facial expression.](love.png)
+
+To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
 
 --- /code ---
 
@@ -166,11 +191,12 @@ Add the `dashed-border` class to the `<img>`.
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 41
 ---
-<!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img class="dashed-border" src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap"> 
+
+![The love facial expression.](love.png) {.dashed-border}
+
+To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
 
 --- /code ---
 
@@ -187,11 +213,12 @@ Add the `rounded` class to the `<img>`.
 language: html filename: index.html line_numbers: true line_number_start: 39
 line_highlights: 41
 ---
-<!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap"> 
+
+![The love facial expression.](love.png) {.dashed-border.rounded}
+
+To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
 
 --- /code ---
 
@@ -199,12 +226,14 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** Drag the bar between the text editor and your webpage to make the webpage narrower.
+**Test:** Click the **Run** button.
+
+Drag the bar between the text editor and your webpage to make the webpage narrower.
 
 The text should move below the image. This is the layout for users who view the webpage on a mobile phone.
 
 Drag the bar back after you test it, so you can see the image and text side-by-side.
 
-![In Trinket, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
 
 --- /task ---

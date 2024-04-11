@@ -1,5 +1,15 @@
 ## Introduction
 
+--- collapse ---
+
+---
+title: New to the Raspberry Pi Editor?
+---
+
+Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+
+--- /collapse ---
+
 In this project, you will use HTML and CSS to create and style a webpage for an anime drawing tutorial. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">

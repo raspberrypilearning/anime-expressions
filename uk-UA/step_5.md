@@ -3,19 +3,19 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page. 
+This step shows you how to add classes to customise the styles on your page.
 
-</div>
+
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-</div>
+
 
 If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
 
 The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
 
---- task ---
+\--- task ---
 
 Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
 
@@ -23,134 +23,172 @@ Go to your `index.html` file and find your `header`.
 
 Add `class="border-bottom"` after the word `header` in your `header` tag.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 27
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 27
 line_highlights: 29
----
+--------------------------------------------------------
+
+  
     <!-- The page header code goes here -->
     <header class="border-bottom">
-# Draw anime with me</header></p>
+      <h1>Draw anime with me</h1>
+    </header>
 
---- /code ---
+\--- /code ---
 
---- /task ---
+\--- /task ---
 
---- task ---
+\--- task ---
 
 Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 55
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 55
 line_highlights: 56
----
-    <!-- Webpage footer -->
-    <footer class="border-top">
+--------------------------------------------------------
 
---- /code ---
+```
+<!-- Webpage footer -->
+<footer class="border-top">
+```
 
---- /task ---
+\--- /code ---
+
+\--- /task ---
 
 The `primary` class sets a contrasting background and text colour for most of the main content.
 
 The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
 
---- task ---
+\--- task ---
 
 Add the `secondary` class to your `footer` code to apply a different colour background to your footer.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 55
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 55
 line_highlights: 56
----
-    <!-- Webpage footer -->
-    <footer class="border-top secondary">
+--------------------------------------------------------
 
---- /code ---
+```
+<!-- Webpage footer -->
+<footer class="border-top secondary">
+```
 
---- /task ---
+\--- /code ---
 
---- task ---
+\--- /task ---
+
+\--- task ---
 
 Add `class="primary"` to `<main>`.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 33
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 34
----
-    <!-- The main content for the webpage goes between the main tags -->
-    <main class="primary">
+--------------------------------------------------------
 
---- /code ---
+```
+<!-- The main content for the webpage goes between the main tags -->
+<main class="primary">
+```
 
---- /task ---
+\--- /code ---
 
---- task ---
+\--- /task ---
+
+\--- task ---
 
 Add `secondary` to `<header>`.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 28
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 28
 line_highlights: 29
----
-    <!-- The page header code goes here -->
-    <header class="border-bottom secondary">
+--------------------------------------------------------
 
---- /code ---
+```
+<!-- The page header code goes here -->
+<header class="border-bottom secondary">
+```
 
---- /task ---
+\--- /code ---
+
+\--- /task ---
 
 The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
 
---- task ---
+\--- task ---
 
 Add `class="tertiary"` to the **first** `<section>` element.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 33
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 35
----
-    <!-- The main content for the webpage goes between the main tags -->
-    <main class="primary">
-    <section class="tertiary">
-## Facial expressions
+--------------------------------------------------------
 
-<p class="xcenter">
-  Take a look at these facial expressions and try them in your own drawings.
-</p></section>
+```
+<!-- The main content for the webpage goes between the main tags -->
+<main class="primary">
+  <section class="tertiary">
+    <h2>Facial expressions</h2>
+    <p class="xcenter">Take a look at these facial expressions and try them in your own drawings.</p>
+  </section>
+```
 
---- /code ---
+\--- /code ---
 
 The `xcenter` class in your CSS file aligns items horizontally across the page.
 
---- /task ---
+\--- /task ---
 
---- task ---
+\--- task ---
 
 Add `class="xcenter"` to the `<p>` in the same section.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 33
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 37
----
-    <!-- The main content for the webpage goes between the main tags -->
-    <main class="primary">
-    <section class="tertiary">
-## Facial expressions
+--------------------------------------------------------
 
-<p class="xcenter">
-  Take a look at these facial expressions and try them in your own drawings.
-</p></section>
+```
+<!-- The main content for the webpage goes between the main tags -->
+<main class="primary">
+  <section class="tertiary">
+    <h2>Facial expressions</h2>
+    <p class="xcenter">Take a look at these facial expressions and try them in your own drawings.</p>
+  </section>
+```
 
---- /code ---
+\--- /code ---
 
---- /task ---
+\--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
@@ -158,73 +196,88 @@ Webpages can be viewed on many different devices and should be <span style="colo
 
 CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders.
 
---- task ---
+\--- task ---
 
 Find the **second** `<section>`.
 
 Add `class="wrap"` to the `<section>` tag.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 39
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 40
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
+--------------------------------------------------------
 
-![The love facial expression.](love.png)
+```
+<!-- The first drawing and instructions go here -->
+<section class="wrap">
+  <img src="love.png" alt="The love facial expression.">
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+</section>
+```
 
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+\--- /code ---
 
---- /code ---
-
---- /task ---
+\--- /task ---
 
 You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border.
 
---- task ---
+\--- task ---
 
 Add the `dashed-border` class to the `<img>`.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 39
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 41
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
+--------------------------------------------------------
 
-![The love facial expression.](love.png) {.dashed-border}
+```
+<!-- The first drawing and instructions go here -->
+<section class="wrap">
+  <img class="dashed-border" src="love.png" alt="The love facial expression.">
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+</section>
+```
 
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+\--- /code ---
 
---- /code ---
-
---- /task ---
+\--- /task ---
 
 You can make the corners of an element rounded with the `rounded` class.
 
---- task ---
+\--- task ---
 
 Add the `rounded` class to the `<img>`.
 
---- code ---
----
-language: html filename: index.html line_numbers: true line_number_start: 39
+## --- code ---
+
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 41
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
+--------------------------------------------------------
 
-![The love facial expression.](love.png) {.dashed-border.rounded}
+```
+<!-- The first drawing and instructions go here -->
+<section class="wrap">
+  <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
+  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+</section>
+```
 
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+\--- /code ---
 
---- /code ---
+\--- /task ---
 
---- /task ---
-
---- task ---
+\--- task ---
 
 **Test:** Click the **Run** button.
 
@@ -236,4 +289,4 @@ Drag the bar back after you test it, so you can see the image and text side-by-s
 
 ![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
 
---- /task ---
+\--- /task ---

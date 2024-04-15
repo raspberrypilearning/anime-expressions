@@ -6,50 +6,51 @@ Answer the three questions below to reflect on what you've learnt.
 
 You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
---- question ---
+\--- question ---
 
 ---
-legend: Question 1 of 3
----
+
+## legend: Question 1 of 3
 
 **Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
 
---- code ---
----
-language: html filename: index.html
+## --- code ---
+
+language: html
+filename: index.html
 line_numbers: false
----
-<img src="star.png" alt="A five-pointed yellow star." />
+--------------------------------------------------------
 
---- /code ---
+<img src="star.png" alt="A five-pointed yellow star."> 
 
+\--- /code ---
 
---- choices ---
+\--- choices ---
 
 - (x) `<img>`
 
-  --- feedback ---
+  \--- feedback ---
 
   Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text.
 
-  --- /feedback ---
+  \--- /feedback ---
 
 - ( ) `src="star.png"`
 
-  --- feedback ---
+  \--- feedback ---
 
 Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
 
-  --- /feedback ---
+\--- /feedback ---
 
 - ( ) `alt`
 
-  --- feedback ---
+  \--- feedback ---
 
 Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be.
 
-  --- /feedback ---
+\--- /feedback ---
 
---- /choices ---
+\--- /choices ---
 
---- /question ---
+\--- /question ---

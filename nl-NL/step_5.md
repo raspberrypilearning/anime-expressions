@@ -1,27 +1,27 @@
-## Style with classes
+## Style met classes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page.
+Deze stap laat je zien hoe je classes toevoegt om de stijlen op je pagina aan te passen.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
+Als je opmaak wilt toepassen op specifieke elementen, kun je een **class** maken in een CSS-bestand. Je kunt vervolgens een `class=` **attribuut** toevoegen aan een element in je HTML-code om de browser te laten weten welke styling moet worden toegepast.
 
-If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
-
-The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
+De class styling overschrijft elke styling van element die al is toegepast. Merk op dat de wijzigingen plaatsvinden terwijl je de classes aan je code toevoegt.
 
 \--- task ---
 
-Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
+Je CSS bestand heeft een aangepaste CSS class genaamd `border-bottom`. Deze klasse voegt een dikke, ingekleurde rand toe aan de onderkant van elk HTML-element dat het gebruikt.
 
-Go to your `index.html` file and find your `header`.
+Ga naar je `index.html` bestand en zoek je `header`.
 
-Add `class="border-bottom"` after the word `header` in your `header` tag.
+Voeg `class="border-bottom"` toe na het woord `header` in je `header` tag.
 
 ## --- code ---
 
@@ -32,7 +32,7 @@ line_number_start: 27
 line_highlights: 29
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header class="border-bottom">
       <h1>Draw anime with me</h1>
@@ -44,7 +44,7 @@ line_highlights: 29
 
 \--- task ---
 
-Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer.
+Voeg de `border-top` class toe aan je `footer` code om een dikke rand toe te passen aan de top van je voettekst.
 
 ## --- code ---
 
@@ -64,13 +64,13 @@ line_highlights: 56
 
 \--- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content.
+De `primary` class stelt een contrasterende achtergrond en tekstkleur in voor het grootste deel van de hoofdinhoud.
 
-The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
+De `secondary' class stelt een extra kleur combinatie in die goed past bij de kleuren van de `primary\` class.
 
 \--- task ---
 
-Add the `secondary` class to your `footer` code to apply a different colour background to your footer.
+Voeg de 'secondary' class toe aan je `footer` code om een andere kleur achtergrond aan je voettekst te geven.
 
 ## --- code ---
 
@@ -92,7 +92,7 @@ line_highlights: 56
 
 \--- task ---
 
-Add `class="primary"` to `<main>`.
+Voeg `class="primary"` toe aan `<main>`.
 
 ## --- code ---
 
@@ -114,7 +114,7 @@ line_highlights: 34
 
 \--- task ---
 
-Add `secondary` to `<header>`.
+Voeg `secondary` toe aan `<header>`.
 
 ## --- code ---
 
@@ -134,11 +134,11 @@ line_highlights: 29
 
 \--- /task ---
 
-The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
+De `tertiary` class stelt een extra kleur combinatie goed combineert met de kleuren in de `primary` en `secundary` classes.
 
 \--- task ---
 
-Add `class="tertiary"` to the **first** `<section>` element.
+Voeg `class="tertiary"` toe aan het **eerste** `<section>` element.
 
 ## --- code ---
 
@@ -160,13 +160,13 @@ line_highlights: 35
 
 \--- /code ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+De class `xcenter` in je CSS-bestand lijnt items horizontaal uit over de pagina.
 
 \--- /task ---
 
 \--- task ---
 
-Add `class="xcenter"` to the `<p>` in the same section.
+Voeg `class="xcenter"` toe aan de `<p>` in dezelfde sectie.
 
 ## --- code ---
 
@@ -191,16 +191,16 @@ line_highlights: 37
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+Webpagina's kunnen op veel verschillende apparaten worden bekeken en moeten <span style="color: #0faeb0">**responsive**</span> zijn voor elk apparaat. Dit betekent dat als een gebruiker jouw pagina op een mobiele telefoon bekijkt, het moet reageren op een kleiner scherm en als ze het op een bureaublad bekijken, moet het op een groter scherm reageren. 
 </p>
 
-CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders.
+CSS kan de lay-out op een webpagina veranderen, die ook wordt gebruikt om kleuren, lettertypen en randen te veranderen.
 
 \--- task ---
 
-Find the **second** `<section>`.
+Zoek de **tweede** `<section>`.
 
-Add `class="wrap"` to the `<section>` tag.
+Voeg `class="wrap"` toe aan de `<section>` tag.
 
 ## --- code ---
 
@@ -223,11 +223,11 @@ line_highlights: 40
 
 \--- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border.
+Je kunt ook gekleurde randen toevoegen in verschillende stijlen aan HTML elementen. De `dashed-border` class in het stijlbestand maakt een stippellijn.
 
 \--- task ---
 
-Add the `dashed-border` class to the `<img>`.
+Voeg de `dashed-border` class toe aan de `<img>`.
 
 ## --- code ---
 
@@ -250,11 +250,11 @@ line_highlights: 41
 
 \--- /task ---
 
-You can make the corners of an element rounded with the `rounded` class.
+Je kunt de hoeken van een element afgerond maken met de 'rounded' class.
 
 \--- task ---
 
-Add the `rounded` class to the `<img>`.
+Voeg de `rounded` class toe aan de `<img>`.
 
 ## --- code ---
 
@@ -279,14 +279,14 @@ line_highlights: 41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Drag the bar between the text editor and your webpage to make the webpage narrower.
+Sleep de balk tussen de teksteditor en je webpagina om de webpagina smaller te maken.
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone.
+De tekst moet onder de afbeelding bewegen. Dit is de lay-out voor gebruikers die de webpagina op een mobiele telefoon bekijken.
 
-Drag the bar back after you test it, so you can see the image and text side-by-side.
+Sleep de balk terug na het testen, zodat je de afbeelding en tekst naast elkaar kunt zien.
 
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![In de Editor wordt de verticale ruimte tussen de twee vensters van links naar rechts gesleept om te laten zien dat de webpagina zich aanpast aan kleinere schermen.](images/drag-window.gif)
 
 \--- /task ---

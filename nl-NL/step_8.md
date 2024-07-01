@@ -1,23 +1,23 @@
-## Upgrade your project
+## Verbeter je project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more steps to the tutorial and customise the style to your preferences. 
+Als je tijd hebt, kun je meer stappen aan de tutorial toevoegen en de stijl aanpassen aan je voorkeuren. 
 </div>
 </div>
 
 \--- task ---
 
-At the moment your tutorial only has one step! The starter project includes images for additional steps.
+Op dit moment bestaat je tutorial uit slechts één stap! Het startproject bevat afbeeldingen voor aanvullende stappen.
 
-There are images called `happy.png` and `annoyed.png`.
+Er zijn afbeeldingen genaamd `happy.png` en `annoyed.png`.
 
-You can use these descriptions or write your own:
+Je kunt deze beschrijvingen gebruiken of jouw eigen beschrijvingen maken:
 
-- **Happy**: 'A happy expression in anime uses two thick curved lines for the eyes and a wide mouth to create a happy, laughing face.'
-- **Annoyed**: 'An annoyed facial expression can be made by pointing the eyebrows down towards the centre. The eyes use a thick line with a semicircle underneath. The mouth is slightly curved.'
+- **Blij**: 'Een vrolijke uitdrukking in anime gebruikt twee dikke gebogen lijnen voor de ogen en een brede mond om een blij, lachend gezicht te creëren.'
+- **Geërgerd**: 'Een geïrriteerde gezichtsuitdrukking kan worden gemaakt door de wenkbrauwen naar het midden te richten. Voor de ogen wordt een dikke lijn met een halve cirkel eronder gebruikt. De mond is licht gebogen.'
 
-Create a new `<section>` for each new tutorial step. Look at the section you have already created to remind yourself of the HTML tags and CSS classes you need to use.
+Maak een nieuwe `<section>` voor elke nieuwe tutorial stap. Kijk naar de sectie die je al hebt gemaakt om te bekijken welke HTML-tags en CSS-classes je ook alweer moet gebruiken.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -28,17 +28,17 @@ Create a new `<section>` for each new tutorial step. Look at the section you hav
 
 \--- task ---
 
-You can also change:
+Je kunt ook het volgende wijzigen:
 
-- The colour palette to `default` or `candy`.
+- Het kleurenpalet op 'standaard' of 'snoepjes'.
 
-- The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use.
+- De kleuren in het kleurpalet CSS-bestand. **Tip:** Je kan [nieuwe hex kleuren](https://rpf.io/colours){:target="_blank"} vinden om te gebruiken.
 
-- Your webpage to use colour names, such as 'teal' and 'coral'.
+- Je webpagina veranderen om kleurnamen te gebruiken, zoals 'groenblauw' en 'koraal'.
 
-- The size of the fonts used. `1rem` is the normal font size. `3rem` is three times as big.
+- De grootte van de gebruikte lettertypen. `1rem` is de normale lettergrootte. `3rem` is drie keer zo groot.
 
-- The border. Try different border effects in the `dashed-border` style or switch to the `solid-border` class.
+- De rand. Probeer verschillende randeffecten in de stijl 'dashed-border' of gebruik de class 'solid-border'.
 
 \--- /task ---
 
@@ -46,9 +46,9 @@ You can also change:
 
 ---
 
-## title: Upgraded project
+## title: Verbeterd project
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
+Je kunt het [geüpgrade project hier](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"} bekijken.
 
 \--- /collapse ---
 

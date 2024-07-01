@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Vraag 2 van 3
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+CSS-classes kunnen op HTML-code worden toegepast om te beslissen hoe de inhoud in de webbrowser moet verschijnen.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Hieronder vind je wat CSS-code voor het opmaken van een subkop. Welke regel code zou je veranderen om de ondertitel aan de rechterkant weer te geven?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ padding: 1.5rem;
 
   \--- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Kijk nog een keer. De eerste regel zegt dat de **selector** waarop de regel van toepassing is, de 'h2' tag is.
 
 \--- /feedback ---
 
@@ -39,7 +39,7 @@ Take another look. The first line says that the **selector** which the rule appl
 
   \--- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Niet helemaal. De tweede regel zegt dat het lettertype voor elementen met de `h2`-tag wordt geleverd door de `--title-font` **variabele**.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  Juist! Met de derde regel kun je de uitlijning van de tekst wijzigen. Door 'left' in 'right' te veranderen, wordt de tekst aan de rechterkant uitgelijnd.
 
   \--- /feedback ---
 
@@ -55,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Probeer het nog eens. Met de vierde regel kun je de ruimte rond de subkop aanpassen.
 
   \--- /feedback ---
 

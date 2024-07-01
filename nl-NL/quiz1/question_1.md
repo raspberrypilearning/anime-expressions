@@ -1,18 +1,18 @@
-## Reflection
+## Reflectie
 
-Well done. You have created a webpage using HTML and CSS.
+Goed gedaan. Je hebt een webpagina gemaakt met behulp van HTML en CSS.
 
-Answer the three questions below to reflect on what you've learnt.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Vraag 1 van 3
 
-**Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
+**Hypertext Markup Language (HTML)** wordt gebruikt om een webpagina te structureren. In deze HTML-code, welk item is de **tag**?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ line_numbers: false
 
   \--- feedback ---
 
-  Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text.
+  Juist! In HTML verschijnen tags tussen punthaken. De `<img>` tag wordt gebruikt om een afbeelding met alternatieve tekst toe te voegen.
 
   \--- /feedback ---
 
@@ -39,7 +39,7 @@ line_numbers: false
 
   \--- feedback ---
 
-Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
+Niet helemaal, dit is een **attribuut**. Het hier gebruikte attribuut is het bronattribuut. Het laat de browser weten waar de afbeelding wordt opgeslagen.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite, this is an **attribute**. The attribute used here is the source attri
 
   \--- feedback ---
 
-Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be.
+Probeer het nog eens. Dit is de identifier voor het attribuut dat de browser vertelt wat de **alternatieve tekst** (alternatief) moet zijn.
 
 \--- /feedback ---
 

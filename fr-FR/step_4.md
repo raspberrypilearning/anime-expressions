@@ -1,27 +1,27 @@
-## Style your page
+## Styliser ta page
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage.
+Tu as utilisé HTML pour ajouter des balises à ta page web.
 
-Now it is time to use CSS to add styles to your page.
+Maintenant, il est temps d'utiliser CSS pour ajouter des styles à ta page.
 
-This step shows you how to change the colours, fonts, and layout on your webpage.
+Cette étape te montre comment modifier les couleurs, les polices et la mise en page de ta page web.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> sont le langage que tu utilises pour indiquer au navigateur web l'aspect exact de ta page web, ce qui inclut le positionnement, les couleurs et les polices. Nous appelons cela le style.
 </p>
 
-Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
+Chaque **règle** en CSS est composée de deux parties : le **sélecteur** et la **déclaration**.
 
-The **selector** is the part of HTML that you want to style. In this example it is `h1`.
+Le **sélecteur** est la partie du HTML que tu souhaites styliser. Dans cet exemple, il s'agit de 'h1'.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
   <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
@@ -31,7 +31,7 @@ The **selector** is the part of HTML that you want to style. In this example it 
 </div>
 <br/>
 
-The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used.
+La **déclaration** est entre accolades `{}`. Elle donne des instructions sur les styles à utiliser.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
 <pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
@@ -41,25 +41,25 @@ The **declaration** is in curly brackets `{}`. It gives instructions of the styl
 </div>
 <br/>
 
-### Link the CSS file
+### Lier le fichier CSS
 
-The starter project includes CSS files, which contain a set of useful rules.
+Le projet de démarrage comprend des fichiers CSS, qui contiennent un ensemble de règles utiles.
 
 \--- task ---
 
-Unfold the `<head>` section of your code so that you can view the code inside it.
+Déplie la section `<head>` de ton code afin de pouvoir voir le code qu'il contient.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
+![La souris clique sur le petit triangle à côté du numéro de la ligne 3 pour réduire le code de l'en-tête.](images/step_2_collapse.gif)
 
 \--- /task ---
 
 \--- task ---
 
-At the bottom of your `<head></head>` section, there are links to two CSS style sheets that are currently commented out so that they are ignored by the web browser.
+Au bas de ta section `<head></head>`, tu trouveras des liens vers deux feuilles de style CSS qui sont actuellement commentées afin qu'elles soient ignorées par le navigateur web.
 
-Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
+Supprime les flèches `<!--` et `-->` du début et de la fin des deux lignes de code de lien :
 
-**Before**
+**Avant**
 
 ## --- code ---
 
@@ -71,17 +71,17 @@ line_highlights: 23-24
 -----------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Inclure le fichier de style CSS -->
 
 <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
-<!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
+<!-- <link href="candy.css" rel="stylesheet" type="text/css" />-->
 ```
 
-  
+  </head>
 
 \--- /code ---
 
-**After**
+**Après**
 
 ## --- code ---
 
@@ -93,42 +93,42 @@ line_highlights: 23-24
 -----------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Inclure le fichier de style CSS -->
 
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="candy.css" rel="stylesheet" type="text/css" />
 ```
 
-  
+  </head>
 
 \--- /code ---
 \--- /task ---
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-HTML elements have default browser styles that you have seen as you have written your HTML code.
+Les éléments HTML ont des styles de navigateur par défaut que tu as vus lorsque tu as écrit ton code HTML.
 
-Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed.
+Jette un coup d'œil à ta page web dans le volet de droite. Note que les styles et la mise en page de ta sortie ont maintenant changé.
 
-**Tip:** To collapse the `<head>` section after you have seen the change, click the arrow next to it.
+**Astuce :** pour réduire la section '<head>' après avoir constaté le changement, clique sur la flèche à côté.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
+Clique sur l'icône 'Project files' dans le Code Editor puis sélectionne le fichier 'style.css' ouvert dans un nouvel onglet.
 
-![The Code Editor with the Project files icon highlighted](images/select-file.png)
+![Le Code Editor avec l'icône des fichiers de projet en surbrillance](images/select-file.png)
 
-![The Code Editor with the style.css file highlighted](images/select-style.png)
+![Le Code Editor avec le fichier style.css en surbrillance](images/select-style.png)
 
-This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+Ce fichier CSS contient tout le CSS pour ton projet. Tu découvriras certains éléments clés de ce fichier CSS lors de la création de ta page web.
 
-When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag.
+Quand tu ajoutes un style CSS à un **élément**, il applique ce style à chaque élément de la page qui a la même balise.
 
-**Find:** Scroll down and find the rule that controls the style of the `<h2>`.
+**Rechercher :** fais défiler vers le bas et recherche la règle qui contrôle le style du `<h2>`.
 
 ## --- code ---
 
@@ -147,15 +147,15 @@ padding: 1.5rem; /_ Add some space all around the heading \*/
 
 \--- /code ---
 
-This rule states which font should be used, how the text should be aligned, and how much space should be around the header.
+Cette règle indique quelle police doit être utilisée, comment le texte doit être aligné et combien d'espace doit être autour de l'en-tête.
 
 \--- /task ---
 
 \--- task ---
 
-At the moment, the `<h2>` heading is aligned to the left.
+Pour le moment, l'en-tête `<h2>` est aligné à gauche.
 
-Change the `text-align` property of the `h2` rule to `center`.
+Change la propriété `text-align` de la règle `h2` en `center`.
 
 ## --- code ---
 
@@ -178,11 +178,11 @@ padding: 1.5rem; /_ Add some space all around the heading \*/
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Look at your webpage and make sure the 'Facial expressions' text is centred.
+Regarde ta page web et assure-toi que le texte 'Expressions faciales' est centré.
 
-**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling.
+**Débogage :** vérifie l'orthographe du mot `center`. HTML utilise l’orthographe anglaise américaine (US).
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

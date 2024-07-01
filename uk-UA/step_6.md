@@ -5,11 +5,11 @@
 
 In this step, you can try out different colour palette and font choices.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage.
 

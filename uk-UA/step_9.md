@@ -18,12 +18,11 @@ If you are following the [Intro to web](https://projects.raspberrypi.org/en/path
 <div style="flex-basis: 175px; flex-grow: 1">  
 Watch the animations on this webpage. How often do they repeat? Can you spot a list, quote, and link?
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
-
+</div>
 --- /task ---
 
 \--- /no-print ---

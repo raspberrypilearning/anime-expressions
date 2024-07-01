@@ -1,75 +1,75 @@
-## Start your webpage
+## Start je webpagina
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header and an introduction to your anime webpage.
+In deze stap voeg je een header en een inleiding toe aan je anime webpagina.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
+In HTML kun je woorden rechtstreeks in de code typen, zodat de woorden zonder opmaak op de webpagina verschijnen.
 
 \--- task ---
 
-Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Open het [Anime Expressions Start-project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Your starter project contains some HTML that you will learn more about throughout the project.
+Je start project bevat HTML waarover je tijdens het project meer zult leren.
 
-To make your code easier to read, you can collapse the parts of it that you don't need right now.
+Om je code leesbaarder te maken, kun je de delen ervan inklappen die je nu niet nodig hebt.
 
-Click on the small triangle next to line 3 to collapse the `<head>`.
+Klik op het kleine driehoekje naast regel 3 om `<head>` samen te vouwen.
 
 ![alt=""](images/step_2_collapse.gif)
 
 \--- /task ---
 
-### Add a header
+### Voeg een kop toe
 
-Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**.
+Meestal bestaat een webpagina uit drie delen. Een **koptekst** (header), de **hoofdinhoud** en een **voettekst**.
 
 \--- task ---
 
-You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser.
+Je kunt comments gebruiken om je code te organiseren en mensen helpen de code te begrijpen. Opmerkingen worden door de webbrowser genegeerd.
 
-**Find** the comment `<!-- The page header code goes here -->`.
+**Zoek** de opmerking `<!-- De code voor de kop van de pagina komt hier -->`.
 
 \--- collapse ---
 
 ---
 
-## title: I can't find the comment
+## title: Ik kan de opmerking niet vinden
 
-Have you accidentally collapsed the `<body>` or another section of your webpage?
+Heb je per ongeluk de `<body>` of een ander gedeelte van jouw webpagina samengevouwen?
 
-Click on the ▸ triangle to expand the code.
+Klik op het ▸ driehoekje om de code uit te vouwen.
 
 \--- /collapse ---
 
 \--- /task ---
 
-HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
+HTML-documenten bevatten **elementen**, waaronder alinea's, koppen en afbeeldingen. Een element bestaat doorgaans uit een starttag, een beetje inhoud en een afsluitende tag.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`.
+Een **tag** laat de browser weten wat voor soort element het is. Tags beginnen en eindigen met punthaken `<>`. De eindtag heeft ook een `/`.
 
 \--- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
+Zoek onder de opmerking de tags `<header>` en `</header>`. Alles wat je hier toevoegt verschijnt in de koptekst van je webpagina en wordt opgemaakt als kop.
 
 \--- /task ---
 
-A `<h1>` tag is used to say that this content is the largest header on the page.
+Een `<h1>` tag wordt gebruikt om aan te geven dat deze inhoud de grootste header op de pagina is.
 
 \--- task ---
 
-Add `<h1></h1>` **tags** inside your `<header></header>` tags.
+Voeg `<h1></h1>` **tags** toe binnen je `<header></header>` tags.
 
-**Tip:** When you add a start tag, the end tag is automatically added so you don't need to type it.
+**Tip:** Als je een starttag toevoegt, wordt de eindtag automatisch toegevoegd zodat je deze niet hoeft te typen.
 
 ## --- code ---
 
@@ -80,7 +80,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1></h1>
@@ -88,13 +88,13 @@ line_highlights: 30
 
 \--- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.
+**Tip:** Het is een goed idee om spaties toe te voegen aan het begin van regels om jouw code te laten inspringen. In HTML hoef je geen inspringingen toe te voegen om de code te laten werken, maar het maakt je code wel gemakkelijker leesbaar.
 
 \--- /task ---
 
 \--- task ---
 
-Add the text `Draw anime with me` between the two `<h1>` tags.
+Voeg de tekst `Teken anime met me` toe tussen de twee `<h1>` tags.
 
 ## --- code ---
 
@@ -105,7 +105,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1>Draw anime with me</h1>
@@ -117,25 +117,25 @@ line_highlights: 30
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-The output will appear on the right:
+De uitvoer verschijnt aan de rechterkant:
 
-![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
+![Het Run-pictogram is gemarkeerd met 'Teken anime met mij' in het uitvoergebied. ](images/run_h1.png)
 
-You will see that the text inside the `<h1>` tags is styled as bold with a large font.
+Je zult zien dat de tekst binnen de `<h1>` tags vetgedrukt is met een groot lettertype.
 
 \--- /task ---
 
-### Add the first section in your main content
+### Voeg de eerste sectie toe aan je hoofdinhoud
 
-Any main content should be placed between the `<main>` tags. On your webpage, the main content is broken down into **sections**.
+Alle hoofdinhoud moet tussen de tags `<main>` worden geplaatst. Op de webpagina wordt de hoofdinhoud opgesplitst in **secties**.
 
 \--- task ---
 
-Your webpage needs an introduction section. Add `<section></section>` tags between the `<main>` tags.
+Je webpagina heeft een introductiesectie nodig. Voeg `<section></section>` tags toe tussen de `<main>` tags.
 
-**Tip:** As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines.
+**Tip:** Terwijl je je webpagina bouwt, zul je andere tags toevoegen in jouw sectie. Plaats je cursor tussen de `<section>` en `</section>` tag druk vervolgens op Enter op je toetsenbord om de tags over meerdere regels te splitsen.
 
 ## --- code ---
 
@@ -161,9 +161,9 @@ line_highlights: 35-37
 
 \--- task ---
 
-You are now going to add a subheading within the section that you have just created.
+Je gaat nu een subtitel toevoegen binnen het gedeelte dat je zojuist hebt gemaakt.
 
-Add the subheading tags `<h2>` between the `<section>` tags.
+Voeg de tussenkop tags `<h2>` tussen de `<section>` tags toe.
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_highlights: 36
 
 \--- task ---
 
-Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
+Voer nu de subkop tekst `Gezichtsuitdrukkingen` in tussen de `<h2>` tags. Je code zou er als volgt uit moeten zien:
 
 ## --- code ---
 
@@ -215,17 +215,17 @@ line_highlights: 36
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
+Je zult zien dat de tekst op jouw webpagina iets kleiner is dan de grote kop van boven en vette styling heeft. Dit komt omdat `<h2>` een kleinere kop is dan `<h1>`.
 
 \--- /task ---
 
 \--- task ---
 
-You are now going to add a paragraph of text as an introduction to your anime webpage.
+Je gaat nu een alinea tekst toevoegen als inleiding op jouw anime webpagina.
 
-Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
+Onder je `<h2>` kopcode valt, voeg de alinea `<p>` tags toe.
 
 ## --- code ---
 
@@ -252,13 +252,13 @@ line_highlights: 37
 
 \--- task ---
 
-Between the `<p>` tags, you need to add in this introductory text:
+Tussen de `<p>` tags moet je in deze inleidende tekst het volgende toevoegen:
 
-`Take a look at these facial expressions and try them in your own drawings.`
+`Kijk eens naar deze gezichtsuitdrukkingen en probeer ze in je eigen tekeningen.`
 
-**Tip:** You can highlight the text above and then right-click (tap and hold on mobile) and choose 'Copy'. Then click between the `<p>` tags in your code and then right-click and choose 'Paste'.
+**Tip:** Je kunt de tekst hierboven markeren en vervolgens met de rechtermuisknop (tik en houd vast op mobiel) en kies 'Kopiëren'. Klik vervolgens tussen de `<p>` tags in je code en klik met de rechtermuisknop en kies 'Plakken'.
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
 ## --- code ---
 
@@ -285,11 +285,11 @@ line_highlights: 37
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-The text appears under the subheading and uses the default paragraph styling.
+De tekst verschijnt onder de subkop en gebruikt de standaard alineastijl.
 
-Well done! Your page now has a header, a subheading, and an introductory paragraph.
+Goed gedaan! Je pagina heeft nu een kop, een subkop en een inleidende paragraaf.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -297,17 +297,17 @@ Well done! Your page now has a header, a subheading, and an introductory paragra
 
 \--- /task ---
 
-## Save your project
+## Sla je project op
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Je project wordt automatisch opgeslagen. Ga terug naar de starter link in dezelfde webbrowser om je wijzigingen te zien.
 
 \--- collapse ---
 
 ---
 
-## title: I accidentally closed my project
+## title: Ik heb per ongeluk mijn project gesloten
 
-Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Klik op de [startproject](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link om je project te openen. Gebruik dezelfde webbrowser om je wijzigingen te zien.
 
 \--- /collapse ---
 
@@ -315,8 +315,8 @@ Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-
 
 ---
 
-## title: If you have a Code Editor account
+## title: Als je een Code Editor account hebt
 
-Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
+Klik op de 'Opslaan' knop om een kopie van het project te maken in je Raspberry Pi-account.
 
 \--- /collapse ---

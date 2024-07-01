@@ -1,27 +1,27 @@
-## Style with classes
+## Styliser avec des classes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page.
+Cette étape te montre comment ajouter des classes pour personnaliser les styles de ta page.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
+Si tu veux appliquer un style à des éléments spécifiques, tu peux créer une **classe** dans un fichier CSS. Tu peux ensuite ajouter un **attribut** `class=` à un élément de ton code HTML pour indiquer au navigateur quel style doit être appliqué.
 
-If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
-
-The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
+Le style de classe remplace tout style d’élément déjà appliqué. Note que les changements ont lieu au fur et à mesure que tu ajoutes les classes à ton code.
 
 \--- task ---
 
-Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
+Ton fichier CSS possède une classe CSS personnalisée appelée 'border-bottom'. Cette classe ajoute une bordure épaisse de couleur unie au bas de tout élément HTML qui l'utilise.
 
-Go to your `index.html` file and find your `header`.
+Va dans ton fichier `index.html` et trouve ton `header`.
 
-Add `class="border-bottom"` after the word `header` in your `header` tag.
+Ajoute `class="border-bottom"` après le mot `header` dans ta balise `header`.
 
 ## --- code ---
 
@@ -32,7 +32,7 @@ line_number_start: 27
 line_highlights: 29
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header class="border-bottom">
       <h1>Draw anime with me</h1>
@@ -44,7 +44,7 @@ line_highlights: 29
 
 \--- task ---
 
-Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer.
+Ajoute la classe `border-top` à ton code `footer` pour appliquer une bordure épaisse en haut de ton pied de page.
 
 ## --- code ---
 
@@ -64,13 +64,13 @@ line_highlights: 56
 
 \--- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content.
+La classe `primary` définit une couleur d'arrière-plan et de texte contrastant pour la plupart du contenu principal.
 
-The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
+La classe `secondary` définit une combinaison de couleurs supplémentaire qui s'accorde bien avec les couleurs de la classe `primary`.
 
 \--- task ---
 
-Add the `secondary` class to your `footer` code to apply a different colour background to your footer.
+Ajoute la classe `secondary` à ton code `footer` pour appliquer une couleur d'arrière-plan différente à ton pied de page.
 
 ## --- code ---
 
@@ -92,7 +92,7 @@ line_highlights: 56
 
 \--- task ---
 
-Add `class="primary"` to `<main>`.
+Ajoute `class="primary"` à `<main>`.
 
 ## --- code ---
 
@@ -114,7 +114,7 @@ line_highlights: 34
 
 \--- task ---
 
-Add `secondary` to `<header>`.
+Ajoute `secondary` à<header>\`.
 
 ## --- code ---
 
@@ -134,11 +134,11 @@ line_highlights: 29
 
 \--- /task ---
 
-The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
+La classe `tertiary` définit une combinaison de couleurs supplémentaire qui s'accorde bien avec les couleurs des classes `primary' et `secondary\`.
 
 \--- task ---
 
-Add `class="tertiary"` to the **first** `<section>` element.
+Ajoute `class="tertiary"` à l'élément **first** `<section>`.
 
 ## --- code ---
 
@@ -160,13 +160,13 @@ line_highlights: 35
 
 \--- /code ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+La classe 'xcenter' de ton fichier CSS aligne les éléments horizontalement sur la page.
 
 \--- /task ---
 
 \--- task ---
 
-Add `class="xcenter"` to the `<p>` in the same section.
+Ajoute `class="xcenter"` à la `<p>` dans la même section.
 
 ## --- code ---
 
@@ -191,16 +191,16 @@ line_highlights: 37
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+Les pages web peuvent être consultées sur de nombreux appareils différents et doivent être <span style="color: #0faeb0">**responsive**</span> pour chaque appareil. Cela signifie que si un utilisateur consulte ta page sur un téléphone portable, elle doit répondre à un écran plus petit et s'il la consulte sur un ordinateur de bureau, elle doit répondre à un écran plus grand. 
 </p>
 
-CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders.
+CSS peut changer la mise en page sur une page web, ainsi que changer les couleurs, les polices et les bords.
 
 \--- task ---
 
-Find the **second** `<section>`.
+Trouve la **seconde** `<section>`.
 
-Add `class="wrap"` to the `<section>` tag.
+Ajoute `class="wrap"` à la balise `<section>`.
 
 ## --- code ---
 
@@ -223,11 +223,11 @@ line_highlights: 40
 
 \--- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border.
+Tu peux également ajouter des bordures colorées dans différents styles aux éléments HTML. La classe `dashed-border` dans le fichier de style crée une bordure en pointillés.
 
 \--- task ---
 
-Add the `dashed-border` class to the `<img>`.
+Ajoute la classe `dashed-border` à la `<img>`.
 
 ## --- code ---
 
@@ -250,11 +250,11 @@ line_highlights: 41
 
 \--- /task ---
 
-You can make the corners of an element rounded with the `rounded` class.
+Tu peux faire arrondir les coins d'un élément à la classe `rounded`.
 
 \--- task ---
 
-Add the `rounded` class to the `<img>`.
+Ajoute la classe `rounded` à la `<img>`.
 
 ## --- code ---
 
@@ -279,14 +279,14 @@ line_highlights: 41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Drag the bar between the text editor and your webpage to make the webpage narrower.
+Fais glisser la barre entre l'éditeur de texte et ta page web pour rendre la page web plus étroite.
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone.
+Le texte doit se déplacer sous l'image. Ceci est la mise en page pour les utilisateurs qui voient la page web sur un téléphone mobile.
 
-Drag the bar back after you test it, so you can see the image and text side-by-side.
+Fais glisser la barre vers l'arrière après l'avoir testée afin de pouvoir voir l'image et le texte côte à côte.
 
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![Dans l'Editor, l'espace vertical entre les deux volets est déplacé de gauche à droite pour montrer que la page web s'adapte aux écrans plus petits.](images/drag-window.gif)
 
 \--- /task ---

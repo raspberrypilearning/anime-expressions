@@ -80,7 +80,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1></h1>
@@ -105,7 +105,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1>Draw anime with me</h1>

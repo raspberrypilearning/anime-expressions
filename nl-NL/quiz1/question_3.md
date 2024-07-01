@@ -2,25 +2,25 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Vraag 3 van 3
 
-If your webpage is **responsive**, this means:
+Als je webpagina **responsief** is, betekent dit:
 
 \--- choices ---
 
-- ( ) It looks the same on desktop computers and mobile devices that have different screen sizes.
+- ( ) Het ziet er hetzelfde uit op desktopcomputers en mobiele apparaten met verschillende schermformaten.
 
   \--- feedback ---
 
-  Try again. If a website looks exactly the same on a mobile phone and on a very large computer monitor, then it is unlikely to look good on both of them.
+  Probeer het nog eens. Als een website er precies hetzelfde uitziet op een mobiele telefoon en op een heel groot computerscherm, is het onwaarschijnlijk dat deze er op beide goed uitziet.
 
   \--- /feedback ---
 
-- (x) It adapts the layout for different screen sizes.
+- (x) Het past de lay-out aan voor verschillende schermformaten.
 
   \--- feedback ---
 
-  Correct, it is really important to think about your users when designing a website. They might view it on a mobile device or a very large monitor. A responsive layout means you can make sure that your page looks great for every user.
+  Correct, het is erg belangrijk om aan je gebruikers te denken bij het ontwerpen van een website. Ze kunnen het bekijken op een mobiel apparaat of op een zeer grote monitor. Met een responsieve lay-out kun je ervoor zorgen dat jouw pagina er voor elke gebruiker goed uitziet.
 
   \--- /feedback ---
 

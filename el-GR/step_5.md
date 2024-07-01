@@ -5,11 +5,11 @@
 
 This step shows you how to add classes to customise the styles on your page.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
 
@@ -32,7 +32,7 @@ line_number_start: 27
 line_highlights: 29
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header class="border-bottom">
       <h1>Draw anime with me</h1>

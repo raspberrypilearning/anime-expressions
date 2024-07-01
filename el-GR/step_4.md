@@ -9,11 +9,11 @@ Now it is time to use CSS to add styles to your page.
 
 This step shows you how to change the colours, fonts, and layout on your webpage.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
-
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
@@ -77,7 +77,7 @@ line_highlights: 23-24
 <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
 ```
 
-  
+  </head>
 
 \--- /code ---
 
@@ -99,7 +99,7 @@ line_highlights: 23-24
 <link href="candy.css" rel="stylesheet" type="text/css" />
 ```
 
-  
+  </head>
 
 \--- /code ---
 \--- /task ---

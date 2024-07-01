@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Question 2 sur 3
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+Les classes CSS peuvent être appliquées au code HTML pour décider de la manière dont le contenu doit apparaître dans le navigateur web.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Tu trouveras ci-dessous du code CSS pour styliser un sous-titre. Quelle ligne de code modifierais-tu pour que le sous-titre s'affiche sur le côté droit ?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ padding: 1.5rem;
 
   \--- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Regarde encore une fois. La première ligne indique que le **sélecteur** auquel la règle s'applique est la balise `h2`.
 
 \--- /feedback ---
 
@@ -39,7 +39,7 @@ Take another look. The first line says that the **selector** which the rule appl
 
   \--- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Pas tout à fait. La deuxième ligne indique que la police des éléments avec la balise `h2` est fournie par la **variable** `--title-font`.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  Correct ! La troisième ligne te permet de modifier l'alignement du texte. En remplaçant `left` par `right`, le texte s'alignerait sur le côté droit.
 
   \--- /feedback ---
 
@@ -55,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Réessaie. La quatrième ligne permet d'ajuster l'espace autour du sous-titre.
 
   \--- /feedback ---
 

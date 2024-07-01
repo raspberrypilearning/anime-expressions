@@ -1,75 +1,75 @@
-## Start your webpage
+## Commencer ta page web
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header and an introduction to your anime webpage.
+Dans cette étape, tu ajouteras un en-tête et une introduction à ta page web d'anime.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
+En HTML, tu peux taper des mots directement dans le code pour qu'ils apparaissent, non formatés, sur la page web.
 
 \--- task ---
 
-Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Ouvre le [Projet de démarrage d'expressions d'anime](https://editor.raspberrypi.org/fr-FR/projects/anime-expressions-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Your starter project contains some HTML that you will learn more about throughout the project.
+Ton projet de démarrage contient du code HTML sur lequel tu en apprendras davantage tout au long du projet.
 
-To make your code easier to read, you can collapse the parts of it that you don't need right now.
+Pour rendre ton code plus facile à lire, tu peux réduire les parties dont tu n'as pas besoin pour le moment.
 
-Click on the small triangle next to line 3 to collapse the `<head>`.
+Clique sur le petit triangle à côté de la ligne 3 pour réduire le `<head>`.
 
 ![alt=""](images/step_2_collapse.gif)
 
 \--- /task ---
 
-### Add a header
+### Ajouter un en-tête
 
-Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**.
+Habituellement, une page web a trois parties. Un **en-tête**, le contenu **principal** et un **pied de page**.
 
 \--- task ---
 
-You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser.
+Tu peux utiliser des commentaires pour organiser ton code et aider les gens à comprendre le code. Les commentaires sont ignorés par le navigateur web.
 
-**Find** the comment `<!-- The page header code goes here -->`.
+**Trouve** le commentaire `<!-- Le code d'en-tête de la page va ici -->`.
 
 \--- collapse ---
 
 ---
 
-## title: I can't find the comment
+## title: Je ne trouve pas le commentaire
 
-Have you accidentally collapsed the `<body>` or another section of your webpage?
+As-tu accidentellement réduit le `<body>` ou une autre section de ta page web ?
 
-Click on the ▸ triangle to expand the code.
+Clique sur le triangle ▸ pour développer le code.
 
 \--- /collapse ---
 
 \--- /task ---
 
-HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
+Les documents HTML contiennent des **éléments** incluant des paragraphes, des en-têtes et des images. Un élément est généralement composé d'une balise ouvrante, d'un contenu et d'une balise fermante.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`.
+Une **balise** permet au navigateur de savoir quel type d'élément il s'agit. Les balises commencent et se terminent par des chevrons `<>`. La balise fermante a également un `/`.
 
 \--- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
+Sous le commentaire, trouve les balises `<header>` et `</header>`. Tout ce que tu ajoutes ici apparaît dans l'en-tête de ta page web et est stylisé comme un en-tête.
 
 \--- /task ---
 
-A `<h1>` tag is used to say that this content is the largest header on the page.
+Une balise `<h1>` est utilisée pour dire que ce contenu est l'en-tête le plus grand de la page.
 
 \--- task ---
 
-Add `<h1></h1>` **tags** inside your `<header></header>` tags.
+Ajoute des **balises** `<h1></h1>` dans tes balises `<header></header>`.
 
-**Tip:** When you add a start tag, the end tag is automatically added so you don't need to type it.
+**Astuce :** lorsque tu ajoutes une balise ouvrante, la balise fermante est automatiquement ajoutée pour que tu n'aies pas besoin de la taper.
 
 ## --- code ---
 
@@ -80,7 +80,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1></h1>
@@ -88,13 +88,13 @@ line_highlights: 30
 
 \--- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.
+**Astuce :** c'est une bonne idée d'ajouter des espaces au début des lignes pour indenter ton code. En HTML, tu n'as pas besoin d'ajouter les indents pour que le code fonctionne, mais cela rend ton code plus facile à lire.
 
 \--- /task ---
 
 \--- task ---
 
-Add the text `Draw anime with me` between the two `<h1>` tags.
+Ajoute le texte 'Dessiner un anime avec moi' entre les deux balises `<h1>`.
 
 ## --- code ---
 
@@ -105,7 +105,7 @@ line_number_start: 27
 line_highlights: 30
 --------------------------------------------------------
 
-  
+  <body>
     <!-- The page header code goes here -->
     <header>
       <h1>Draw anime with me</h1>
@@ -117,25 +117,25 @@ line_highlights: 30
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-The output will appear on the right:
+La sortie apparaîtra à droite :
 
-![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
+![L'icône Run mise en surbrillance avec 'Dessiner un anime avec moi' dans la zone de sortie. ](images/run_h1.png)
 
-You will see that the text inside the `<h1>` tags is styled as bold with a large font.
+Tu verras que le texte à l'intérieur des balises `<h1>` est en gras avec une police de grande taille.
 
 \--- /task ---
 
-### Add the first section in your main content
+### Ajouter la première section dans ton contenu principal
 
-Any main content should be placed between the `<main>` tags. On your webpage, the main content is broken down into **sections**.
+Tout contenu principal doit être placé entre les balises `<main>`. Sur ta page web, le contenu principal est divisé en **sections**.
 
 \--- task ---
 
-Your webpage needs an introduction section. Add `<section></section>` tags between the `<main>` tags.
+Ta page web a besoin d'une section d'introduction. Ajoute des balises `<section></section>` entre les balises `<main>`.
 
-**Tip:** As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines.
+\*\*Astuce :\*\*au fur et à mesure que tu construis ta page web, tu ajouteras d'autres balises dans ta section. Positionne ton curseur entre la balise `<section>` et `</section>`, puis appuie sur Entrée sur ton clavier pour scinder les balises sur plusieurs lignes.
 
 ## --- code ---
 
@@ -161,9 +161,9 @@ line_highlights: 35-37
 
 \--- task ---
 
-You are now going to add a subheading within the section that you have just created.
+Tu vas maintenant ajouter un sous-titre dans la section que tu viens de créer.
 
-Add the subheading tags `<h2>` between the `<section>` tags.
+Ajoute les balises de sous-titre `<h2>` entre les balises `<section>`.
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_highlights: 36
 
 \--- task ---
 
-Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
+Maintenant, entre le texte de sous-titre `Expressions faciales` entre les balises `<h2>`. Ton code devrait ressembler à ceci :
 
 ## --- code ---
 
@@ -215,17 +215,17 @@ line_highlights: 36
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
+Remarque que le texte de ta page web est légèrement plus petit que le grand titre ci-dessus et qu'il est en gras. C'est parce que `<h2>` est un titre plus petit que `<h1>`.
 
 \--- /task ---
 
 \--- task ---
 
-You are now going to add a paragraph of text as an introduction to your anime webpage.
+Tu vas maintenant ajouter un paragraphe de texte comme introduction à ta page web d'anime.
 
-Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
+Sous ton code de titre `<h2>`, ajoute les balises de paragraphe `<p>`.
 
 ## --- code ---
 
@@ -252,13 +252,13 @@ line_highlights: 37
 
 \--- task ---
 
-Between the `<p>` tags, you need to add in this introductory text:
+Entre les balises `<p>`, tu dois ajouter ce texte d'introduction :
 
-`Take a look at these facial expressions and try them in your own drawings.`
+'Jette un œil à ces expressions faciales et essaie-les dans tes propres dessins.'
 
-**Tip:** You can highlight the text above and then right-click (tap and hold on mobile) and choose 'Copy'. Then click between the `<p>` tags in your code and then right-click and choose 'Paste'.
+**Astuce :** tu peux mettre en surbrillance le texte ci-dessus puis faire un clic droit (appuie et maintiens enfoncé sur mobile) et choisis 'Copier'. Puis clique entre les balises `<p>` dans ton code, puis fais un clic droit et choisis 'Coller'.
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
 ## --- code ---
 
@@ -285,11 +285,11 @@ line_highlights: 37
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test :** clique sur le bouton **Run**.
 
-The text appears under the subheading and uses the default paragraph styling.
+Le texte apparaît sous le sous-titre et utilise le style de paragraphe par défaut.
 
-Well done! Your page now has a header, a subheading, and an introductory paragraph.
+Bien joué ! Ta page a maintenant un en-tête, un sous-titre et un paragraphe d'introduction.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -297,17 +297,17 @@ Well done! Your page now has a header, a subheading, and an introductory paragra
 
 \--- /task ---
 
-## Save your project
+## Enregistre ton projet
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Ton projet est enregistré automatiquement. Retourne au lien de démarrage dans le même navigateur web pour voir tes modifications.
 
 \--- collapse ---
 
 ---
 
-## title: I accidentally closed my project
+## title: J'ai accidentellement fermé mon projet
 
-Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Clique sur le lien [projet de démarrage](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} pour ouvrir ton projet. Utilise le même navigateur web pour voir tes modifications.
 
 \--- /collapse ---
 
@@ -315,8 +315,8 @@ Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-
 
 ---
 
-## title: If you have a Code Editor account
+## title: Si tu as un compte Code Editor
 
-Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
+Clique sur le bouton « Save » pour créer une copie du projet dans ton compte Raspberry Pi.
 
 \--- /collapse ---

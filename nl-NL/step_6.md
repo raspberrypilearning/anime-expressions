@@ -1,27 +1,27 @@
-## Colours and fonts
+## Kleuren en lettertypen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you can try out different colour palette and font choices.
+In deze stap kun je verschillende kleurenpalet en lettertype keuzes proberen.
 
-
+</div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+</div>
 
+Nu je bent begonnen om aangepaste classes aan je code toe te voegen, is het je misschien al opgevallen dat er kleur aan de pagina is toegevoegd. In CSS kun je **variabelen** gebruiken om een kleurenpalet te maken voor je webpagina.
 
-Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage.
+CSS variabelen beginnen met twee streepjes: `--primary`.
 
-CSS variables start with two dashes: `--primary`.
-
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use.
+Kleuren worden gespecificeerd met behulp van hexadecimale notatie (hex) en beginnen met '#'. Er zijn veel websites waar je hexadecimale kleuren kunt vinden die je kunt gebruiken.
 
 \--- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
+Ga naar je `candy.css` bestand. Dit bestand stelt de kleurvariabelen in voor het snoepjeskleur palet.
 
-In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
+In het snoepjeskleurenpalet is de `--primary` variabele ingesteld op `#ebeaeb`, lichtgrijs.
 
 ## --- code ---
 
@@ -48,23 +48,23 @@ line_highlights: 4
 
 \--- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers.
+**Tip:** CSS gebruikt andere markeringen voor opmerkingen dan HTML. Een opmerking van meerdere regels begint met `/*` en eindigt met `*/`. De browser negeert code die zich binnen de commentaarmarkeringen bevindt.
 
-`/* Candy colour palette and fonts */` is an example of a CSS comment.
+`/* Snoepjeskleur palet en lettertypen */` is een voorbeeld van een CSS opmerking.
 
 \--- /task ---
 
-You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
+Je kunt ook variabelen voor lettertypen gebruiken. De `--header-font` is ingesteld op `3rem 'Fredoka One', cursive;`
 
-`3rem` means that this font should be three times the normal font size.
+`3rem` betekent dat dit lettertype drie keer de normale lettergrootte moet zijn.
 
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`.
+`'Fredoka One', cursive' betekent dat de browser indien mogelijk het lettertype 'Fredoka One' moet gebruiken. Als dit lettertype niet beschikbaar is, moet de browser het **fallback font** gebruiken, wat `cursive\` is.
 
 [[[web-fonts]]]
 
 \--- task ---
 
-**Find** the variables that set the fonts for your webpage.
+**Zoek** de variabelen die de lettertypen voor je webpagina instellen.
 
 ## --- code ---
 
@@ -85,15 +85,15 @@ line_highlights: 15-18
 
 \--- /task ---
 
-The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them.
+De `primary` kleuren zijn ontworpen om te gebruiken in het grootste gedeelte van de hoofdinhoud van de pagina, gevolgd door `secondary` en vervolgens `tertiary` kleuren. Dit betekent dat je gemakkelijk nieuwe kleurenpaletten kunt ontwerpen en tussen deze paletten kunt wisselen.
 
-The starter project also includes a vivid colour palette file called `vivid.css`.
+Het startproject bevat ook een levendig kleurenpalet bestand genaamd `vivid.css`.
 
 \--- task ---
 
-**Find** the `vivid.css` file.
+**Zoek** het `vivid.css` bestand.
 
-Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
+Je zult zien dat de kleur- en lettertype-variabelen dezelfde namen hebben als in het 'candy.css\` bestand, maar de gebruikte kleuren en lettertypen zijn verschillend in dit kleurenpalet.
 
 ## --- code ---
 
@@ -129,7 +129,7 @@ line_number_start: 1
 
 \--- task ---
 
-Go to `index.html` and change the CSS link code to link to the `vivid.css` file:
+Ga naar `index.html` en verander de CSS link code om te linken naar het `vivid.css` bestand:
 
 ## --- code ---
 
@@ -141,10 +141,10 @@ line_highlights: 24
 --------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Voeg de CSS style file toe -->
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="vivid.css" rel="stylesheet" type="text/css" />
+<!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+<!-- <link href="vivid.css" rel="stylesheet" type="text/css" />
 ```
 
 \--- /code ---
@@ -153,9 +153,9 @@ line_highlights: 24
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Klik op de **Run** knop.
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Check dat jouw webpagina nu de helderdere kleuren en verschillende lettertypen gebruikt, zoals gedefinieerd in het `vivid.css` bestand.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

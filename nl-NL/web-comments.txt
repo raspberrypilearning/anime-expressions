@@ -1,16 +1,16 @@
-The main content for the webpage goes between the main tags
+De hoofdinhoud van de webpagina bevindt zich tussen de hoofdtags
 
-Webpage footer
+Webpagina voettekst
 
-Title shown in web browsers
+Titel die in webbrowsers wordt weergegeven
 
-Import fonts from Google
+Importeer lettertypen van Google
 
-The first drawing and instructions goes here
+De eerste tekening en instructies komen hier
 
-The second drawing and instructions goes here
+De tweede tekening en instructies komen hier
 
-The third drawing and instructions goes here
+De derde tekening en instructies komen hier
 
-Footer code goes here
+Voettekst code komt hier
 

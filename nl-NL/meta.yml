@@ -1,0 +1,28 @@
+---
+title: Anime uitdrukkingen
+hero_image: images/banner.png
+description: Maak en style een webpagina voor een anime-tekentutorial.
+meta_title: Leer CSS | Leer webontwikkeling | Anime-uitdrukkingen
+meta_description: Leer webontwikkeling voor beginners met de Raspberry Pi Foundation. Leer CSS en gebruik stijlen om lay-outs, kleurenpaletten en lettertypen op jouw webpagina toe te passen.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
+steps:
+  - title: Inleiding
+  - title: Start je webpagina
+  - title: Voeg een gezichtsuitdrukking toe
+    completion: engaged
+  - title: Style je pagina
+  - title: Style met classes
+  - title: Kleuren en lettertypen
+    completion: internal
+  - title: Reflectie
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?

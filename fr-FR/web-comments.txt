@@ -1,18 +1,18 @@
-The main content for the webpage goes between the main tags
+Le contenu principal de la page web se trouve entre les balises principales
 
-Webpage footer
+Pied de page du site web
 
-Title shown in web browsers
+Titre affiché dans les navigateurs web
 
-Import fonts from Google
+Importer des polices depuis Google
 
-The first drawing and instructions goes here
+Le premier dessin et les instructions vont ici
 
-The second drawing and instructions goes here
+Le deuxième dessin et les instructions vont ici
 
-The third drawing and instructions goes here
+Le troisième dessin et les instructions vont ici
 
-Footer code goes here
+Le code de pied de page va ici
 
-A five-pointed yellow star.
+Une étoile jaune à cinq branches.
 

@@ -57,7 +57,7 @@ Je kunt ook variabelen voor lettertypen gebruiken. De `--header-font` is ingeste
 
 `3rem` betekent dat dit lettertype drie keer de normale lettergrootte moet zijn.
 
-`'Fredoka One', cursive' betekent dat de browser indien mogelijk het lettertype 'Fredoka One' moet gebruiken. Als dit lettertype niet beschikbaar is, moet de browser het **fallback font** gebruiken, wat`cursive\` is.
+`'Fredoka One', cursive'` betekent dat de browser indien mogelijk het lettertype 'Fredoka One' moet gebruiken. Als dit lettertype niet beschikbaar is, moet de browser het **fallback font** gebruiken, wat `cursive` is.
 
 [[[web-fonts]]]
 

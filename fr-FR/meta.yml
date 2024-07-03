@@ -1,0 +1,28 @@
+---
+title: Expressions d'anime
+hero_image: images/banner.png
+description: Crée et stylise une page web pour un tutoriel de dessin d'anime.
+meta_title: Apprendre le CSS | Apprendre le développement web | Expressions d'anime
+meta_description: Apprends le développement web pour les débutants avec la Raspberry Pi Foundation. Apprends le CSS et utilise des styles pour appliquer des mises en page, des palettes de couleurs et des polices à ta page web.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
+steps:
+  - title: Introduction
+  - title: Commencer ta page web
+  - title: Ajouter une expression faciale
+    completion: engaged
+  - title: Styliser ta page
+  - title: Styliser avec des classes
+  - title: Couleurs et polices
+    completion: internal
+  - title: Réflexion
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Améliorer ton projet
+  - title: Et ensuite ?

@@ -1,0 +1,18 @@
+Le contenu principal de la page web se trouve entre les balises principales
+
+Pied de page du site web
+
+Titre affiché dans les navigateurs web
+
+Importer des polices depuis Google
+
+Le premier dessin et les instructions vont ici
+
+Le deuxième dessin et les instructions vont ici
+
+Le troisième dessin et les instructions vont ici
+
+Le code de pied de page va ici
+
+Une étoile jaune à cinq branches.
+

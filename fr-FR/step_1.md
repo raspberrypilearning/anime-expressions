@@ -3,7 +3,7 @@
 --- collapse ---
 
 ---
-title: Nouveau dans le Raspberry Pi Editor ?
+title: Nouveau dans le Raspberry Pi Editor ?
 ---
 
 Consulte le [guide de démarrage](https://projects.raspberrypi.org/fr-FR/projects/getting-started-guide-editor-html){:target="_blank"} !

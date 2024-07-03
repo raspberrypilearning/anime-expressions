@@ -104,7 +104,7 @@ line_highlights: 34
 
 --- task ---
 
-Ajoute `secondary` à<header>\`.
+Ajoute `secondary` à `<header>\`.
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ line_highlights: 29
 
 --- /task ---
 
-La classe `tertiary` définit une combinaison de couleurs supplémentaire qui s'accorde bien avec les couleurs des classes `primary' et`secondary\`.
+La classe `tertiary` définit une combinaison de couleurs supplémentaire qui s'accorde bien avec les couleurs des classes `primary` et `secondary\`.
 
 --- task ---
 

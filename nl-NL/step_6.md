@@ -32,7 +32,7 @@ line_number_start: 1
 line_highlights: 4
 -------------------------------------------------------
 
-/\* Candy colour palette and fonts \*/
+/\* Snoepjes kleurenpalet en lettertypen \*/
 
 :root {
 \--primary: #ebeaeb;
@@ -103,7 +103,7 @@ line_numbers: true
 line_number_start: 1
 ------------------------------------------------------------------------------
 
-/\* Vivid colour palette and fonts \*/
+/\* Levendig kleurenpalet en lettertypen \*/
 
 :root {
 \--primary: #68bbe5;

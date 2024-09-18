@@ -1,0 +1,18 @@
+The main content for the webpage goes between the main tags
+
+Webpage footer
+
+Title shown in web browsers
+
+Import fonts from Google
+
+The first drawing and instructions goes here
+
+The second drawing and instructions goes here
+
+The third drawing and instructions goes here
+
+Footer code goes here
+
+A five-pointed yellow star.
+

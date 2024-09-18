@@ -35,7 +35,7 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  min-height: 100vh; /* Laat de inhoud de pagina vullen zodat de voettekst onderaan staat */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -294,7 +294,7 @@ cite {
   padding: 0.5rem;
 }
 
-/* Printed photo style */
+/* Afgedrukte fotostijl */
 
 .photo {
   border: 1px solid #D0D0D0; /* Voeg een ononderbroken rand toe */

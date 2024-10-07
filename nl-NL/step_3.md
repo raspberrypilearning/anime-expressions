@@ -13,7 +13,7 @@ Maak eerst een sectie voor elke gezichtsuitdrukking op de webpagina.
 
 \--- task ---
 
-Zoek de opmerking `<!-- Plaats de eerste tekening en instructies hier --> `.
+Zoek de opmerking `<!-- De eerste tekening en instructies komen hier -->`.
 
 Voeg de `<section></section>` tags toe voor je eerste tekening en instructie-inhoud.
 
@@ -141,7 +141,7 @@ De tag `<strong>` maakt belangrijke tekst **vetgedrukt**.
 
 \--- task ---
 
-Voeg '<strong>' tags toe rond het woord 'liefde':
+Voeg '<strong>' tags toe rond het woord 'verliefd':
 
 ## --- code ---
 
@@ -168,7 +168,7 @@ line_highlights: 42
 
 **Test:** Klik op de **Run** knop.
 
-De instructies verschijnen onder je afbeelding en het woord **liefde** is vetgedrukt.
+De instructies verschijnen onder je afbeelding en het woord **verliefd** is vetgedrukt.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 --- /task ---

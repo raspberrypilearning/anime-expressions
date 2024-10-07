@@ -134,7 +134,7 @@ line_highlights: 29
 
 \--- /task ---
 
-De `tertiary` class stelt een extra kleur combinatie goed combineert met de kleuren in de `primary` en `secundary` classes.
+De `tertiary` class stelt een extra kleur combinatie die goed combineert met de kleuren in de `primary` en `secundary` classes.
 
 \--- task ---
 

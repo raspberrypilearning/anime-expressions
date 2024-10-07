@@ -6,7 +6,7 @@
 
 CSS-classes kunnen op HTML-code worden toegepast om te beslissen hoe de inhoud in de webbrowser moet verschijnen.
 
-Hieronder vind je wat CSS-code voor het opmaken van een subkop. Welke regel code zou je veranderen om de ondertitel aan de rechterkant weer te geven?
+Hieronder vind je wat CSS-code voor het opmaken van een subkop. Welke regel code zou je veranderen om de subkop aan de rechterkant weer te geven?
 
 ## --- code ---
 

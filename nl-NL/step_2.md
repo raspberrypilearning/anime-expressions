@@ -94,7 +94,7 @@ line_highlights: 30
 
 \--- task ---
 
-Voeg de tekst `Teken anime met me` toe tussen de twee `<h1>` tags.
+Voeg de tekst `Teken anime met mij` toe tussen de twee `<h1>` tags.
 
 ## --- code ---
 

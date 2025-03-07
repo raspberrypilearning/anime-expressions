@@ -32,7 +32,7 @@ line_number_start: 1
 line_highlights: 4
 -------------------------------------------------------
 
-/\* Candy colour palette and fonts \*/
+/\* Palette di colori pastello e font \*/
 
 :root {
 \--primary: #ebeaeb;

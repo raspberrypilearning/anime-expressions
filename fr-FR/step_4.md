@@ -24,7 +24,8 @@ Chaque **règle** en CSS est composée de deux parties : le **sélecteur** et l
 Le **sélecteur** est la partie du HTML que tu souhaites styliser. Dans cet exemple, il s'agit de 'h1'.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+  ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -34,7 +35,8 @@ Le **sélecteur** est la partie du HTML que tu souhaites styliser. Dans cet exem
 La **déclaration** est entre accolades `{}`. Elle donne des instructions sur les styles à utiliser.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -187,3 +189,4 @@ Regarde ta page web et assure-toi que le texte 'Expressions faciales' est centr�
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
+

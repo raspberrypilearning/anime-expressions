@@ -24,7 +24,8 @@ Every **rule** in CSS is made up of two parts: the **selector** and the **declar
 The **selector** is the part of HTML that you want to style. In this example it is `h1`.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+  ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -34,7 +35,8 @@ The **selector** is the part of HTML that you want to style. In this example it 
 The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -187,3 +189,4 @@ Look at your webpage and make sure the 'Facial expressions' text is centred.
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
+

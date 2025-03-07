@@ -24,7 +24,8 @@ Elke **regel** in CSS bestaat uit twee delen: de **selector** en de **verklaring
 De **selector** is het deel van HTML dat je wilt opmaken. In dit voorbeeld is het `h1`.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+  ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -34,7 +35,8 @@ De **selector** is het deel van HTML dat je wilt opmaken. In dit voorbeeld is he
 De **declaration** staat tussen accolades `{}`. Het geeft instructies over de stijlen die gebruikt moeten worden.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
-<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 <span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
@@ -187,3 +189,4 @@ Check je webpagina om te controleren dat de tekst 'Gezichtsuitdrukkingen' gecent
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- /task ---
+

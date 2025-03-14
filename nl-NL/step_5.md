@@ -193,7 +193,7 @@ line_highlights: 40
 ---
     <!-- Plaats de eerste tekening en instructies hier -->
     <section class="wrap">
-      <img src="love.png" alt="The love facial expression.">
+      <img src="love.png" alt="De liefdes gezichtsuitdrukking.">
       <p>Om je anime-personage eruit te laten zien alsof hij of zij <strong>verliefd</strong> is, vervang je de ogen door twee ronde harten. Je kunt nog drie harten toevoegen voor een leuk effect.</p>
     </section>
 
@@ -217,7 +217,7 @@ line_highlights: 41
 ---
     <!-- Plaats de eerste tekening en instructies hier -->
     <section class="wrap">
-      <img class="dashed-border" src="love.png" alt="The love facial expression.">
+      <img class="dashed-border" src="love.png" alt="De liefdes gezichtsuitdrukking.">
       <p>Om je anime-personage eruit te laten zien alsof hij of zij <strong>verliefd</strong> is, vervang je de ogen door twee ronde harten. Je kunt nog drie harten toevoegen voor een leuk effect.</p>
     </section>
 
@@ -241,7 +241,7 @@ line_highlights: 41
 ---
     <!-- Plaats de eerste tekening en instructies hier -->
     <section class="wrap">
-      <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
+      <img class="dashed-border rounded" src="love.png" alt="De liefdes gezichtsuitdrukking.">
       <p>Om je anime-personage eruit te laten zien alsof hij of zij <strong>verliefd</strong> is, vervang je de ogen door twee ronde harten. Je kunt nog drie harten toevoegen voor een leuk effect.</p>
     </section>
 

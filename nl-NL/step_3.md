@@ -93,7 +93,7 @@ line_highlights: 41
 ---   
       <!-- Plaats de eerste tekening en instructies hier -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="De liefdes gezichtsuitdrukking.">
       </section> 
 
 --- /code ---
@@ -117,7 +117,7 @@ line_highlights: 42
 ---   
       <!-- Plaats de eerste tekening en instructies hier -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="De liefdes gezichtsuitdrukking.">
         <p>Om je anime-personage eruit te laten zien alsof hij of zij <strong>verliefd</strong> is, vervang je de ogen door twee ronde harten.</p>
       </section> 
 
@@ -141,7 +141,7 @@ line_highlights: 42
 ---   
       <!-- Plaats de eerste tekening en instructies hier -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="De liefdes gezichtsuitdrukking.">
         <p>Om je anime-personage eruit te laten zien alsof hij of zij <strong>verliefd</strong> is, vervang je de ogen door twee ronde harten.</p>
       </section> 
 

@@ -141,7 +141,7 @@ line_highlights: 42
 ---   
       <!-- Le premier dessin et les instructions vont ici -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="L’expression du visage amoureux.">
         <p>Pour que ton personnage d'anime semble être <strong>amoureux</strong>, remplace les yeux par deux cœurs arrondis. Tu peux ajouter trois cœurs supplémentaires à l'intérieur pour un effet amusant.</p>
       </section> 
 

@@ -1,29 +1,29 @@
-title: Anime expressions
+title: Вирази обличчя аніме
 hero_image: images/banner.png
-description: Create and style a webpage for an anime drawing tutorial.
-meta_title: Learn CSS | Learn web development | Anime expressions
-meta_description: Learn web development for beginners with the Raspberry Pi Foundation. Learn CSS and use styles to apply layouts, colour palettes, and fonts to your webpage.
+description: Створи й додай стилі до вебсторінки з уроком малювання аніме.
+meta_title: Вивчай CSS | Навчайся веброзробці | Вирази обличчя аніме
+meta_description: Ознайомся з веброзробкою разом із Raspberry Pi Foundation. Вивчай CSS і використовуй стилі для додавання макетів, палітр кольорів і шрифтів до своєї вебсторінки.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2022-05-11"
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Start your webpage
+    title: Почни створювати вебсторінку
   - 
-    title: Add a facial expression
+    title: Додай вираз обличчя
     completion: engaged
   - 
-    title: Style your page
+    title: Додай стиль до своєї сторінки
   - 
-    title: Style with classes
+    title: Стиль із класами
   - 
-    title: Colours and fonts
+    title: Кольори та шрифти
     completion: internal
   - 
-    title: Reflection
+    title: Поміркуй
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -31,6 +31,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Вдоскональ свій проєкт
   - 
-    title: What next?
+    title: Що далі?

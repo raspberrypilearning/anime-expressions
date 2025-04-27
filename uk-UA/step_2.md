@@ -1,75 +1,75 @@
-## Start your webpage
+## Почни створювати вебсторінку
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header and an introduction to your anime webpage.
+У цьому кроці ти додаси заголовок і вступ до своєї аніме-сторінки.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
+У HTML ти можеш вводити слова безпосередньо в код, і вони будуть відображатися на вебсторінці без форматування.
 
 \--- task ---
 
-Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Відкрий [стартовий проєкт «Вирази обличчя аніме»](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Your starter project contains some HTML that you will learn more about throughout the project.
+У цьому стартовому проєкті вже міститься невеликий код HTML, про який ти дізнаєшся більше, виконуючи проєкт.
 
-To make your code easier to read, you can collapse the parts of it that you don't need right now.
+Щоб код було легше читати, ти можеш згорнути частини, які тобі наразі не потрібні.
 
-Click on the small triangle next to line 3 to collapse the `<head>`.
+Натисни на маленький трикутник поряд з рядком 3, і елемент `<head>` згорнеться.
 
 ![alt=""](images/step_2_collapse.gif)
 
 \--- /task ---
 
-### Add a header
+### Додай заголовок
 
-Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**.
+Зазвичай сторінка складається з трьох частин: **заголовка**, **основного** вмісту та **нижнього колонтитула**.
 
 \--- task ---
 
-You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser.
+Щоб упорядкувати свій код і допомогти іншим людям краще його зрозуміти, використовуй коментарі. Браузер не звертає увагу на коментарі.
 
-**Find** the comment `<!-- The page header code goes here -->`.
+**Знайди** коментар `<!-- Тут буде заголовок сторінки -->`.
 
 \--- collapse ---
 
 ---
 
-## title: I can't find the comment
+## title: Не можу знайти коментар
 
-Have you accidentally collapsed the `<body>` or another section of your webpage?
+Можливо, ти випадково згорнув/-ла секцію `<body>` або якусь іншу секцію своєї сторінки?
 
-Click on the ▸ triangle to expand the code.
+Натисни на трикутник ▸, щоб розгорнути код.
 
 \--- /collapse ---
 
 \--- /task ---
 
-HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
+Документи HTML містять різні **елементи**, зокрема абзаци, заголовки й зображення. Елемент зазвичай складається з початкового тегу, якогось вмісту й кінцевого тегу.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`.
+**Тег** повідомляє браузеру, що це за елемент. Теги починаються й закінчуються кутовими дужками `<>`. Кінцевий тег також містить скісну риску `/`.
 
 \--- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
+Під коментарем знайди теги `<header>` і `</header>`. Усе, що ти напишеш між цими тегами, відображатиметься в заголовку вебсторінки та матиме стиль заголовка.
 
 \--- /task ---
 
-A `<h1>` tag is used to say that this content is the largest header on the page.
+Тег `<h1>` означає, що цей вміст є найбільшим заголовком на сторінці.
 
 \--- task ---
 
-Add `<h1></h1>` **tags** inside your `<header></header>` tags.
+Додай **теги** `<h1></h1>` всередину тегів `<header></header>`.
 
-**Tip:** When you add a start tag, the end tag is automatically added so you don't need to type it.
+**Порада:** коли ти додаєш початковий тег, кінцевий тег додається автоматично, тому вводити його не потрібно.
 
 ## --- code ---
 
@@ -88,13 +88,13 @@ line_highlights: 30
 
 \--- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.
+**Порада:** радимо додавати пробіли на початку рядків, щоб робити відступ у коді. У HTML код працюватиме і без відступів, але з відступами його легше сприймати.
 
 \--- /task ---
 
 \--- task ---
 
-Add the text `Draw anime with me` between the two `<h1>` tags.
+Додай текст «Малюй аніме зі мною» між двома тегами `<h1>`.
 
 ## --- code ---
 
@@ -117,25 +117,25 @@ line_highlights: 30
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-The output will appear on the right:
+Результат зʼявиться праворуч:
 
-![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
+Кнопка Run («Запустити») підсвічена. У полі виведення даних видно напис «Малюй аніме зі мною». ](images/run_h1.png)
 
-You will see that the text inside the `<h1>` tags is styled as bold with a large font.
+Ти побачиш, що текст всередині тегів `<h1>` оформлений великим жирним шрифтом.
 
 \--- /task ---
 
-### Add the first section in your main content
+### Додай перший розділ в основний вміст
 
-Any main content should be placed between the `<main>` tags. On your webpage, the main content is broken down into **sections**.
+Основний вміст слід розміщувати між тегами `<main>`. На твоїй сторінці основний вміст розбито на **секції**.
 
 \--- task ---
 
-Your webpage needs an introduction section. Add `<section></section>` tags between the `<main>` tags.
+Для твоєї вебсторінки потрібна вступна секція. Додай теги `<section></section>` між тегами `<main>`.
 
-**Tip:** As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines.
+**Порада:** впродовж створення вебсторінки ти будеш додавати інші теги всередину цієї секції. Розташуй курсор між тегами `<section>` і `</section>`, а потім натисни Enter на клавіатурі, щоб розділити теги на кілька рядків.
 
 ## --- code ---
 
@@ -161,9 +161,9 @@ line_highlights: 35-37
 
 \--- task ---
 
-You are now going to add a subheading within the section that you have just created.
+Тепер ти додаси підзаголовок у щойно створену секцію.
 
-Add the subheading tags `<h2>` between the `<section>` tags.
+Додай теги підзаголовків `<h2>` між тегами `<section>`.
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_highlights: 36
 
 \--- task ---
 
-Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
+Тепер введи текст підзаголовка `Вирази обличчя` між тегами `<h2>`. Твій код повинен виглядати так:
 
 ## --- code ---
 
@@ -201,12 +201,12 @@ line_highlights: 36
 --------------------------------------------------------
 
 ```
-<!-- The main content for the webpage goes between the main tags -->
+<!-- Між тегами main розміщуємо основний вміст сторінки -->
 <main>
   <section>
-    <h2>Facial expressions</h2>
+    <h2>Вирази обличчя</h2>
   </section>
-    <!-- The first drawing and instructions go here --> 
+    <!-- Тут буде перший малюнок і вказівки --> 
 ```
 
 \--- /code ---
@@ -215,17 +215,17 @@ line_highlights: 36
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
+Зверни увагу, що текст на твоїй вебсторінці оформлений жирним шрифтом і трохи менший за великий заголовок. Це тому, що `<h2>` є меншим заголовком, ніж `<h1>`.
 
 \--- /task ---
 
 \--- task ---
 
-You are now going to add a paragraph of text as an introduction to your anime webpage.
+Тепер ти додаси абзац тексту як вступ до своєї аніме-сторінки.
 
-Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
+Під кодом заголовка `<h2>` додай теги абзацу `<p>`.
 
 ## --- code ---
 
@@ -237,13 +237,13 @@ line_highlights: 37
 --------------------------------------------------------
 
 ```
-<!-- The main content for the webpage goes between the main tags -->
+<!-- Між тегами main розміщуємо основний вміст сторінки -->
 <main>
   <section>
-    <h2>Facial expressions</h2>
+    <h2>Вирази обличчя</h2>
     <p></p>
   </section>
-    <!-- The first drawing and instructions go here --> 
+    <!-- Тут буде перший малюнок і вказівки --> 
 ```
 
 \--- /code ---
@@ -252,13 +252,13 @@ line_highlights: 37
 
 \--- task ---
 
-Between the `<p>` tags, you need to add in this introductory text:
+Між тегами `<p>` потрібно додати цей вступний текст:
 
-`Take a look at these facial expressions and try them in your own drawings.`
+`Подивися на ці вирази обличчя та спробуй повторити їх у своїх малюнках.`
 
-**Tip:** You can highlight the text above and then right-click (tap and hold on mobile) and choose 'Copy'. Then click between the `<p>` tags in your code and then right-click and choose 'Paste'.
+**Порада:** виділи текст вище, а потім клацни правою кнопкою миші (натисни й утримуй на мобільному пристрої) і вибери «Копіювати». Потім клацни між тегами `<p>` у своєму коді, клацни правою кнопкою миші та вибери «Вставити».
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
 ## --- code ---
 
@@ -270,13 +270,13 @@ line_highlights: 37
 --------------------------------------------------------
 
 ```
-<!-- The main content for the webpage goes between the main tags -->
+<!-- Між тегами main розміщуємо основний вміст сторінки -->
 <main>
   <section>
-    <h2>Facial expressions</h2>
-    <p>Take a look at these facial expressions and try them in your own drawings.</p>
+    <h2>Вирази обличчя</h2>
+    <p>Подивися на ці вирази обличчя та спробуй повторити їх у своїх малюнках.</p>
   </section>
-    <!-- The first drawing and instructions go here --> 
+    <!-- Тут буде перший малюнок і вказівки --> 
 ```
 
 \--- /code ---
@@ -285,11 +285,11 @@ line_highlights: 37
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-The text appears under the subheading and uses the default paragraph styling.
+Текст відображається під підзаголовком і використовує стандартний стиль абзацу.
 
-Well done! Your page now has a header, a subheading, and an introductory paragraph.
+Молодець! Тепер твоя сторінка має заголовок, підзаголовок і вступний абзац.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -297,17 +297,17 @@ Well done! Your page now has a header, a subheading, and an introductory paragra
 
 \--- /task ---
 
-## Save your project
+## Збережи свій проєкт
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Проєкт зберігається автоматично. Щоб побачити свої зміни, знову перейди за посиланням на стартовий проєкт у тому ж браузері.
 
 \--- collapse ---
 
 ---
 
-## title: I accidentally closed my project
+## title: Я випадково закрив/-ла проєкт
 
-Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Натисни посилання [стартового проєкту](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}, і він знову відкриється. Щоб побачити свої зміни, ти маєш використовувати той же браузер, що і раніше.
 
 \--- /collapse ---
 
@@ -315,8 +315,8 @@ Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-
 
 ---
 
-## title: If you have a Code Editor account
+## title: Якщо у тебе є обліковий запис редактора Code Editor
 
-Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
+Натисни кнопку Save («Зберегти»), щоб створити копію проєкту в своєму обліковому записі Raspberry Pi.
 
 \--- /collapse ---

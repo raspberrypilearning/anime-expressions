@@ -1,18 +1,18 @@
-The main content for the webpage goes between the main tags
+Між тегами main розміщуємо основний вміст сторінки
 
-Webpage footer
+Нижній колонтитул сторінки
 
-Title shown in web browsers
+Заголовок, який відображається у браузерах
 
-Import fonts from Google
+Імпортуємо шрифти з Google
 
-The first drawing and instructions goes here
+Тут буде перший малюнок і вказівки
 
-The second drawing and instructions goes here
+Тут буде другий малюнок і вказівки
 
-The third drawing and instructions goes here
+Тут буде третій малюнок і вказівки
 
-Footer code goes here
+Тут буде код нижнього колонтитула
 
-A five-pointed yellow star.
+Жовта п'ятикутна зірка.
 

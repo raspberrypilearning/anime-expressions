@@ -1,44 +1,43 @@
-## Introduction
+## Вступ
 
 \--- collapse ---
 
 ---
 
-## title: New to the Raspberry Pi Editor?
+## title: Вперше користуєшся редактором Raspberry Pi?
 
-Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+Переглянь наш [довідник для початківців](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
 
 \--- /collapse ---
 
-In this project, you will use HTML and CSS to create and style a webpage for an anime drawing tutorial.
+У цьому проєкті ти створиш та оформиш вебсторінку з уроком малювання аніме, використовуючи HTML і CSS.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.
+<span style="color: #0faeb0">**Мову Hypertext Markup Language (HTML)**</span> (вимовляється «ейч-ті-ем-ел») використовують для створення структури вебсторінки. <span style="color: #0faeb0">**Мова Cascading Style Sheets (CSS)**</span> (вимовляється «сі-ес-ес») описує, як саме має виглядати сторінка. Без CSS сторінки виглядали б зовсім нецікаво.
 </p>
 
-You will:
+У цьому проєкті ти:
 
-- Use **HTML** tags to structure a webpage
-- Use **CSS** styles to apply layouts, colour palettes, and fonts to your webpage
-- Add images and text content to your webpage
+- Використаєш теги **HTML** для створення структури вебсторінки.
+- Використаєш стилі **CSS**, щоб додати макети, палітри кольорів і шрифти до своєї сторінки.
+- Додаси до своєї сторінки зображення та текст.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are hundreds of millions of active <span style="color: #0faeb0">**webpages**</span>. If you use HTML with CSS, it can help your webpage attract people's attention. 
+В інтернеті існують сотні мільйонів активних <span style="color: #0faeb0">**вебсторінок**</span>. Використовуючи HTML разом із CSS, ти зможеш привернути увагу людей саме до своєї сторінки. 
 </p>
 
-**Tip:** Drag the scroll bar down to see the full webpage.
+**Порада:** перетягни смугу прокрутки вниз, щоб побачити всю вебсторінку.
 
 \--- no-print ---
 \--- task ---
 
-### Try it
+### Спробуй
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Explore the anime expressions webpage. 
+<div style="flex-basis: 175px; flex-grow: 1">Розглянь сторінку з виразами обличчя аніме.
 
-- What do you like about it?
-- What would you improve?
+- Що тобі в ній подобається?
+- Що тобі хочеться змінити?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>

@@ -1,23 +1,23 @@
-## Upgrade your project
+## Вдоскональ свій проєкт
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more steps to the tutorial and customise the style to your preferences. 
+Якщо у тебе є час, ти можеш додати більше кроків до свого уроку та налаштувати стиль відповідно до своїх уподобань. 
 </div>
 </div>
 
 \--- task ---
 
-At the moment your tutorial only has one step! The starter project includes images for additional steps.
+Поки що у твоєму уроці лише один крок! У початковому проєкті є зображення для наступних кроків.
 
-There are images called `happy.png` and `annoyed.png`.
+Це зображення під назвою `happy.png` («радісний») і `annoyed.png` («роздратований»).
 
-You can use these descriptions or write your own:
+Ти можеш використати ці описи або написати власні:
 
-- **Happy**: 'A happy expression in anime uses two thick curved lines for the eyes and a wide mouth to create a happy, laughing face.'
-- **Annoyed**: 'An annoyed facial expression can be made by pointing the eyebrows down towards the centre. The eyes use a thick line with a semicircle underneath. The mouth is slightly curved.'
+- **Радісний**. «Для радісного виразу обличчя в аніме намалюй очі у вигляді двох товстих дуг і широкий рот. Так у тебе вийде радісне, усміхнене обличчя».
+- **Роздратований**. «Щоб зробити роздратований вираз обличчя, проведи брови вниз до центру.  Замість очей — дві товсті лінії з півколами. Рот трохи вигнутий».
 
-Create a new `<section>` for each new tutorial step. Look at the section you have already created to remind yourself of the HTML tags and CSS classes you need to use.
+Для кожного наступного кроку створи нову секцію `<section>`. Щоб згадати теги HTML і класи CSS, переглянь уже створену попередню секцію.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -28,17 +28,17 @@ Create a new `<section>` for each new tutorial step. Look at the section you hav
 
 \--- task ---
 
-You can also change:
+Ось що ти можеш зробити:
 
-- The colour palette to `default` or `candy`.
+- Змінити палітру кольорів на стандартну (`default`) або пастельну (`candy`).
 
-- The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use.
+- Змінити кольори у файлі CSS палітри. **Порада:** ти можеш знайти [нові шістнадцяткові кольори](https://rpf.io/colours){:target="_blank"}, щоб замінити наявні у файлі.
 
-- Your webpage to use colour names, such as 'teal' and 'coral'.
+- Використовувати англійські назви кольорів на своїй сторінці, як-от teal (бірюзовий) і coral (кораловий).
 
-- The size of the fonts used. `1rem` is the normal font size. `3rem` is three times as big.
+- Змінити розмір шрифтів. `1rem` — звичайний розмір шрифту. `3rem` — втричі більший.
 
-- The border. Try different border effects in the `dashed-border` style or switch to the `solid-border` class.
+- Змінити межі. Спробуй різні ефекти меж у стилі «пунктирна межа» (`dashed-border`) або використай клас «суцільна межа» (`solid-border`).
 
 \--- /task ---
 
@@ -46,9 +46,9 @@ You can also change:
 
 ---
 
-## title: Upgraded project
+## title: Удосконалений проєкт
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
+Переглянь [удосконалений проєкт тут](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
 
 \--- /collapse ---
 

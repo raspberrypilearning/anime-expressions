@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-На цьому кроці додай перший малюнок та вказівки до своєї сторінки.</div>
+На цьому кроці додай перший малюнок та вказівки до своєї сторінки.
 <div>
 <iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>

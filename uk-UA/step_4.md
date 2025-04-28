@@ -1,39 +1,38 @@
-## Style your page
+## Додай стиль до своєї сторінки
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage. 
+Ми використали мову HTML, щоб додати до твоєї вебсторінки теги.
 
-Now it is time to use CSS to add styles to your page. 
+Тепер час використати CSS і додати до неї стилі.
 
-This step shows you how to change the colours, fonts, and layout on your webpage.   
-  
+На цьому кроці ти дізнаєшся, як змінити кольори, шрифти і макет своєї вебсторінки.
+
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS, вимовляється «сі-ес-ес»)**</span> — це мова програмування, за допомогою якої ти вкажеш браузеру, як саме має виглядати твоя сторінка (наприклад, розміщення елементів, кольори й шрифти). Це називається «стилем».
 </p>
 
-Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
+Кожне **правило** в CSS складається з двох частин: **селектора** й **оголошення**.
 
-The **selector** is the part of HTML that you want to style. In this example it is `h1`.
+**Селектор** – це частина HTML, до якої ти хочеш додати стиль. У цьому прикладі це `h1`.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
   <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
-><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
   color: blue;
   font-size: 12px;
 }</span></pre>
 </div>
-
 <br/>
 
-The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used.
+**Оголошення** міститься у фігурних дужках `{}`. Воно вказує, які саме стилі слід використовувати.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
 <pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
@@ -42,110 +41,131 @@ The **declaration** is in curly brackets `{}`. It gives instructions of the styl
   font-size: 12px;
 }</span></pre>
 </div>
-
 <br/>
 
-### Link the CSS file
+### Посилання на файл CSS
 
-The starter project includes CSS files, which contain a set of useful rules.
+Початковий проєкт містить файли CSS з набором корисних правил.
 
 --- task ---
 
-Unfold the `<head>` section of your code so that you can view the code inside it.
+Розгорни секцію `<head>` у своєму коді, щоб можна було її переглянути.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
+![Мишка клацає маленький трикутник поруч із номером у рядку 3 і згортає код секції head.](images/step_2_collapse.gif)
 
 --- /task ---
 
 --- task ---
 
-At the bottom of your `<head></head>` section, there are links to two CSS style sheets that are currently commented out so that they are ignored by the web browser.
+Унизу секції `<head></head>` є посилання на дві таблиці стилів CSS, які поки що позначені символами коментарів, тому браузер їх ігнорує.
 
-Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
+Видали стрілки `<!--` і `-->` з початку та кінця обох рядків коду посилання:
 
-**Before**
+**До**
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 21
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 21
 line_highlights: 23-24
 ---   
-    <!-- Include CSS style file -->
+    <!-- Посилання на файл стилів CSS--->
 
     <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
     <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
+
   </head>
 
 --- /code ---
 
-**After**
+**Після**
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 21
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 21
 line_highlights: 23-24
 ---   
-    <!-- Include CSS style file -->
+    <!-- Посилання на файл стилів CSS -->
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="candy.css" rel="stylesheet" type="text/css" />
   </head>
 
---- /code --- --- /task ---
+--- /code ---
+--- /task ---
 
 --- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-HTML elements have default browser styles that you have seen as you have written your HTML code.
+Елементи HTML мають стандартні стилі браузера, які ми бачили під час написання коду HTML.
 
-Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed.
+Подивись на свою сторінку у правій частині екрана. Зверни увагу, що стилі та макет сторінки тепер інші.
 
-**Tip:** To collapse the `<head>` section after you have seen the change, click the arrow next to it.
+**Порада:** щоб згорнути секцію `<head>` після того, як ти побачиш зміни, натисни на стрілку поруч із нею.
 
 --- /task ---
 
 --- task ---
 
-Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
+Клацни значок `Project files` (файли проєкту) в редакторі коду, а потім вибери файл style.css. Він відкриється у новій вкладці.
 
-![The Code Editor with the Project files icon highlighted](images/select-file.png)
+![Редактор коду Code Editor з виділеним значком файлів проєкту](images/select-file.png)
 
-![The Code Editor with the style.css file highlighted](images/select-style.png)
+![Редактор коду Code Editor з виділеним файлом style.css](images/select-style.png)
 
-This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+Цей файл CSS містить увесь код CSS для твого проєкту. Ти дізнаєшся про основні частини цього файлу CSS, продовжуючи створювати свою вебсторінку.
 
-When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag.
+Коли ти додаєш стиль CSS до **елемента**, то цей стиль застосовується до кожного елемента на сторінці, який має той самий тег.
 
-**Find:** Scroll down and find the rule that controls the style of the `<h2>`.
+**Знайди:** прокрути сторінку вниз і знайди правило, яке керує стилем `<h2>`.
 
 --- code ---
 ---
-language: css filename: style.css line_numbers: true line_number_start: 109
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 109
 line_highlights: 109-113
----
+---  
 
-h2 { font: var(--title-font); /* Font style stored in the title-font variable */ text-align: left; /* Align the text */ padding: 1.5rem; /* Add some space all around the heading */ }
+h2 {
+  font: var(--title-font); /* Стиль шрифту зберігається у змінній title-font */
+  text-align: left; /* Вирівняти текст */
+  padding: 1.5rem; /* Додай трохи місця навколо заголовка */
+}
 
 --- /code ---
 
-This rule states which font should be used, how the text should be aligned, and how much space should be around the header.
+Це правило визначає, який шрифт слід використовувати, як має бути вирівняний текст і скільки місця має бути навколо заголовка.
 
 --- /task ---
 
 --- task ---
 
-At the moment, the `<h2>` heading is aligned to the left.
+Наразі заголовок `<h2>` вирівняно по лівій стороні.
 
-Change the `text-align` property of the `h2` rule to `center`.
+Зміни властивість `text-align` правила `h2` на `center`.
 
 --- code ---
 ---
-language: css filename: style.css line_numbers: true line_number_start: 109
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 109
 line_highlights: 111
----
+---  
 
-h2 { font: var(--title-font); /* Font style stored in the title-font variable */ text-align: center; /* Align the text */ padding: 1.5rem; /* Add some space all around the heading */ }
+h2 {
+  font: var(--title-font); /* Стиль шрифту зберігається у змінній title-font */
+  text-align: center; /* Вирівняти текст*/
+  padding: 1.5rem; /* Додай трохи місця навколо заголовка */
+}
 
 --- /code ---
 
@@ -153,13 +173,13 @@ h2 { font: var(--title-font); /* Font style stored in the title-font variable */
 
 --- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Look at your webpage and make sure the 'Facial expressions' text is centred.
+Подивися на свою сторінку та переконайся, що текст «Вирази обличчя» розміщено по центру.
 
-**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling. 
+**Налагодження:** перевір написання слова `center`. Воно має виглядати як `center`, а не centre.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
 

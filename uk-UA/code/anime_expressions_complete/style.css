@@ -35,24 +35,24 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Зроби так, щоб вміст заповнив сторінку, і тоді нижній колонтитул буде в самому низу */
+  min-height: 100vh; /* Зробити так, щоб вміст заповнив сторінку, і тоді нижній колонтитул буде в самому низу */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* додай фонове зображення до основної частини */
+/* Додати фонове зображення до основної частини */
 
 body {
   /*background-image: url('name.jpg');*/ /* Прибери позначки коментаря і зміни назву файлу, щоб додати фонове зображення */
-  /*background-repeat: repeat;*/ /* Зроби зображення повторюваним */
-  /*background-size: cover;*/ /* Зроби так, щоб зображення заповнило весь контейнер */
+  /*background-repeat: repeat;*/ /* Зробити зображення повторюваним */
+  /*background-size: cover;*/ /* Зробити так, щоб зображення заповнило весь контейнер */
 }
 
 /* Основний вміст сторінки між верхнім та нижнім колонтитулами */
 main {
-  background: var(--primary); /* Задай колір фону */
-  color: var(--onprimary); /* Задай колір тексту */
+  background: var(--primary); /* Задати колір фону */
+  color: var(--onprimary); /* Задати колір тексту */
   margin: 0 auto; /* Розміщувати по центру, якщо браузер заширокий */
   min-width: 25rem; /* Щоб вміст не стискався по горизонталі */
   max-width: 70rem; /*  Щоб вміст не розтягувався по горизонталі */
@@ -83,14 +83,14 @@ section {
 /* Стилі меж */
 
 .border-bottom {
-  border-bottom: 20px solid var(--detail); /* Додай суцільну межу */
+  border-bottom: 20px solid var(--detail); /* Додати суцільну межу */
 }
 
 .border-top {
-  border-top: 10px solid var(--detail2); /* Додай суцільну лінію над нижнім колонтитулом */
+  border-top: 10px solid var(--detail2); /* Додати суцільну лінію над нижнім колонтитулом */
 }
 
-/* Додай ефект прозорості */
+/* Додати ефект прозорості */
 
 .transparent {
   opacity: 0.95;
@@ -108,11 +108,11 @@ h1 {
 
 h2 {
   font: var(--title-font); /* Стиль шрифту зберігається у змінній title-font */
-  text-align: center; /* Вирівняй текст */
-  padding: 1.5rem; /* Додай трохи місця навколо заголовка */
+  text-align: center; /* Вирівняти текст */
+  padding: 1.5rem; /* Додати трохи місця навколо заголовка */
 }
 
-/* Виділіть ключові слова жирним шрифтом і альтернативним кольором тексту */
+/* Виділити ключові слова жирним шрифтом і альтернативним кольором тексту */
 
 strong {
   color: var(--detail2); /* Колір тексту зберігається у змінній caption */
@@ -139,7 +139,7 @@ p {
 a:link,
 a:visited {
   font-weight: bold;
-  color: inherit; /* Використати колір батьківського елементу */
+  color: inherit; /* Використовувати колір батьківського елементу */
 }
 
 .xcenter {
@@ -152,16 +152,16 @@ a:visited {
   flex-flow: column;
 }
 
-/* Стиль тільки для класу .wrap */
+/* Стилі тільки для класу .wrap */
 
 .wrap {
-  /* Make content wrap over multiple rows */
+  /* Зробити так, щоби вміст переносився на декілька рядків */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  gap: 0rem 0rem; /* горизонтальний і вертикальний розрив */ 
+  gap: 0rem 0rem; /* Горизонтальний і вертикальний розрив */ 
 }
 
 /* Для створення красивих полів */
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #888888; /* розмір тіні, розмиття, поширення та колір справа та знизу */
+   box-shadow: 5px 5px 3px 0px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* розмір тіні, розмиття, поширення та колір справа та знизу */
+  box-shadow: 8px 8px 10px 4px #888888; /* Розмір, розмиття, поширення та колір тіні справа та знизу */
   transform: rotate(3deg);
 }

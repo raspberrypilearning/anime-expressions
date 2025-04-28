@@ -1,28 +1,28 @@
-## Reflection
+## Поміркуй
 
-Well done. You have created a webpage using HTML and CSS.
+Молодець! Ти створив/-ла вебсторінку за допомогою HTML і CSS.
 
-Answer the three questions below to reflect on what you've learnt.
+Поміркуй над вивченим і дай відповіді на ці три запитання.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Ти побачиш пояснення після кожної відповіді. Це завдання можна виконувати скільки завгодно разів.
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-**Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
+**Мову Hypertext Markup Language (HTML)** використовують для створення структури вебсторінки. Який елемент у цьому коді HTML є **тегом**?
 
 --- code ---
 ---
-language: html filename: index.html
+language: html
+filename: index.html
 line_numbers: false
----
-<img src="star.png" alt="A five-pointed yellow star." />
+---   
+<img src="star.png" alt="Жовта п'ятикутна зірка."> 
 
 --- /code ---
-
 
 --- choices ---
 
@@ -30,7 +30,7 @@ line_numbers: false
 
   --- feedback ---
 
-  Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text.
+  Правильно! У мові HTML теги знаходяться в кутових дужках. Тег `<img>` використовується для додавання зображення з альтернативним текстом.
 
   --- /feedback ---
 
@@ -38,17 +38,17 @@ line_numbers: false
 
   --- feedback ---
 
-Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
+Не зовсім, це **атрибут**. Тут використовується атрибут джерела. Він каже браузеру, де зберігається зображення.
 
-  --- /feedback ---
+--- /feedback ---
 
 - ( ) `alt`
 
   --- feedback ---
 
-Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be.
+Спробуй ще раз. Це ідентифікатор атрибута, який повідомляє браузеру, яким має бути **альтернативний текст** (alt).
 
-  --- /feedback ---
+--- /feedback ---
 
 --- /choices ---
 

@@ -1,36 +1,41 @@
-## Style with classes
+## Стиль із класами
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page. 
+Цей крок показує, як додати класи, щоб налаштувати стилі на твоїй сторінці.
 
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
+Якщо ти хочеш застосувати стилі до певних елементів, ти можеш створити **клас** у файлі CSS. Потім ти можеш додати до елемента у своєму HTML-коді фразу `class=` **атрибут**, щоб повідомити браузеру, який стиль слід застосувати.
 
-The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
+Стиль класу замінює будь-який стиль елемента, який уже було застосовано. Зверни увагу, що зміни відбуваються, коли ти додаєш класи до свого коду.
 
 --- task ---
 
-Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
+У файлі CSS є спеціальний клас CSS під назвою `border-bottom` («межа-низ»). Цей клас додає товсту межу суцільного кольору внизу будь-якого елемента HTML, який його використовує.
 
-Go to your `index.html` file and find your `header`.
+Перейди до файлу `index.html` і знайди свій заголовок `header`.
 
-Add `class="border-bottom"` after the word `header` in your `header` tag.
+У тегу `header` додай `class="border-bottom"` після слова `header`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 27
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 27
 line_highlights: 29
 ---
+  <body>
     <!-- The page header code goes here -->
     <header class="border-bottom">
-# Draw anime with me</header></p>
+      <h1>Draw anime with me</h1>
+    </header>
 
 --- /code ---
 
@@ -38,34 +43,40 @@ line_highlights: 29
 
 --- task ---
 
-Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer.
+Додай клас `border-top` («межа-верх») до коду `footer`, щоб отримати товсту межу у верхній частині нижнього колонтитула.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 55
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 55
 line_highlights: 56
 ---
-    <!-- Webpage footer -->
+    <!-- Нижній колонтитул сторінки -->
     <footer class="border-top">
 
 --- /code ---
 
 --- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content.
+Клас `primary` («основний») встановлює контрастний фон і колір тексту для більшості основного вмісту.
 
-The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
+Клас `secondary` («вторинний») встановлює додаткову палітру кольорів, яка пасує до кольорів у класі `primary`.
 
 --- task ---
 
-Add the `secondary` class to your `footer` code to apply a different colour background to your footer.
+Додай клас `secondary` до свого коду `footer`, щоб застосувати до нижнього колонтитула фон іншого кольору.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 55
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 55
 line_highlights: 56
 ---
-    <!-- Webpage footer -->
+    <!-- Нижній колонтитул сторінки -->
     <footer class="border-top secondary">
 
 --- /code ---
@@ -74,14 +85,17 @@ line_highlights: 56
 
 --- task ---
 
-Add `class="primary"` to `<main>`.
+Додай `class="primary"` до `<main>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 34
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- Між тегами main розміщуємо основний вміст сторінки -->
     <main class="primary">
 
 --- /code ---
@@ -90,135 +104,145 @@ line_highlights: 34
 
 --- task ---
 
-Add `secondary` to `<header>`.
+Додай клас `secondary` до `<header>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 28
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 28
 line_highlights: 29
 ---
-    <!-- The page header code goes here -->
+    <!-- Тут буде код заголовку сторінки -->
     <header class="border-bottom secondary">
-
 --- /code ---
 
 --- /task ---
 
-The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
+Клас `tertiary` («третинний») встановлює додаткову палітру кольорів, яка пасує до кольорів у класах `primary` і `secondary`.
 
 --- task ---
 
-Add `class="tertiary"` to the **first** `<section>` element.
+Додай `class="tertiary"` до **першого** елемента `<section>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 35
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- Між тегами main розміщуємо основний вміст сторінки -->
     <main class="primary">
-    <section class="tertiary">
-## Facial expressions
-
-<p class="xcenter">
-  Take a look at these facial expressions and try them in your own drawings.
-</p></section>
+      <section class="tertiary">
+        <h2>Вирази обличчя</h2>
+        <p class="xcenter">Подивися на ці вирази обличчя та спробуй повторити їх у своїх малюнках.</p>
+      </section>
 
 --- /code ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+Клас `xcenter` у твоєму файлі CSS вирівнює елементи горизонтально по всій сторінці.
 
 --- /task ---
 
 --- task ---
 
-Add `class="xcenter"` to the `<p>` in the same section.
+Додай `class="xcenter"` до `<p>` у тій же секції.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 33
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
 line_highlights: 37
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- Між тегами main розміщуємо основний вміст сторінки -->
     <main class="primary">
-    <section class="tertiary">
-## Facial expressions
-
-<p class="xcenter">
-  Take a look at these facial expressions and try them in your own drawings.
-</p></section>
+      <section class="tertiary">
+        <h2>Вирази обличчя</h2>
+        <p class="xcenter">Подивися на ці вирази обличчя та спробуй повторити їх у своїх малюнках.</p>
+      </section>
 
 --- /code ---
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+Вебсторінки можна переглядати на багатьох різних пристроях, і вони повинні <span style="color: #0faeb0">**підлаштовуватися**</span> під кожний пристрій. Це означає, що якщо користувач переглядає твою сторінку на мобільному телефоні, вона має підлаштовуватися під менший екран, а якщо він переглядає її на настільному ПК, вона має підлаштовуватися під більший екран. 
 </p>
 
-CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders.
+CSS може змінювати макет сторінки, а також змінювати кольори, шрифти й межі.
 
 --- task ---
 
-Find the **second** `<section>`.
+Знайди **другий** елемент `<section>`.
 
-Add `class="wrap"` to the `<section>` tag.
+Додай `class="wrap"` до тегу `<section>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 39
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 40
 ---
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
-
-![The love facial expression.](love.png)
-
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+    <!-- Тут буде перший малюнок і вказівки -->
+    <section class="wrap">
+      <img src="love.png" alt="Закоханий вираз обличчя.">
+      <p>Щоб твій аніме-персонаж виглядав закоханим заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>
+    </section>
 
 --- /code ---
 
 --- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border.
+Ти також можеш додавати кольорові межі в різних стилях до елементів HTML. Клас `dashed-border` у файлі стилю створює пунктирну межу.
 
 --- task ---
 
-Add the `dashed-border` class to the `<img>`.
+Додай клас `dashed-border` до `<img>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 39
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 41
 ---
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
-
-![The love facial expression.](love.png) {.dashed-border}
-
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+    <!-- Тут буде перший малюнок і вказівки -->
+    <section class="wrap">
+      <img class="dashed-border" src="love.png" alt="Закоханий вираз обличчя.">
+      <p>Щоб твій аніме-персонаж виглядав закоханим заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>
+    </section>
 
 --- /code ---
 
 --- /task ---
 
-You can make the corners of an element rounded with the `rounded` class.
+Ти можеш зробити кути елемента округленими за допомогою класу `rounded`.
 
 --- task ---
 
-Add the `rounded` class to the `<img>`.
+Додай клас `rounded` до `<img>`.
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 39
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
 line_highlights: 41
 ---
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap"> 
-
-![The love facial expression.](love.png) {.dashed-border.rounded}
-
-To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</section>
+    <!-- Тут буде перший малюнок і вказівки -->
+    <section class="wrap">
+      <img class="dashed-border rounded" src="love.png" alt="Закоханий вираз обличчя.">
+      <p>Щоб твій аніме-персонаж виглядав закоханим заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>
+    </section>
 
 --- /code ---
 
@@ -226,14 +250,14 @@ To make your anime character look like they are in love, replace the eyes with t
 
 --- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Drag the bar between the text editor and your webpage to make the webpage narrower.
+Перетягни барʼєр між текстовим редактором і вебсторінкою, щоб зробити її вужчою.
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone.
+Текст повинен переміститися під зображення. Це макет для користувачів, які переглядають сторінку на мобільному телефоні.
 
-Drag the bar back after you test it, so you can see the image and text side-by-side.
+Після перевірки перетягни барʼєр назад, щоб зображення й текст були поруч.
 
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![У редакторі вертикальний простір між двома панелями перетягується зліва направо, щоб показати, що вебсторінка адаптується до менших екранів.](images/drag-window.gif)
 
 --- /task ---

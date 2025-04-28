@@ -1,90 +1,126 @@
-## Colours and fonts
+## Кольори та шрифти
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you can try out different colour palette and font choices.
+На цьому кроці ти спробуєш різні палітри кольорів і шрифти.
 
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage.
+Ми почали додавати власні класи до нашого коду, і ти, мабуть, бачиш, що на сторінці почали зʼявлятися кольори. У CSS ти можеш використовувати **змінні** для створення палітри кольорів для вебсторінки.
 
-CSS variables start with two dashes: `--primary`.
+Змінні CSS починаються з двох рисочок: `--primary`.
 
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use.
+Кольори вказуються в шістнадцятковому форматі (hex) і починаються з «#». Є багато вебсайтів, де можна знайти шістнадцяткові кольори для своїх проєктів.
 
 --- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
+Перейди до файлу `candy.css`. Цей файл встановлює змінні кольорів для пастельної палітри.
 
-In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
+У пастельній палітрі змінна `--primary` має значення `#ebeaeb` — блідо-сірий колір.
 
 --- code ---
 ---
-language: CSS filename: candy.css line_numbers: true line_number_start: 1
+language: CSS
+filename: candy.css
+line_numbers: true
+line_number_start: 1
 line_highlights: 4
 ---
-/* Candy colour palette and fonts */
+/* Палітра пастельних кольорів і шрифтів */
 
-:root { --primary: #ebeaeb; --onprimary: #625d61; --secondary: #f5bdd5; --onsecondary: #1d3d58; --tertiary: #b5a9b2; --ontertiary: #422215; --page: #ffffff; --onpage: #000000; --detail: #e697b9; --detail2: #415a89;
+:root {
+  --primary: #ebeaeb;
+  --onprimary: #625d61;
+  --secondary: #f5bdd5;
+  --onsecondary: #1d3d58;
+  --tertiary: #b5a9b2;
+  --ontertiary: #422215;
+  --page: #ffffff;
+  --onpage: #000000;
+  --detail: #e697b9;
+  --detail2: #415a89;
 
 --- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers.
+**Порада:** у CSS використовуються інші позначки коментарів, ніж у HTML. Коментарі на декілька рядків починаються з `/*` і закінчуються `*/`. Браузер ігнорує код, який знаходиться всередині позначок коментарів.
 
-`/* Candy colour palette and fonts */` is an example of a CSS comment.
+`/* Палітра пастельних кольорів і шрифтів */` — це приклад коментаря в CSS.
 
 --- /task ---
 
-You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
+Ти також можеш використовувати змінні для шрифтів. Шрифт заголовка `--header-font` має значення `3rem 'Fredoka One', cursive;`
 
-`3rem` means that this font should be three times the normal font size.
+`3rem` означає, що розмір цього шрифту має бути втричі більшим за звичайний.
 
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`.
+`'Fredoka One', cursive` означає, що браузер має використовувати шрифт 'Fredoka One', якщо можливо. Якщо цей шрифт недоступний, браузер має використовувати **резервний шрифт** `cursive` (курсив).
 
 [[[web-fonts]]]
 
 --- task ---
 
-**Find** the variables that set the fonts for your webpage.
+**Знайди** змінні, які встановлюють шрифти для твоєї вебсторінки.
 
 --- code ---
 ---
-language: CSS filename: candy.css line_numbers: true line_number_start: 15
+language: CSS
+filename: candy.css
+line_numbers: true
+line_number_start: 15
 line_highlights: 15-18
 ---
 
-  --body-font: 1rem 'Verdana', sans-serif; --header-font: 3rem 'Fredoka One', cursive; --title-font: 2rem 'Fredoka One', cursive; --quote-font: lighter 1.5rem 'Chewy', cursive; }
+  --body-font: 1rem 'Verdana', sans-serif;
+  --header-font: 3rem 'Fredoka One', cursive;
+  --title-font: 2rem 'Fredoka One', cursive;
+  --quote-font: lighter 1.5rem 'Chewy', cursive;
+}
 
 --- /code ---
 
 --- /task ---
 
-The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them.
+Основні кольори (`primary`) використовуються в основному вмісті сторінки найчастіше. Потім йдуть вторинні (`secondary`), а потім третинні кольори (`tertiary`). Це означає, що ти можеш легко створювати нові палітри кольорів та перемикатися між ними.
 
-The starter project also includes a vivid colour palette file called `vivid.css`.
+Початковий проєкт також містить файл палітри яскравих кольорів під назвою `vivid.css`.
 
 --- task ---
 
-**Find** the `vivid.css` file.
+**Знайди** файл `vivid.css`.
 
-Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
+Зверни увагу, що змінні кольорів та шрифтів мають ті самі назви, що й у файлі `candy.css`, але кольори та шрифти в цій палітрі інші.
 
 --- code ---
 ---
-language: CSS filename: vivid.css line_numbers: true
+language: CSS
+filename: vivid.css
+line_numbers: true
 line_number_start: 1
 ---
 
-/* Vivid colour palette and fonts */
+/* Палітра яскравих кольорів і шрифтів */
 
-:root { --primary: #68bbe5; --onprimary: #000000; --secondary: #e2008a; --onsecondary: #000000; --tertiary: #fdf100; --ontertiary: #000000; --page: #ffffff; --onpage: #000000; --detail: #ffa71a; --detail2: #41063c;
+:root {
+  --primary: #68bbe5;
+  --onprimary: #000000;
+  --secondary: #e2008a;
+  --onsecondary: #000000;
+  --tertiary: #fdf100;
+  --ontertiary: #000000;
+  --page: #ffffff;
+  --onpage: #000000;
+  --detail: #ffa71a;
+  --detail2: #41063c;
 
-  --body-font: 1rem Verdana, sans-serif; --header-font: lighter 3rem "Bangers", cursive; --title-font: lighter 2rem "Bangers", cursive; --quote-font: lighter 1.5rem 'Chewy', cursive; }
+  --body-font: 1rem Verdana, sans-serif;
+  --header-font: lighter 3rem "Bangers", cursive;
+  --title-font: lighter 2rem "Bangers", cursive;
+  --quote-font: lighter 1.5rem 'Chewy', cursive;
+} 
 
 --- /code ---
 
@@ -92,14 +128,17 @@ line_number_start: 1
 
 --- task ---
 
-Go to `index.html` and change the CSS link code to link to the `vivid.css` file:
+Перейди до `index.html` і зміни код посилання CSS на файл `vivid.css`:
 
 --- code ---
 ---
-language: html filename: index.html line_numbers: true line_number_start: 21
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 21
 line_highlights: 24
 ---   
-    <!-- Include CSS style file -->
+    <!-- Посилання на файл стилів CSS -->
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="vivid.css" rel="stylesheet" type="text/css" />
@@ -110,10 +149,10 @@ line_highlights: 24
 
 --- task ---
 
-**Test:** Click the **Run** button.
+**Протестуй:** натисни на кнопку **Run**.
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Переконайся, що твоя вебсторінка тепер використовує яскравіші кольори та інші шрифти, визначені у файлі `vivid.css`.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---

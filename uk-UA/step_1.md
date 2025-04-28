@@ -1,38 +1,53 @@
-## Introduction
+## Вступ
 
-In this project, you will create and style a webpage for an anime drawing tutorial.
+--- collapse ---
+
+---
+title: Вперше користуєшся редактором Raspberry Pi?
+---
+
+Переглянь наш [довідник для початківців](https://projects.raspberrypi.org/uk-UA/projects/getting-started-guide-editor-html){:target="_blank"}!
+
+--- /collapse ---
+
+У цьому проєкті ти створиш та оформиш вебсторінку з уроком малювання аніме, використовуючи HTML і CSS.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.
+<span style="color: #0faeb0">**Мову Hypertext Markup Language (HTML)**</span> (вимовляється «ейч-ті-ем-ел») використовують для створення структури вебсторінки. <span style="color: #0faeb0">**Мова Cascading Style Sheets (CSS)**</span> (вимовляється «сі-ес-ес») описує, як саме має виглядати сторінка. Без CSS сторінки виглядали б зовсім нецікаво.
 </p>
 
-You will:
-+ Use **HTML** tags to structure a webpage
-+ Use **CSS** styles to apply layouts, colour palettes, and fonts to your webpage
-+ Add images and text content to your webpage
+У цьому проєкті ти:
+
+- Використаєш теги **HTML** для створення структури вебсторінки.
+- Використаєш стилі **CSS**, щоб додати макети, палітри кольорів і шрифти до своєї сторінки.
+- Додаси до своєї сторінки зображення та текст.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages, so if you use HTML with CSS, it can help your webpage attract people's attention. 
+В інтернеті існують сотні мільйонів активних <span style="color: #0faeb0">**вебсторінок**</span>. Використовуючи HTML разом із CSS, ти зможеш привернути увагу людей саме до своєї сторінки. 
 </p>
 
-**Tip:** Drag the scroll bar down to see the full webpage.
+**Порада:** перетягни смугу прокрутки вниз, щоб побачити всю вебсторінку.
 
 --- no-print ---
 --- task ---
-### Try it
+
+### Спробуй
+
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Explore the anime expressions webpage. Can you spot things on this webpage that you have seen on other webpages?
+<div style="flex-basis: 175px; flex-grow: 1">Розглянь сторінку з виразами обличчя аніме.
 
-<iframe src="https://staging-editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+- Що тобі в ній подобається?
+- Що тобі хочеться змінити?
 
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
+</div>
 
 --- /task ---
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/solution.PNG)
+![Завершений проєкт](images/solution.PNG)
 --- /print-only ---
 
 ![](http://code.org/api/hour/begin_coderdojo_anime.png)
-

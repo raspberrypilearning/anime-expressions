@@ -1,24 +1,23 @@
-
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+Класи CSS можна застосувати до коду HTML. Вони визначають, який вигляд матиме вміст у веббраузері.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Нижче наведено код CSS для стилізації підзаголовка. Який рядок коду потрібно змінити, щоб підзаголовок відображався праворуч?
 
 --- code ---
 ---
-language: css 
-filename: style.css 
-line_numbers: true 
+language: css
+filename: style.css
+line_numbers: true
 line_number_start: 1
-line_highlights:
----
+line_highlights: 
+---  
 
-h2 { 
+h2 {
     font: var(--title-font); 
     text-align: left; 
     padding: 1.5rem; 
@@ -32,23 +31,23 @@ h2 {
 
   --- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Спробуй ще раз. У першому рядку вказано, що **селектором**, до якого застосовується правило, є тег `h2`.
 
-  --- /feedback ---
+--- /feedback ---
 
 - ( ) 2
 
   --- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Не зовсім так. У другому рядку говориться, що шрифт для елементів із тегом `h2` зберігається у **змінній** `--title-font`.
 
-  --- /feedback ---
+--- /feedback ---
 
 - (x) 3
 
   --- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  Правильно! Третій рядок дозволяє змінити вирівнювання тексту. Якщо змінити `left` на `right`, текст буде вирівняно по правій стороні.
 
   --- /feedback ---
 
@@ -56,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   --- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Спробуй ще раз. Четвертий рядок регулює простір навколо підзаголовка.
 
   --- /feedback ---
 

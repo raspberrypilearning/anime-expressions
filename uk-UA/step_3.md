@@ -1,21 +1,20 @@
-## Add a facial expression
+## Додай вираз обличчя
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, add the first drawing and instruction to your webpage.
-</div>
+На цьому кроці додай перший малюнок та вказівки до своєї сторінки.</div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-First, create a section for each facial expression on the webpage. 
+Перш за все, створи секцію для кожного виразу обличчя.
 
 --- task ---
 
-Find the comment `<!-- The first drawing and instructions go here -->`.
+Знайди коментар `<!-- Тут буде перший малюнок і вказівки -->`.
 
-Add in the `<section></section>` tags for your first drawing and instruction content. 
+Додай теги `<section></section>` для свого першого малюнку та вказівок.
 
 --- code ---
 ---
@@ -27,11 +26,11 @@ line_highlights: 40-42
 ---
     <main>
       <section>
-        <h2>Facial expressions</h2>
-        <p>Take a look at these facial expressions and try them in your own drawings.</p>
+        <h2>Вирази обличчя</h2>
+        <p>Подивися на ці вирази обличчя та спробуй повторити їх у своїх малюнках.</p>
       </section>
-       
-      <!-- The first drawing and instructions go here -->     
+      
+      <!-- Тут буде перший малюнок і вказівки -->     
       <section>
           
       </section> 
@@ -40,14 +39,14 @@ line_highlights: 40-42
 
 --- /task ---
 
-Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, add an image called `love.png`.
+Твій стартовий проєкт містить зображення, які ти можеш використовувати в цьому проєкті. Щоб розмістити на вебсторінці зображення, ти маєш знати назву файлу. Спочатку додай зображення під назвою `love.png` (з англійської «любов»).
 
 --- task ---
 
-Inside your new section, add an `<img>` tag to display an image. The `src` **attribute** gives the name of the image.
+У новій секції додай тег `<img>`, щоб показати зображення. **Атрибут** `src` вказує назву зображення.
 
- The `<img>` tag doesn't have an end tag.
- 
+Тег `<img>` не потребує кінцевого тегу.
+
 --- code ---
 ---
 language: html
@@ -56,7 +55,7 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 41
 ---
-      <!-- The first drawing and instructions go here -->     
+      <!-- Тут буде перший малюнок і вказівки -->     
       <section>
         <img src="love.png">
       </section> 
@@ -67,21 +66,21 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** Click the **Run** button. 
+**Протестуй:** натисни на кнопку **Run**.
 
-The `love.png` image appears on your webpage.
+На твоїй вебсторінці з’явиться зображення `love.png`.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text does not appear on the webpage but it is read aloud by screen readers.
+<span style="color: #0faeb0">**Альтернативний текст (альт-текст)**</span> — це опис зображення. Він є важливою частиною доступної веброзробки, оскільки описує зображення для людей, які не можуть їх побачити. Текст не видно на вебсторінці, але його читають вголос спеціальні програми для зчитування з екрана.
 </p>
 
 --- task ---
 
-Add the `alt` attribute to provide alternative text for people who cannot view the image. 
+За допомогою атрибуту `alt` додай альтернативний текст для людей, які не можуть переглядати зображення.
 
-You can copy the description of your image and paste it into your code: `The love facial expression.`
+Ти можеш скопіювати опис свого зображення та вставити його у свій код: `Закоханий вираз обличчя.`
 
 --- code ---
 ---
@@ -90,10 +89,10 @@ filename: index.html
 line_numbers: true
 line_number_start: 39
 line_highlights: 41
----   
-      <!-- The first drawing and instructions go here -->     
+---
+      <!-- Тут буде перший малюнок і вказівки -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="Закоханий вираз обличчя.">
       </section> 
 
 --- /code ---
@@ -102,9 +101,10 @@ line_highlights: 41
 
 --- task ---
 
-Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression. 
+Всередину тегів `<p></p>` додай абзац з описом, як намалювати закоханий вираз обличчя у стилі аніме.
 
-You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
+Ти можеш скопіювати цей абзац і вставити його у свій код:
+`<p>Щоб твій аніме-персонаж виглядав закоханим, заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>`
 
 --- code ---
 ---
@@ -114,21 +114,21 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 42
 ---   
-      <!-- The first drawing and instructions go here -->     
+      <!-- Тут буде перший малюнок і вказівки -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
-        <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+        <img src="love.png" alt="Закоханий вираз обличчя.">
+        <p>Щоб твій аніме-персонаж виглядав закоханим, заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>
       </section> 
 
 --- /code ---
 
 --- /task ---
 
-The `<strong>` tag makes important text **bold**.
+Тег `<strong>` виділяє важливий текст **жирним**.
 
 --- task ---
 
-Add `<strong>` tags around the word 'love':
+Додай теги `<strong>` навколо слова «закоханим»:
 
 --- code ---
 ---
@@ -137,11 +137,11 @@ filename: index.html
 line_numbers: true
 line_number_start: 39
 line_highlights: 42
----   
-      <!-- The first drawing and instructions go here -->     
+---  
+      <!-- Тут буде перший малюнок і вказівки -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
-        <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+        <img src="love.png" alt="Закоханий вираз обличчя.">
+        <p>Щоб твій аніме-персонаж виглядав <strong>закоханим</strong>, заміни очі на два сердечка. Щоб отримати ще цікавіший ефект, додай всередину три менших сердечка.</p>
       </section> 
 
 --- /code ---
@@ -150,10 +150,10 @@ line_highlights: 42
 
 --- task ---
 
-**Test:** Click the **Run** button. 
+**Протестуй:** натисни на кнопку **Run**.
 
-The instructions appear below your image and the word **love** is in bold. 
+Вказівки з’являться під твоїм зображенням, а слово **закоханим** виділено жирним шрифтом.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="350" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/anime-expressions-step-3" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 --- /task ---
 

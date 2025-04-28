@@ -1,27 +1,26 @@
-
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-If your webpage is **responsive**, this means:
+Яку ознаку має **адаптивна** вебсторінка?
 
 --- choices ---
 
-- ( ) It looks the same on desktop computers and mobile devices that have different screen sizes.
+- ( ) Вона виглядає однаково на настільних комп’ютерах і мобільних пристроях із різними розмірами екрану.
 
   --- feedback ---
 
-  Try again. If a website looks exactly the same on a mobile phone and on a very large computer monitor, then it is unlikely to look good on both of them.
+  Спробуй ще раз. Якщо вебсайт виглядає абсолютно однаково на мобільному телефоні та на дуже великому моніторі комп’ютера, то це не дуже добре.
 
   --- /feedback ---
 
-- (x) It adapts the layout for different screen sizes.
+- (x) Вона адаптує свою структуру для різних розмірів екрана.
 
   --- feedback ---
 
-  Correct, it is really important to think about your users when designing a website. They might view it on a mobile device or a very large monitor. A responsive layout means you can make sure that your page looks great for every user.
+  Правильно! Під час розробки вебсайту дуже важливо думати про своїх користувачів. Вони можуть переглядати його на мобільному пристрої або на дуже великому моніторі. Адаптивна сторінка добре виглядатиме для кожного користувача.
 
   --- /feedback ---
 

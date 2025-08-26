@@ -1,18 +1,18 @@
-## Reflection
+## Riflessione
 
-Well done. You have created a webpage using HTML and CSS.
+Ben fatto. Hai creato una pagina web utilizzando HTML e CSS.
 
-Answer the three questions below to reflect on what you've learnt.
+Rispondi alle tre domande qui sotto per riflettere su quello che hai imparato.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Sarai guidato verso la risposta corretta. Puoi fare questa attività quante volte vuoi.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Domanda 1 di 3
 
-**Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
+**Hypertext Markup Language (HTML)** è usato per strutturare una pagina web. In questo codice HTML, quale elemento è il **tag**?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ line_numbers: false
 
   \--- feedback ---
 
-  Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text.
+  Corretto! In HTML i tag appaiono all'interno di parentesi angolari. Il tag `<img>` è usato per aggiungere un'immagine con testo alternativo.
 
   \--- /feedback ---
 
@@ -39,7 +39,7 @@ line_numbers: false
 
   \--- feedback ---
 
-Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
+Non proprio, questo è un **attributo**. L'attributo usato qui è l'attributo source. Informa il browser dove è memorizzata l'immagine.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite, this is an **attribute**. The attribute used here is the source attri
 
   \--- feedback ---
 
-Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be.
+Riprova. Questo è l'identificatore per l'attributo che dice al browser quale dovrebbe essere il **testo alternativo** (alt).
 
 \--- /feedback ---
 

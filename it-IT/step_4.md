@@ -1,13 +1,13 @@
-## Style your page
+## Personalizza la tua pagina
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-You have used HTML to add tags to your webpage.
+Hai usato HTML per aggiungere dei tag alla tua pagina web.
 
-Now it is time to use CSS to add styles to your page.
+Adesso è il momento di usare CSS per aggiungere stili alla tua pagina.
 
-This step shows you how to change the colours, fonts, and layout on your webpage.
+Questo passaggio ti mostra come cambiare i colori, i font e il layout nella tua pagina web.
 
 </div>
 <div>
@@ -16,12 +16,12 @@ This step shows you how to change the colours, fonts, and layout on your webpage
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> è il linguaggio che si usa per dire al browser web come dovrebbe apparire esattamente la tua pagina web, che include i posizionamenti, i colori e i font. Questo lo chiamiamo stile.
 </p>
 
-Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
+Ogni **regola** in CSS è composta da due parti: il **selettore** e la **dichiarazione**.
 
-The **selector** is the part of HTML that you want to style. In this example it is `h1`.
+Il **selettore** è la parte di HTML che vuoi stilizzare. In questo esempio è `h1`.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
   <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
@@ -32,7 +32,7 @@ The **selector** is the part of HTML that you want to style. In this example it 
 </div>
 <br/>
 
-The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used.
+La **dichiarazione** si inserisce tra le parentesi graffe `{}`. Fornisce le istruzioni degli stili da utilizzare.
 
 <div style="background-color:#2d2d2d; padding: 1em;">
 <pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
@@ -43,25 +43,25 @@ The **declaration** is in curly brackets `{}`. It gives instructions of the styl
 </div>
 <br/>
 
-### Link the CSS file
+### Collega il file CSS
 
-The starter project includes CSS files, which contain a set of useful rules.
+Il progetto di partenza include i file CSS, che contengono una serie di regole utili.
 
 \--- task ---
 
-Unfold the `<head>` section of your code so that you can view the code inside it.
+Espandi la sezione `<head>` del tuo codice così puoi vedere il codice all'interno.
 
-![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
+![Il mouse fa clic sul piccolo triangolo accanto al numero della riga 3 per comprimere il codice testa.](images/step_2_collapse.gif)
 
 \--- /task ---
 
 \--- task ---
 
-At the bottom of your `<head></head>` section, there are links to two CSS style sheets that are currently commented out so that they are ignored by the web browser.
+In fondo alla tua sezione `<head></head>`, ci sono dei link a due fogli di stile CSS che sono attualmente commentati in modo da essere ignorati dal browser.
 
-Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
+Rimuovi le frecce `<!--` e `-->` dall'inizio e dalla fine di entrambe le righe di codice del link:
 
-**Before**
+**Prima**
 
 ## --- code ---
 
@@ -73,7 +73,7 @@ line_highlights: 23-24
 -----------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Includi il file di stile CSS -->
 
 <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
 <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
@@ -83,7 +83,7 @@ line_highlights: 23-24
 
 \--- /code ---
 
-**After**
+**Dopo**
 
 ## --- code ---
 
@@ -95,7 +95,7 @@ line_highlights: 23-24
 -----------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Includi il file di stile CSS -->
 
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="candy.css" rel="stylesheet" type="text/css" />
@@ -108,29 +108,29 @@ line_highlights: 23-24
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Clicca sul pulsante **Esegui**.
 
-HTML elements have default browser styles that you have seen as you have written your HTML code.
+Gli elementi HTML hanno degli stili predefiniti che hai visto mentre scrivevi il tuo codice HTML.
 
-Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed.
+Dai un'occhiata alla tua pagina web nel riquadro di destra. Puoi notare che gli stili e il layout del tuo risultato ora sono cambiati.
 
-**Tip:** To collapse the `<head>` section after you have seen the change, click the arrow next to it.
+**Suggerimento:** Per comprimere la sezione `<head>` dopo aver visto il cambiamento, clicca sulla freccia a fianco.
 
 \--- /task ---
 
 \--- task ---
 
-Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
+Clicca sull'icona `File del progetto` nell'editor di codice poi seleziona il file `style.css` per aprirlo in una nuova scheda.
 
-![The Code Editor with the Project files icon highlighted](images/select-file.png)
+![L'editor di codice con l'icona dei file di progetto evidenziati](images/select-file.png)
 
-![The Code Editor with the style.css file highlighted](images/select-style.png)
+![L'editor di codice con il file style.css evidenziato](images/select-file.png)
 
-This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+Questo file CSS contiene tutto il CSS per il tuo progetto. Scoprirai alcune parti chiave di questo file CSS mentre crei la tua pagina web.
 
-When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag.
+Quando aggiungi uno stile CSS a un **elemento**, quello stile viene applicato a ogni singolo elemento nella pagina che possiede lo stesso tag.
 
-**Find:** Scroll down and find the rule that controls the style of the `<h2>`.
+**Trova:** Scorri verso il basso e trova la regola che controlla lo stile di `<h2>`.
 
 ## --- code ---
 
@@ -142,22 +142,22 @@ line_highlights: 109-113
 -------------------------------------------------------------
 
 h2 {
-font: var(--title-font); /\* Font style stored in the title-font variable _/
-text-align: left; /_ Align the text _/
-padding: 1.5rem; /_ Add some space all around the heading \*/
+font: var(--title-font); /\* Stile font memorizzato nella variabile title-font _/
+text-align: left; /_ Allinea il testo _/
+padding: 1.5rem; /_ Aggiungi un po' di spazio attorno all'intestazione \*/
 }
 
 \--- /code ---
 
-This rule states which font should be used, how the text should be aligned, and how much space should be around the header.
+Questa regola stabilisce quale font dovrebbe essere usato, come dovrebbe essere allineato il testo, e quanto spazio dovrebbe esserci attorno all'intestazione.
 
 \--- /task ---
 
 \--- task ---
 
-At the moment, the `<h2>` heading is aligned to the left.
+Al momento, l'intestazione `<h2>` è allineata a sinistra.
 
-Change the `text-align` property of the `h2` rule to `center`.
+Modifica la proprietà `text-align` della regola `h2` impostandola su `center`.
 
 ## --- code ---
 
@@ -169,9 +169,9 @@ line_highlights: 111
 ---------------------------------------------------------
 
 h2 {
-font: var(--title-font); /\* Font style stored in the title-font variable _/
-text-align: center; /_ Align the text _/
-padding: 1.5rem; /_ Add some space all around the heading \*/
+font: var(--title-font); /\* Stile font memorizzato nella variabile title-font _/
+text-align: left; /_ Allinea il testo _/
+padding: 1.5rem; /_ Aggiungi un po' di spazio attorno all'intestazione \*/
 }
 
 \--- /code ---
@@ -180,11 +180,11 @@ padding: 1.5rem; /_ Add some space all around the heading \*/
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Clicca sul pulsante **Esegui**.
 
-Look at your webpage and make sure the 'Facial expressions' text is centred.
+Osserva la tua pagina web e assicurati che il titolo 'Espressioni facciali' sia centrato.
 
-**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling.
+**Debug:** Controlla lo spelling della parola `center`. HTML utilizza lo spelling dell'inglese americano (US).
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

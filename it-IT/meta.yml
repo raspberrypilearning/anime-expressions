@@ -1,29 +1,29 @@
-title: Espressioni degli anime
+title: Espressioni anime
 hero_image: images/banner.png
-description: Create and style a webpage for an anime drawing tutorial.
-meta_title: Learn CSS | Learn web development | Anime expressions
-meta_description: Learn web development for beginners with the Raspberry Pi Foundation. Learn CSS and use styles to apply layouts, colour palettes, and fonts to your webpage.
+description: Crea e personalizza una pagina web per un tutorial sul disegno di un anime.
+meta_title: Impara il CSS | Impara lo sviluppo web | Espressioni anime
+meta_description: Impara lo sviluppo web per principianti con Raspberry Pi Foundation. Impara il CSS e usa stili per applicare layout, palette di colori, e font alla tua pagina web.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2022-05-11"
 steps:
   - 
-    title: Introduction
+    title: Introduzione
   - 
-    title: Start your webpage
+    title: Inizia la tua pagina web
   - 
-    title: Add a facial expression
+    title: Aggiungi un'espressione facciale
     completion: engaged
   - 
-    title: Style your page
+    title: Personalizza la tua pagina
   - 
-    title: Style with classes
+    title: Personalizza con le classi
   - 
-    title: Colours and fonts
+    title: Colori e font
     completion: internal
   - 
-    title: Reflection
+    title: Riflessione
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -31,6 +31,4 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
-  - 
-    title: What next?
+    title: Aggiorna il tuo progetto

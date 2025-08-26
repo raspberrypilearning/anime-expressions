@@ -44,7 +44,7 @@ body {
 /* aggiungi un'immagine di sfondo alla sezione body */
 
 body {
-  /*background-image: url('dame.jpg');*/ /* Rimuovi il commento e cambia il nome del file per aggiungere un'immagine di sfondo */
+  /*background-image: url('name.jpg');*/ /* Rimuovi il commento e cambia il nome del file per aggiungere un'immagine di sfondo */
   /* background-repeat: repeat;*/ /* Fai ripetere l'immagine */
   /*background-size: cover;*/ /*Fai in modo che l'immagine copra l'intero container */
 }
@@ -57,7 +57,7 @@ main {
   min-width: 25rem; /* Non lasciare che il contenuto diventi troppo stretto */
   max-width: 70rem; /* Non lasciare che il contenuto diventi troppo largo */
   padding: 0;
-  padding-top: 0.5rem; */ Padding in alto */
+  padding-top: 0.5rem; /* Padding in alto */
   margin-bottom: 1em; /* Spazio prima del piè di pagina */
 }
 

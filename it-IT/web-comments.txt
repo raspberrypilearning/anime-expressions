@@ -1,0 +1,18 @@
+Il contenuto principale della pagina web va tra i tag principali
+
+Piè di pagina della pagina web
+
+Titolo mostrato nei browser web
+
+Importa i font da Google
+
+Il primo disegno e le istruzioni vanno qui
+
+Il secondo disegno e le istruzioni vanno qui
+
+Il terzo disegno e le istruzioni vanno qui
+
+Il codice del piè di pagina va qui
+
+Una stella gialla a cinque punte.
+

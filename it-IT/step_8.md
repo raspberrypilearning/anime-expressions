@@ -1,23 +1,23 @@
-## Upgrade your project
+## Aggiorna il tuo progetto
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can add more steps to the tutorial and customise the style to your preferences. 
+Se hai tempo, puoi aggiungere altri passaggi al tutorial e personalizzare lo stile in base alle tue preferenze
 </div>
 </div>
 
 \--- task ---
 
-At the moment your tutorial only has one step! The starter project includes images for additional steps.
+Al momento il tuo tutorial ha solo un passaggio! Il progetto di partenza include immagini per i passaggi aggiuntivi.
 
-There are images called `happy.png` and `annoyed.png`.
+Ci sono immagini chiamate `happy.png` e `annoyed.png`.
 
-You can use these descriptions or write your own:
+Puoi usare queste descrizioni o scriverne di tue:
 
-- **Happy**: 'A happy expression in anime uses two thick curved lines for the eyes and a wide mouth to create a happy, laughing face.'
-- **Annoyed**: 'An annoyed facial expression can be made by pointing the eyebrows down towards the centre. The eyes use a thick line with a semicircle underneath. The mouth is slightly curved.'
+- **Felice**: 'Un'espressione felice negli anime utilizza due spesse linee curve per gli occhi e una bocca larga per creare un viso felice e sorridente.'
+- **Infastidito**: 'Un'espressione facciale infastidita può essere creata puntando le sopracciglia in giù verso il centro. Gli occhi sono disegnati con una linea spessa e un semicerchio sottostante. La bocca è leggermente curva.'
 
-Create a new `<section>` for each new tutorial step. Look at the section you have already created to remind yourself of the HTML tags and CSS classes you need to use.
+Crea un nuovo `<section>` per ogni nuovo passaggio del tutorial. Dai un'occhiata alla sezione che hai già creato per ricordarti i tag HTML e le classi CSS che devi usare.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -28,17 +28,17 @@ Create a new `<section>` for each new tutorial step. Look at the section you hav
 
 \--- task ---
 
-You can also change:
+Puoi anche cambiare:
 
-- The colour palette to `default` or `candy`.
+- La palette di colori in `default` o `candy`.
 
-- The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use.
+- I colori nel file CSS della palette di colori. **Suggerimento:** Puoi trovare [nuovi colori hex](https://rpf.io/colours){:target="_blank"} da usare.
 
-- Your webpage to use colour names, such as 'teal' and 'coral'.
+- La tua pagine web per usare nomi di colori, come 'verde acqua' e 'corallo'.
 
-- The size of the fonts used. `1rem` is the normal font size. `3rem` is three times as big.
+- La dimensione dei font usati. `1rem` è la dimensione normale del font. `3rem` è tre volte più grande.
 
-- The border. Try different border effects in the `dashed-border` style or switch to the `solid-border` class.
+- Il bordo. Prova diversi effetti di bordo nello stile `dashed-border` o passa alla classe `solid-border`.
 
 \--- /task ---
 
@@ -46,9 +46,9 @@ You can also change:
 
 ---
 
-## title: Upgraded project
+## title: Progetto aggiornato
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
+Puoi visualizzare il [progetto aggiornato qui](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
 
 \--- /collapse ---
 

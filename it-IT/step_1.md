@@ -18,7 +18,7 @@ In questo progetto, userai HTML e CSS per creare e personalizzare una pagina web
 
 Cosa farai:
 
-- Userai i tag di _HTML_ per strutturare una pagina web
+- Userai i tag di **HTML** per strutturare una pagina web
 - Userai gli stili di **CSS** per applicare layout, palette di colori, e font alla tua pagina web
 - Aggiungerai immagini e contenuto testuale alla tua pagina web
 

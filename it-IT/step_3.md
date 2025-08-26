@@ -13,7 +13,7 @@ Per prima cosa, crea una sezione per ogni espressione facciale nella pagina web.
 
 --- task ---
 
-Trova il commento `<!--- Il primo disegno e le istruzioni vanno qui --->`.
+Trova il commento `<!-- Il primo disegno e le istruzioni vanno qui -->`.
 
 Aggiungi i tag `<section></section>` per il tuo primo contenuto di disegno e istruzioni.
 

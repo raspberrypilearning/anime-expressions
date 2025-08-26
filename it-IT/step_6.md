@@ -102,7 +102,7 @@ line_numbers: true
 line_number_start: 1
 ---
 
-\*Palette di colori e font vivaci */
+/* Palette di colori e font vivaci */
 
 :root {
   --primary: #68bbe5;

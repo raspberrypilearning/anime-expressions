@@ -1,9 +1,9 @@
-## Colours and fonts
+## Colori e font
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you can try out different colour palette and font choices.
+In questo passaggio, puoi provare diverse palette di colori e scelte di font.
 
 </div>
 <div>
@@ -11,17 +11,17 @@ In this step, you can try out different colour palette and font choices.
 </div>
 </div>
 
-Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage.
+Ora che hai iniziato ad aggiungere classi personalizzate al tuo codice, potresti aver notato che alla pagina è stato aggiunto il colore. In CSS, puoi usare **variabili** per creare una palette di colori per la tua pagina web.
 
-CSS variables start with two dashes: `--primary`.
+Le variabili CSS iniziano con due trattini: `--primary`.
 
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use.
+I colori vengono specificati usando la notazione esadecimale (hex) e iniziano con '#'. Ci sono molti siti web dove è possibile trovare colori hex da utilizzare.
 
 \--- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
+Vai al file `candy.css`. Questo file imposta le variabili colore per la palette di colori caramella.
 
-In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
+Nella palette di colori caramella, la variabile `--primary` è impostata su `#ebeaeb`, un grigio pallido.
 
 ## --- code ---
 
@@ -48,23 +48,23 @@ line_highlights: 4
 
 \--- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers.
+**Suggerimento:** CSS utilizza marcatori di commento diversi da quelli HTML. I commenti multilinea iniziano con `/*` e finiscono con `*/`. Il browser ignora il codice che è all'interno dei marcatori di commento.
 
-`/* Candy colour palette and fonts */` is an example of a CSS comment.
+`/* Palette di colori e font caramella */` è un esempio di commento CSS.
 
 \--- /task ---
 
-You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
+Puoi utilizzare variabili anche per i font. Il `--header-font` è impostato su `3rem 'Fredoka One', cursive;`
 
-`3rem` means that this font should be three times the normal font size.
+`3rem` significa che questo font dovrebbe essere tre volte più grande della dimensione normale del font.
 
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`.
+`'Fredoka One', cursive` significa che il browser dovrebbe usare il font 'Fredoka One' se possibile. Se questo font non è disponibile, il browser dovrebbe usare il **font di riserva**, ovvero `cursive`.
 
 [[[web-fonts]]]
 
 \--- task ---
 
-**Find** the variables that set the fonts for your webpage.
+**Trova** le variabili che impostano i font per la tua pagina web.
 
 ## --- code ---
 
@@ -85,15 +85,15 @@ line_highlights: 15-18
 
 \--- /task ---
 
-The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them.
+I colori `primary` sono progettati per essere utilizzati maggiormente nel contenuto principale della pagina, seguiti dai colori `secondary` e infine dai colori `tertiary`. Ciò significa che puoi facilmente progettare nuove palette di colori e passare da una all'altra.
 
-The starter project also includes a vivid colour palette file called `vivid.css`.
+Il progetto di partenza include anche un file di palette di colori vividi chiamato `vivid.css`.
 
 \--- task ---
 
-**Find** the `vivid.css` file.
+**Trova** il file `vivid.css`.
 
-Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
+Puoi notare che le variabili di colore e di font hanno gli stessi nomi del file `candy.css`, ma i colori e i font usati sono diversi in questa palette di colori.
 
 ## --- code ---
 
@@ -103,7 +103,7 @@ line_numbers: true
 line_number_start: 1
 ------------------------------------------------------------------------------
 
-/\* Vivid colour palette and fonts \*/
+/\* Palette di colori e font vivaci \*/
 
 :root {
 \--primary: #68bbe5;
@@ -129,7 +129,7 @@ line_number_start: 1
 
 \--- task ---
 
-Go to `index.html` and change the CSS link code to link to the `vivid.css` file:
+Vai su `index.html` e cambia il codice link CSS per collegarlo al file `vivid.css`:
 
 ## --- code ---
 
@@ -141,7 +141,7 @@ line_highlights: 24
 --------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- Includi il file di stile CSS -->
 
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="vivid.css" rel="stylesheet" type="text/css" />
@@ -153,9 +153,9 @@ line_highlights: 24
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Clicca sul pulsante **Esegui**.
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Assicurati che la tua pagina web ora utilizzi i colori più brillanti e i font diversi, come definito nel file `vivid.css`.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

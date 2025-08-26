@@ -2,25 +2,25 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Domanda 3 di 3
 
-If your webpage is **responsive**, this means:
+Se la tua pagina web è **responsiva**, significa che:
 
 \--- choices ---
 
-- ( ) It looks the same on desktop computers and mobile devices that have different screen sizes.
+- ( ) Ha lo stesso aspetto su computer desktop e dispositivi mobili che hanno schermi di dimensioni diverse.
 
   \--- feedback ---
 
-  Try again. If a website looks exactly the same on a mobile phone and on a very large computer monitor, then it is unlikely to look good on both of them.
+  Riprova. Se un sito web ha esattamente lo stesso aspetto su un telefono cellulare e su un monitor di grandi dimensioni, è improbabile che abbia un bell'aspetto su entrambi.
 
   \--- /feedback ---
 
-- (x) It adapts the layout for different screen sizes.
+- (x) Adatta il layout alle diverse dimensioni dello schermo.
 
   \--- feedback ---
 
-  Correct, it is really important to think about your users when designing a website. They might view it on a mobile device or a very large monitor. A responsive layout means you can make sure that your page looks great for every user.
+  Corretto, è molto importante pensare ai propri utenti quando si progetta un sito web. Potrebbero visualizzarlo su un dispositivo mobile o un monitor molto grande. Avere un layout responsivo significa assicurarsi che la propria pagina venga visualizzata bene da tutti gli utenti.
 
   \--- /feedback ---
 

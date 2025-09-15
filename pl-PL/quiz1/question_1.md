@@ -1,18 +1,18 @@
-## Reflection
+## Refleksja
 
-Well done. You have created a webpage using HTML and CSS.
+Dobra robota. Stworzyłeś stronę internetową za pomocą HTML i CSS.
 
-Answer the three questions below to reflect on what you've learnt.
+Odpowiedz na trzy poniższe pytania, aby zastanowić się nad tym, czego się nauczyłeś.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Zostaniesz poprowadzony w kierunku prawidłowej odpowiedzi. Możesz wykonać tę czynność tyle razy, ile chcesz.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## Legenda: Pytanie 1 z 3
 
-**Hypertext Markup Language (HTML)** is used to structure a webpage. In this HTML code, which item is the **tag**?
+**Hypertext Markup Language (HTML)** służy do tworzenia struktury strony internetowej. Który element w tym kodzie HTML to **tag**?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ line_numbers: false
 
   \--- feedback ---
 
-  Correct! In HTML tags appear inside angle brackets. The `<img>` tag is used to add an image with alternative text.
+  Dobrze! W HTML znaczniki pojawiają się wewnątrz nawiasów kątowych. Znacznik „<img>” służy do dodawania obrazu z alternatywnym tekstem.
 
   \--- /feedback ---
 
@@ -39,7 +39,7 @@ line_numbers: false
 
   \--- feedback ---
 
-Not quite, this is an **attribute**. The attribute used here is the source attribute. It lets the browser know where the image is stored.
+Nie do końca, to jest **atrybut**. Używanym tutaj atrybutem jest atrybut source. Pozwala przeglądarce wiedzieć, gdzie jest przechowywany obraz.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite, this is an **attribute**. The attribute used here is the source attri
 
   \--- feedback ---
 
-Try again. This is the identifier for the attribute that tells the browser what the **alternative text** (alt) should be.
+Spróbuj ponownie. Jest to identyfikator atrybutu, który mówi przeglądarce, jaki powinien być **tekst alternatywny** (alt).
 
 \--- /feedback ---
 

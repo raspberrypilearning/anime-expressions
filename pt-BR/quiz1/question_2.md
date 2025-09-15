@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Pergunta 2 de 3
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+As classes CSS podem ser aplicadas ao código HTML para decidir como o conteúdo deve aparecer no navegador web.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Abaixo está um código CSS para estilizar um subtítulo. Qual linha de código você alteraria para que o subtítulo fosse exibido no lado direito?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ padding: 1.5rem;
 
   \--- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Dê outra olhada. A primeira linha diz que o **seletor** ao qual a regra se aplica é a tag `h2`.
 
 \--- /feedback ---
 
@@ -39,7 +39,7 @@ Take another look. The first line says that the **selector** which the rule appl
 
   \--- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Quase. A segunda linha diz que a fonte para elementos com a tag `h2` é fornecida pela \*\*variável` --title-font`.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  Correto! A terceira linha permite que você altere o alinhamento do texto. Ao alterar `esquerda` para `direita`, o texto seria alinhado no lado direito.
 
   \--- /feedback ---
 
@@ -55,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Tente novamente. A quarta linha permite ajustar o espaço ao redor do subtítulo.
 
   \--- /feedback ---
 

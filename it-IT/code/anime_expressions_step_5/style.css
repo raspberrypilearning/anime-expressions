@@ -45,7 +45,7 @@ body {
 
 body {
   /*background-image: url('dame.jpg');*/ /* Rimuovi il commento e cambia il nome del file per aggiungere un'immagine di sfondo */
-  /* background-repeat: repeat;*/ /* Fai ripetere l'immagine */
+  /*background-repeat: repeat;*/ /* Fai ripetere l'immagine */
   /*background-size: cover;*/ /*Fai in modo che l'immagine copra l'intero container */
 }
 
@@ -101,7 +101,7 @@ section {
 h1 {
   font: var(--header-font); /* Stile font memorizzato nella variabile header-font */
   padding: 2rem;
-  margin: 0; /*Centra se il browser è molto largo */
+  margin: 0; /* Centra se il browser è molto largo */
 }
 
 /* Stili solo per gli elementi h2 */

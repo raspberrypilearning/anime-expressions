@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## leyenda: Pregunta 2 de 3
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+Las clases CSS se pueden aplicar al código HTML para decidir cómo debe aparecer el contenido en el navegador web.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Debajo hay un código CSS para diseñar un subtítulo. ¿Qué línea de código cambiaría para hacer que el subtítulo se muestre en el lado derecho?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ padding: 1.5rem;
 
   \--- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Echa otro vistazo. La primera línea dice que el **selector** al que se aplica la regla es la etiqueta `h2`.
 
 \--- /feedback ---
 
@@ -39,7 +39,7 @@ Take another look. The first line says that the **selector** which the rule appl
 
   \--- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+No exactamente. La segunda línea dice que la fuente para elementos con la etiqueta `h2` es proporcionada por la **variable `--title-font`**.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  ¡Correcto! La tercera línea le permite cambiar la alineación del texto. Cambiando `izquierda` a `derecha`, el texto se alinearía a la derecha.
 
   \--- /feedback ---
 
@@ -55,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Intenta de nuevo. La cuarta línea le permite ajustar el espacio alrededor del subtítulo.
 
   \--- /feedback ---
 

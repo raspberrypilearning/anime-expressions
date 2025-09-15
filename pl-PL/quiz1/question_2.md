@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 2 of 3
+## Legenda: Pytanie 2 z 3
 
-CSS classes can be applied to HTML code to decide on how the content should appear in the web browser.
+Klasy CSS mogą być stosowane do kodu HTML, aby zdecydować, jak zawartość powinna wyglądać w przeglądarce internetowej.
 
-Below is some CSS code for styling a subheading. Which line of code would you change to make the subheading display on the right-hand side?
+Poniżej znajduje się kod CSS do stylizacji podpozycji. Który wiersz kodu zmieniłbyś, aby podtytuł był wyświetlany po prawej stronie?
 
 ## --- code ---
 
@@ -31,7 +31,7 @@ padding: 1.5rem;
 
   \--- feedback ---
 
-Take another look. The first line says that the **selector** which the rule applies to is the `h2` tag.
+Spójrz jeszcze raz. Pierwsza linia mówi, że **selektor**, do którego odnosi się reguła, to znacznik „h2”.
 
 \--- /feedback ---
 
@@ -39,7 +39,7 @@ Take another look. The first line says that the **selector** which the rule appl
 
   \--- feedback ---
 
-Not quite. The second line says that the font for elements with the `h2` tag is provided by the `--title-font` **variable**.
+Nie do końca. Druga linia mówi, że czcionka dla elementów ze znacznikiem "h2" jest dostarczana przez "--title-font" **zmienną**.
 
 \--- /feedback ---
 
@@ -47,7 +47,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Correct! The third line allows you to change the alignment of the text. By changing `left` to `right`, the text would align on the right-hand side.
+  Dobrze! Trzecia linia pozwala zmienić wyrównanie tekstu. Zmieniając "lewy" na "prawy", tekst będzie wyrównany po prawej stronie.
 
   \--- /feedback ---
 
@@ -55,7 +55,7 @@ Not quite. The second line says that the font for elements with the `h2` tag is 
 
   \--- feedback ---
 
-  Try again. The fourth line allows you to adjust the space around the subheading.
+  Spróbuj ponownie. Czwarta linia pozwala dostosować przestrzeń wokół podpozycji.
 
   \--- /feedback ---
 

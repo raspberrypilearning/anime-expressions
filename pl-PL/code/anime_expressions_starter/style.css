@@ -1,4 +1,4 @@
-/* Colour pairings */
+/* Parowanie kolorów */
 
 .primary {
   background: var(--primary);
@@ -20,12 +20,12 @@
   color: var(--onpage);
 }
 
-/* Apply everywhere */
+/* Zastosuj wszędzie */
 
 * {
   margin: 0rem;
   padding: 0rem;
-  box-sizing: border-box; /* Padding and border don't make a box bigger */
+  Rozmiar pudełka: Border-box; /* Wykładziny i obramowanie nie powodują, że pudełko jest większe */
 }
 
 html,
@@ -35,91 +35,91 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  Min-height: 100vh; /* spraw, aby zawartość wypełniała stronę tak, aby stopka była u dołu */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* add a background image to body */
+/* dodaj obraz tła do obiektu */
 
 body {
-  /*background-image: url('name.jpg');*/ /* Uncomment and change filename to add a background image */
-  /*background-repeat: repeat;*/ /* Make the image repeat */
-  /*background-size: cover;*/ /* Make the image cover the whole container */
+  /*background-image: url('name.jpg');*/ /* Odkomentuj i zmień nazwę pliku, aby dodać obraz tła */
+  /*background-repeat: Powtórz;*/ /* Zrób powtórzenie obrazu */
+  /*background-size: Okładka;*/ /* spraw, aby obraz pokrywał cały pojemnik */
 }
 
-/* The main content of the page between the header and footer */
+/* Główna zawartość strony pomiędzy nagłówkiem a stopką */
 main {
-  background: var(--primary); /* Colour the background */
-  color: var(--onprimary); /* Colour the text */
-  margin: 0 auto; /* Center if the browser is really wide */
-  min-width: 25rem; /* Don't let the content get too narrow */
-  max-width: 70rem; /*  Don't let the content get too wide */
+  Tło: var(--primary); /* Kolor tła */
+  Kolor: var(--onprimary); /* Koloruj tekst */
+  Margines: 0 auto; /* środek jeśli przeglądarka jest naprawdę szeroka */
+  Min-width: 25rem; /* nie pozwól, aby zawartość stała się zbyt wąska */
+  max-width: 70rem; /* nie pozwól, aby zawartość stała się zbyt szeroka */
   padding: 0;
-  padding-top: 0.5rem; /* Padding at the top */
-  margin-bottom: 1em; /* Gap before the footer */
+  Wypełnienie-top: 0.5rem; /* Wyściełaczka na górze */
+  Margines-dół: 1em; /* Odstęp przed stopą */
 }
 
-/* Header and footer element styles */
+/* Style elementów nagłówka i stopki */
 
 header,
 footer {
   text-align: center;
-  width: 100%; /* Fill the full width of the window */
-  margin: 0; /* Remove the default margin */
+  Szerokość: 100%; /* Wypełnij pełną szerokość okna */
+  Margines: 0; /* Usuń domyślny margines */
   min-height: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* Section styles */
+/* Style sekcji */
 
 section {
   padding: 1rem 2rem;
   margin: 1rem auto;
 }
 
-/* Border styles */
+/* Style obramowania */
 
 .border-bottom {
-  border-bottom: 20px solid var(--detail); /* Add a solid */
+  Border-bottom: 20px solid var(--detail); /* Dodaj bryłę */
 }
 
 .border-top {
-  border-top: 10px solid var(--detail2); /* Add a solid line above the footer */
+  Border-top: 10px solid var(--detail2); /* Dodaj stałą linię nad stopą */
 }
 
-/* Add a transparent effect */
+/* Dodaj przezroczysty efekt */
 
 .transparent {
   opacity: 0.95;
 }
 
-/* Styles just for h1 elements */
+/* Style tylko dla elementów h1 */
 
 h1 {
-  font: var(--header-font); /* Font style stored in the header-font variable */
+  Font: var(--header-font); /* Styl czcionki zapisany w zmiennej header-font */
   padding: 2rem;
-  margin: 0; /* Center if the browser is really wide */
+  Margines: 0; /* Centrum jeśli przeglądarka jest naprawdę szeroka */
 }
 
-/* Styles just for h2 elements */
+/* Style tylko dla elementów h2 */
 
 h2 {
-  font: var(--title-font); /* Font style stored in the title-font variable */
-  text-align: left; /* Align the text */
-  padding: 1.5rem; /* Add some space all around the heading */
+  Font: var(--title-font); /* Styl czcionki zapisany w zmiennej title-font */
+  Wyrównanie tekstu: W lewo; /* Wyrównaj tekst */
+  Wypełnienie: 1.5rem; /* Dodaj trochę miejsca wokół nagłówka */
 }
 
-/* Highlight key words in bold and apply an alternative text colour */
+/* podświetl słowa kluczowe pogrubioną czcionką i zastosuj alternatywny kolor tekstu */
 
 strong {
-  color: var(--detail2); /* Text colour stored in the caption variable */
-  font-weight: bold; /* Makes text weight stronger than the default*/
+  Kolor: var(--detail2); /* Kolor tekstu zapisany w zmiennej podpisu */
+  Font-weight: Pogrubiony; /* sprawia, że waga tekstu jest silniejsza niż domyślna*/
 }
 
-/* Style for ordered and unordered lists */
+/* Style dla list uporządkowanych i nieuporządkowanych */
 
 ol,
 ul {
@@ -128,18 +128,18 @@ ul {
   padding-left: 2rem;
 }
 
-/* Padding around paragraphs */
+/* Wypełnianie wokół akapitów */
 
 p {
   padding: 1rem 1rem;
 }
 
-/* Style for links */
+/* Styl linków */
 
 a:link,
 a:visited {
   font-weight: bold;
-  color: inherit; /* Use the colour of the parent element */
+  Kolor: Dziedzicz; /* Użyj koloru elementu rodzica */
 }
 
 .xcenter {
@@ -152,19 +152,19 @@ a:visited {
   flex-flow: column;
 }
 
-/* Styles just for the .wrap class */
+/* Style tylko dla klasy .wrap */
 
 .wrap {
-  /* Make content wrap over multiple rows */
+  /* spraw, aby zawartość zawijała się po wielu wierszach */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  gap: 0rem 0rem; /* horizontal and vertical gap */ 
+  przerwa: 0rem 0rem; /* szczelina pozioma i pionowa */ 
 }
 
-/* For creating fancy boxes */
+/* do tworzenia fantazyjnych pudełek */
 
 .dashed-border {
   border: 0.25rem dashed var(--detail2);
@@ -174,21 +174,21 @@ a:visited {
   border: 0.25rem solid var(--detail2);
 }
 
-/* Styles for the div tags that are inside a .wrap class */
+/* Style znaczników div, które znajdują się wewnątrz klasy .wrap */
 
 .wrap > div {
   width: 14rem;
   padding: 0rem;
 }
 
-/* Styles for the img tags that are inside a .wrap class */
+/* Style znaczników img, które znajdują się wewnątrz klasy .wrap */
 
 .wrap > img {
   width: 14rem;
   display: block;
 }
 
-/* Styles for the p tags that are inside a .wrap class */
+/* Style znaczników p, które znajdują się wewnątrz klasy .wrap */
 
 .wrap > p,
 .wrap > span {
@@ -196,14 +196,14 @@ a:visited {
   display: block;
 }
 
-/* Specific styles for this project */
+/* specyficzne style dla tego projektu */
 
 .bigfont {
   font-size: 3rem;
 }
 
 .hugefont {
-  /* Used to make a large emoji */
+  /* używane do tworzenia dużych emoji */
   font-size: 6rem;
   text-align: center;
   padding: 1rem;
@@ -230,7 +230,7 @@ cite {
   font-size: small;
 }
 
-/* Specific styles for this project */
+/* specyficzne style dla tego projektu */
 
 .tile {
   height: 9.4rem;
@@ -259,7 +259,7 @@ cite {
 }
 
 .shadow {
-   box-shadow: 5px 5px 3px 0px #888888; /* right and bottom shadow size, blur, spread and colour */
+   box-shadow: 5px 5px 3px 0px #888888; /* rozmiar cienia prawy i dolny, rozmycie, rozłożenie i kolor */
    /*box-shadow: 5px 5px 4px 2px var(--detail);*/
 }
 
@@ -294,10 +294,10 @@ cite {
   padding: 0.5rem;
 }
 
-/* Printed photo style */
+/* Wydrukowany styl fotografii */
 
 .photo {
-  border: 1px solid #D0D0D0; /* Add a solid border */
+  Obramowanie: 1px bryła #D0D0D0; /* Dodaj bryłową obramowanie */
   width: 14rem;
   height: 15rem;
   background: #ffffff;
@@ -305,6 +305,6 @@ cite {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* prawy i dolny cień, rozmycie, rozłożenie i kolor */
   transform: rotate(3deg);
 }

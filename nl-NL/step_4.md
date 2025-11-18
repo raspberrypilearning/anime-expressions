@@ -142,9 +142,9 @@ line_highlights: 109-113
 -------------------------------------------------------------
 
 h2 {
-font: var(--title-font); /\* Font style stored in the title-font variable _/
-text-align: left; /_ Align the text _/
-padding: 1.5rem; /_ Add some space all around the heading \*/
+font: var(--title-font); /\* Lettertype stijl opgeslagen in de subkop-lettertype variabele _/
+text-align: left; /_ Lijn de tekst uit _/
+padding: 1.5rem; /_ Voeg wat ruimte toe rondom de kop \*/
 }
 
 \--- /code ---
@@ -169,9 +169,9 @@ line_highlights: 111
 ---------------------------------------------------------
 
 h2 {
-font: var(--title-font); /\* Font style stored in the title-font variable _/
-text-align: center; /_ Align the text _/
-padding: 1.5rem; /_ Add some space all around the heading \*/
+font: var(--title-font); /\* Lettertype stijl opgeslagen in de subkop-lettertype variabele _/
+text-align: center; /_ Lijn de tekst uit _/
+padding: 1.5rem; /_ Voeg wat ruimte toe rondom de kop \*/
 }
 
 \--- /code ---

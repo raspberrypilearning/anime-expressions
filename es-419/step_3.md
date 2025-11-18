@@ -1,21 +1,21 @@
-## Add a facial expression
+## Agrega una expresión facial
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, add the first drawing and instruction to your webpage.
+En este paso, añade el primer dibujo e instrucción a tu página web.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-First, create a section for each facial expression on the webpage.
+Primero, crea una sección para cada expresión facial en la página web.
 
 \--- task ---
 
-Find the comment `<!-- The first drawing and instructions go here -->`.
+Encuentra el comentario `<!-- El primer dibujo e instrucciones van aquí -->`.
 
-Add in the `<section></section>` tags for your first drawing and instruction content.
+Añade en las etiquetas `<section></section>` para tu primer dibujo e instrucción de contenido.
 
 ## --- code ---
 
@@ -43,13 +43,13 @@ line_highlights: 40-42
 
 \--- /task ---
 
-Your starter project contains images to use in this project. To include an image on a webpage, you need to know the filename. First, add an image called `love.png`.
+Tu proyecto de iniciación contiene imágenes para usar en este proyecto. Para incluir una imagen en una página web, es necesario conocer el nombre del archivo. Primero, añade una imagen llamada `love.png`.
 
 \--- task ---
 
-Inside your new section, add an `<img>` tag to display an image. The `src` **attribute** gives the name of the image.
+Dentro de tu nueva sección, añade una etiqueta `<img>` para mostrar una imagen. El **atributo** `src` da el nombre de la imagen.
 
-The `<img>` tag doesn't have an end tag.
+La etiqueta `<img>` no tiene una etiqueta final.
 
 ## --- code ---
 
@@ -73,21 +73,21 @@ line_highlights: 41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Prueba:** Haz clic en el botón **Ejecutar**.
 
-The `love.png` image appears on your webpage.
+La imagen `love.png` aparece en tu página web.
 
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Alternative (Alt) text**</span> is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text does not appear on the webpage but it is read aloud by screen readers.
+<span style="color: #0faeb0">**Texto alternativo (Alt)**</span> es una descripción de una imagen y es importante en el diseño web accesible para describir imágenes a personas que no pueden verlas. El texto no aparece en la página web pero es leído en voz alta por los lectores de pantalla.
 </p>
 
 \--- task ---
 
-Add the `alt` attribute to provide alternative text for people who cannot view the image.
+Añade el atributo `alt` para proporcionar texto alternativo para las personas que no pueden ver la imagen.
 
-You can copy the description of your image and paste it into your code: `The love facial expression.`
+Puedes copiar la descripción de tu imagen y pegarla en tu código: `La expresión facial del amor.`
 
 ## --- code ---
 
@@ -111,10 +111,10 @@ line_highlights: 41
 
 \--- task ---
 
-Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression.
+Añade un párrafo de texto en las etiquetas `<p></p>` para describir cómo dibujar la expresión facial del anime de amor.
 
-You can copy the paragraph and paste it into your code:
-`<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
+Puedes copiar el párrafo y pegarlo en tu código:
+`<p>Para que tu personaje anime se vea enamorado, reemplaza los ojos por dos corazones redondeados. Puedes añadir tres corazones más dentro para un efecto divertido.</p>`
 
 ## --- code ---
 
@@ -137,11 +137,11 @@ line_highlights: 42
 
 \--- /task ---
 
-The `<strong>` tag makes important text **bold**.
+La etiqueta `<strong>` hace que el texto importante esté **negrita**.
 
 \--- task ---
 
-Add `<strong>` tags around the word 'love':
+Añade etiquetas `<strong>` alrededor de la palabra 'amor':
 
 ## --- code ---
 
@@ -166,9 +166,9 @@ line_highlights: 42
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Prueba:** Haz clic en el botón **Ejecutar**.
 
-The instructions appear below your image and the word **love** is in bold.
+Las instrucciones aparecen debajo de tu imagen y la palabra **amor** está en negrita.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3" width="500" height="750" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 --- /task ---

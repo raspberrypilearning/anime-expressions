@@ -35,7 +35,7 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  altura mínima: 100vh; /*Llenar la página con el contenido para situar el pie de página en la parte inferior*/
+  min-height: 100vh; /*Llenar la página con el contenido para situar el pie de página en la parte inferior*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,18 +44,18 @@ body {
 /* añadir una imagen de fondo al cuerpo */
 
 body {
-  /*imagen de fondo: url('nombre.jpg');*/ /* Eliminar el comentario y cambiar el nombre del archivo para añadir una imagen de fondo */
-  /*repetir el fondo: repetir;*/ /* Repetir imagen */
-  /*tamaño de fondo: cubrir;*/Cubrir todo el contenedor con la imagen */
+  /*background-image: url('name.jpg');*/ /* Eliminar el comentario y cambiar el nombre del archivo para añadir una imagen de fondo */
+  /*background-repeat: repeat;*/ /* Repetir imagen */
+  /*background-size: cover;*/Cubrir todo el contenedor con la imagen */
 }
 
 /* Colocar el contenido principal entre en el encabezado y el pie de página */
 main {
-  fondo: var(--primario); /*Color de fondo*/
+  background: var(--primary); /*Color de fondo*/
   color: var(--onprimary); /*Dar color al texto */
-  margen: 0 automático; /* Centrar si el navegador web es muy ancho */
-  anchura mínima: 25 rem; /*No estrechar demasiado el contenido */
-  anchura máxima: 70rem; /*No ampliar demasiado el contenido */
+  margin: 0 auto; /* Centrar si el navegador web es muy ancho */
+  min-width: 25rem; /*No estrechar demasiado el contenido */
+  max-width: 70rem; /*No ampliar demasiado el contenido */
   padding: 0;
   padding-top: 0.5rem; /* Relleno en la parte superior */
   margin-bottom: 1em; /* Espacio antes del pie de página */

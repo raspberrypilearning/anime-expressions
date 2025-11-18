@@ -46,7 +46,7 @@ Você também pode alterar:
 
 ---
 
-## Título: Projeto atualizado
+## title: Projeto atualizado
 
 Você pode ver o [projeto atualizado aqui](https://editor.raspberrypi.org/en/projects/anime-expressions-step-8){:target="_blank"}.
 

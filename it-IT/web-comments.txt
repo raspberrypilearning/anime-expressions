@@ -2,6 +2,10 @@ Il contenuto principale della pagina web va tra i tag principali
 
 Piè di pagina della pagina web
 
+Il codice del piè di pagina va qui
+
+Include CSS style file
+
 Titolo mostrato nei browser web
 
 Importa i font da Google

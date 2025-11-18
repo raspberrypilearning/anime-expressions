@@ -4,7 +4,7 @@
 
 ## legend: Pergunta 3 de 3
 
-Se sua página web for **responsiva**, isso significa:
+Se sua página Web for **responsiva**, isso significa:
 
 \--- choices ---
 
@@ -16,11 +16,11 @@ Se sua página web for **responsiva**, isso significa:
 
   \--- /feedback ---
 
-- (x) Adapta o layout para diferentes tamanhos de tela.
+- (x) Adapta a disposição para diferentes tamanhos de tela.
 
   \--- feedback ---
 
-  Correto, é muito importante pensar nos seus usuários ao projetar um site. Eles podem visualizá-lo em um dispositivo móvel ou em um monitor muito grande. Um layout responsivo significa que você pode ter certeza de que sua página terá uma ótima aparência para todos os usuários.
+  Correto, é muito importante pensar nos seus usuários ao projetar um site. Eles podem visualizá-lo em um dispositivo móvel ou em um monitor muito grande. Uma disposição responsiva significa que você pode ter certeza de que sua página terá uma ótima aparência para todos os usuários.
 
   \--- /feedback ---
 

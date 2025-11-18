@@ -43,7 +43,7 @@ Puedes usar comentarios para organizar tu código y ayudar a la gente a entender
 
 ---
 
-## título: No puedo encontrar el comentario
+## title: No puedo encontrar el comentario
 
 ¿Ha colapsado accidentalmente el `<body>` u otra sección de su página web?
 
@@ -305,7 +305,7 @@ Tu proyecto se ha guardado automáticamente. Regresa al enlace de inicio en el m
 
 ---
 
-## título: He cerrado accidentalmente mi proyecto
+## title: He cerrado accidentalmente mi proyecto
 
 Haga clic en el enlace [Proyecto de iniciación](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} para abrir su proyecto. Utilice el mismo navegador web para ver sus cambios.
 
@@ -315,7 +315,7 @@ Haga clic en el enlace [Proyecto de iniciación](https://editor.raspberrypi.org/
 
 ---
 
-## título: Si tienes una cuenta del Editor de Código
+## title: Si tienes una cuenta del Editor de Código
 
 Haga clic en el botón 'Guardar' para crear una copia del proyecto en su cuenta Raspberry Pi.
 

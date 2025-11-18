@@ -35,7 +35,7 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  Min-altura: 100vh; /* Faça o conteúdo preencher a página para que o rodapé(footer) fique na parte inferior */
+  min-height: 100vh; /* Faça o conteúdo preencher a página para que o rodapé(footer) fique na parte inferior */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body {
 
 body {
   /*background-image: url('name.jpg'); */ /* Remova o comentário e modifique o nome do arquivo para adicionar uma imagem de fundo */
-  /* Faça a imagem se repetir */
+  /*background-repeat: repeat;*/ /* Faça a imagem se repetir */
   /*background-size: cover; */ /*Faça a imagem cobrir todo o contêiner*/
 }
 

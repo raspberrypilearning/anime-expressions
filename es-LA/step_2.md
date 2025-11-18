@@ -13,7 +13,7 @@ En HTML puedes escribir palabras directamente en el código para que las palabra
 
 --- task ---
 
-Abre el [Proyecto de inicio de expresiones de anime] (https://editor.raspberrypi.org/es-LA/projects/anime-expressions-starter){:target="_blank"}.
+Abre el [Proyecto de inicio de expresiones de anime](https://editor.raspberrypi.org/es-LA/projects/anime-expressions-starter){:target="_blank"}.
 
 --- /task ---
 

@@ -112,9 +112,9 @@ Eche un vistazo a su página web en el panel derecho. Observe que los estilos y 
 
 --- task ---
 
-Haga clic en el icono `Archivos de proyecto` en el Editor de código y luego seleccione el archivo `style.css` para abrirlo en una nueva pestaña.
+Haga clic en el icono `Archivos del proyecto` en el Editor de código y luego seleccione el archivo `style.css` para abrirlo en una nueva pestaña.
 
-![El Editor de código con el icono de archivos de proyecto resaltado](images/select-file.png)
+![El Editor de código con el icono de archivos del proyecto resaltado](images/select-file.png)
 
 ![El editor de código con el archivo style.css resaltado](images/select-style.png)
 

@@ -2,6 +2,10 @@ The main content for the webpage goes between the main tags
 
 Webpage footer
 
+The page header code goes here
+
+Include CSS style file
+
 Title shown in web browsers
 
 Import fonts from Google

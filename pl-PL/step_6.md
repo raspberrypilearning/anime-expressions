@@ -1,9 +1,9 @@
-## Colours and fonts
+## Kolory i czcionki
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-In this step, you can try out different colour palette and font choices.
+W tym kroku możesz wypróbować różne palety kolorów i czcionki.
 
 </div>
 <div>
@@ -11,17 +11,17 @@ In this step, you can try out different colour palette and font choices.
 </div>
 </div>
 
-Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage.
+Teraz, gdy zacząłeś dodawać niestandardowe klasy do swojego kodu, być może zauważyłeś, że kolor został dodany do strony. W CSS możesz użyć **zmiennych**, aby stworzyć paletę kolorów dla swojej strony internetowej.
 
-CSS variables start with two dashes: `--primary`.
+Zmienne CSS zaczynają się od dwóch myślników: "--primary".
 
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use.
+Kolory są określane przy użyciu notacji szesnastkowej (heksadecymalnej) i zaczynają się od '#'. Istnieje wiele stron internetowych, na których możesz znaleźć kolory heksadecymalne do użycia.
 
 \--- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
+Przejdź do pliku „candy.css”. Ten plik ustawia zmienne kolorów dla palety kolorów cukierków.
 
-In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
+W palecie kolorów cukierków zmienna "--primary" jest ustawiona na "#ebeaeb", bladoszary.
 
 ## --- code ---
 
@@ -32,7 +32,7 @@ line_number_start: 1
 line_highlights: 4
 -------------------------------------------------------
 
-/\* Candy colour palette and fonts \*/
+/\* Paleta kolorów i czcionki cukierków \*/
 
 :root {
 \--primary: #ebeaeb;
@@ -48,23 +48,23 @@ line_highlights: 4
 
 \--- /code ---
 
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers.
+**Wskazówka:** CSS używa innych znaczników komentarzy niż HTML. Komentarze wielowierszowe zaczynają się od "/_" i kończą na "_/". Przeglądarka ignoruje kod znajdujący się wewnątrz znaczników komentarzy.
 
-`/* Candy colour palette and fonts */` is an example of a CSS comment.
+"/\* paleta kolorów i czcionki cukierków \*/" to przykład komentarza CSS.
 
 \--- /task ---
 
-You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
+Możesz również użyć zmiennych dla czcionek. "--header-font" jest ustawiony na "3rem 'Fredoka One', cursive;"
 
-`3rem` means that this font should be three times the normal font size.
+"3rem" oznacza, że czcionka ta powinna być trzykrotnie większa od normalnego rozmiaru czcionki.
 
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`.
+"Fredoka One", kursywny oznacza, że przeglądarka powinna używać czcionki "Fredoka One", jeśli może. Jeśli ta czcionka nie jest dostępna, przeglądarka powinna użyć **fallback font**, który jest „kursywny”.
 
 [[[web-fonts]]]
 
 \--- task ---
 
-**Find** the variables that set the fonts for your webpage.
+**Znajdź** zmienne, które ustawiają czcionki dla Twojej strony internetowej.
 
 ## --- code ---
 
@@ -85,15 +85,15 @@ line_highlights: 15-18
 
 \--- /task ---
 
-The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them.
+Kolory "podstawowe" są zaprojektowane tak, aby były używane najbardziej w głównej treści strony, a następnie kolory "drugorzędne", a następnie "trzeciorzędne". Oznacza to, że możesz z łatwością projektować nowe palety kolorów i przełączać się między nimi.
 
-The starter project also includes a vivid colour palette file called `vivid.css`.
+Projekt startowy zawiera również żywy plik palety kolorów o nazwie "vivid.css".
 
 \--- task ---
 
-**Find** the `vivid.css` file.
+**Znajdź** plik „vivid.css”.
 
-Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
+Zauważ, że zmienne kolor i czcionka mają takie same nazwy jak w pliku candy.css, ale kolory i czcionki używane w tej palecie kolorów są inne.
 
 ## --- code ---
 
@@ -103,7 +103,7 @@ line_numbers: true
 line_number_start: 1
 ------------------------------------------------------------------------------
 
-/\* Vivid colour palette and fonts \*/
+/\* Żywa paleta kolorów i czcionki \*/
 
 :root {
 \--primary: #68bbe5;
@@ -129,7 +129,7 @@ line_number_start: 1
 
 \--- task ---
 
-Go to `index.html` and change the CSS link code to link to the `vivid.css` file:
+Przejdź do "index.html" i zmień kod łącza CSS na link do pliku "vivid.css":
 
 ## --- code ---
 
@@ -141,10 +141,10 @@ line_highlights: 24
 --------------------------------------------------------
 
 ```
-<!-- Include CSS style file -->
+<!-- dołącz plik stylu CSS -->
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="vivid.css" rel="stylesheet" type="text/css" />
+
+<link href="style.css" rel="stylesheet" type="text/css" /> <link href="vivid.css" rel="stylesheet" type="text/css" />
 ```
 
 \--- /code ---
@@ -153,9 +153,9 @@ line_highlights: 24
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Kliknij przycisk **Run**.
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Upewnij się, że Twoja strona internetowa używa teraz jaśniejszych kolorów i różnych czcionek, zgodnie z definicją w pliku "vivid.css".
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

@@ -1,75 +1,75 @@
-## Start your webpage
+## Uruchom swoją stronę internetową
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header and an introduction to your anime webpage.
+W tym kroku dodasz nagłówek i wprowadzenie do swojej strony anime.
 </div>
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
-In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
+W HTML możesz wpisywać słowa bezpośrednio do kodu, aby słowa były wyświetlane, niesformatowane, na stronie internetowej.
 
 \--- task ---
 
-Open the [Anime expressions starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Otwórz [projekt startowy wyrażeń anime](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
 
 \--- /task ---
 
 \--- task ---
 
-Your starter project contains some HTML that you will learn more about throughout the project.
+Twój projekt startowy zawiera trochę kodu HTML, o którym dowiesz się więcej w całym projekcie.
 
-To make your code easier to read, you can collapse the parts of it that you don't need right now.
+Aby ułatwić odczytanie kodu, możesz zwinąć jego części, których teraz nie potrzebujesz.
 
-Click on the small triangle next to line 3 to collapse the `<head>`.
+Kliknij mały trójkąt obok linii 3, aby zwinąć „<head>”.
 
 ![alt=""](images/step_2_collapse.gif)
 
 \--- /task ---
 
-### Add a header
+### Dodaj nagłówek
 
-Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**.
+Zazwyczaj strona internetowa składa się z trzech części. A **nagłówek**, **główna** zawartość i **stopka**.
 
 \--- task ---
 
-You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser.
+Możesz użyć komentarzy, aby uporządkować swój kod i pomóc ludziom zrozumieć kod. Komentarze są ignorowane przez przeglądarkę internetową.
 
-**Find** the comment `<!-- The page header code goes here -->`.
+**Znajdź** komentarz "<!-- Kod nagłówka strony idzie tutaj -->".
 
 \--- collapse ---
 
 ---
 
-## title: I can't find the comment
+## Title: Nie mogę znaleźć komentarza
 
-Have you accidentally collapsed the `<body>` or another section of your webpage?
+Czy przypadkowo zwinąłeś „<body>” lub inną sekcję swojej strony internetowej?
 
-Click on the ▸ triangle to expand the code.
+Kliknij trójkąt ▸ , aby rozwinąć kod.
 
 \--- /collapse ---
 
 \--- /task ---
 
-HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
+Dokumenty HTML zawierają **elementy**, w tym akapity, nagłówki i obrazy. Element składa się zazwyczaj z znacznika początkowego, pewnej zawartości i tagu zamykającego.
 
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`.
+**Tag** informuje przeglądarkę o rodzaju elementu. Znaczniki zaczynają się i kończą z nawiasami kątowymi "<>". Znacznik końcowy ma również "/".
 
 \--- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
+Pod komentarzem znajdź znaczniki „<header>” i „</header>”. Wszystko, co tutaj dodasz, pojawia się w nagłówku twojej strony internetowej i jest stylizowane jako nagłówek.
 
 \--- /task ---
 
-A `<h1>` tag is used to say that this content is the largest header on the page.
+Tag „<h1>” jest używany do powiedzenia, że ta zawartość jest największym nagłówkiem na stronie.
 
 \--- task ---
 
-Add `<h1></h1>` **tags** inside your `<header></header>` tags.
+Dodaj znaczniki „<h1> </h1>” **tagi** wewnątrz znaczników „<header> </header>”.
 
-**Tip:** When you add a start tag, the end tag is automatically added so you don't need to type it.
+**Wskazówka:** po dodaniu znacznika startowego znacznik końcowy jest automatycznie dodawany, więc nie musisz go wpisywać.
 
 ## --- code ---
 
@@ -88,13 +88,13 @@ line_highlights: 30
 
 \--- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.
+**Wskazówka:** dobrze jest dodać spacje na początku linii, aby wcięcie kodu. W HTML nie musisz dodawać wcięć, aby kod działał, ale ułatwia odczytanie kodu.
 
 \--- /task ---
 
 \--- task ---
 
-Add the text `Draw anime with me` between the two `<h1>` tags.
+Dodaj tekst "Rysuj anime ze mną" pomiędzy dwoma znacznikami "<h1>".
 
 ## --- code ---
 
@@ -117,25 +117,25 @@ line_highlights: 30
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Kliknij przycisk **Run**.
 
-The output will appear on the right:
+Wynik pojawi się po prawej stronie:
 
-![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png)
+![Ikona Run podświetlona napisem „Rysuj anime ze mną” wyświetlanym w obszarze wyjściowym. ](images/run_h1.png)
 
-You will see that the text inside the `<h1>` tags is styled as bold with a large font.
+Zobaczysz, że tekst wewnątrz znaczników „<h1>” jest wystylizowany jako pogrubiony z dużą czcionką.
 
 \--- /task ---
 
-### Add the first section in your main content
+### Dodaj pierwszą sekcję w swojej głównej treści
 
-Any main content should be placed between the `<main>` tags. On your webpage, the main content is broken down into **sections**.
+Każda główna zawartość powinna być umieszczona między znacznikami „<main>”. Na Twojej stronie główna zawartość jest podzielona na **sekcje**.
 
 \--- task ---
 
-Your webpage needs an introduction section. Add `<section></section>` tags between the `<main>` tags.
+Twoja strona internetowa potrzebuje sekcji wprowadzającej. Dodaj znaczniki „<section> </section>” pomiędzy znacznikami „<main>”.
 
-**Tip:** As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines.
+**Wskazówka:** podczas tworzenia strony internetowej dodasz inne tagi do swojej sekcji. Umieść kursor pomiędzy znacznikami „<section>” i „</section>”, a następnie naciśnij klawisz Enter na klawiaturze, aby podzielić znaczniki na wiele linii.
 
 ## --- code ---
 
@@ -161,9 +161,9 @@ line_highlights: 35-37
 
 \--- task ---
 
-You are now going to add a subheading within the section that you have just created.
+Teraz dodasz podpozycję w sekcji, którą właśnie stworzyłeś.
 
-Add the subheading tags `<h2>` between the `<section>` tags.
+Dodaj znaczniki podpozycji „<h2>” pomiędzy znacznikami „<section>”.
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_highlights: 36
 
 \--- task ---
 
-Now enter the subheading text `Facial expressions` between the `<h2>` tags. Your code should look like this:
+Teraz wpisz tekst podpozycji „Wyrazy twarzy” pomiędzy znacznikami „<h2>”. Twój kod powinien wyglądać tak:
 
 ## --- code ---
 
@@ -215,17 +215,17 @@ line_highlights: 36
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Kliknij przycisk **Run**.
 
-Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
+Zauważ, że tekst na twojej stronie jest nieco mniejszy niż duży nagłówek powyżej i ma odważną stylistykę. Dzieje się tak dlatego, że "<h2>" jest mniejszym nagłówkiem niż "<h1>".
 
 \--- /task ---
 
 \--- task ---
 
-You are now going to add a paragraph of text as an introduction to your anime webpage.
+Teraz dodasz akapit tekstu jako wprowadzenie do swojej strony anime.
 
-Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
+Pod kodem nagłówka „<h2>” dodaj znaczniki akapit „<p>”.
 
 ## --- code ---
 
@@ -252,13 +252,13 @@ line_highlights: 37
 
 \--- task ---
 
-Between the `<p>` tags, you need to add in this introductory text:
+Pomiędzy znacznikami "<p>" musisz dodać w tym tekście wprowadzającym:
 
-`Take a look at these facial expressions and try them in your own drawings.`
+"Spójrz na te mimimiki i wypróbuj je we własnych rysunkach.
 
-**Tip:** You can highlight the text above and then right-click (tap and hold on mobile) and choose 'Copy'. Then click between the `<p>` tags in your code and then right-click and choose 'Paste'.
+**Wskazówka:** Możesz podświetlić powyższy tekst, a następnie kliknąć prawym przyciskiem myszy (dotknij i przytrzymaj na telefonie komórkowym) i wybrać „Kopiuj”. Następnie kliknij pomiędzy znacznikami „<p>” w swoim kodzie, a następnie kliknij prawym przyciskiem myszy i wybierz „Wklej”.
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
 ## --- code ---
 
@@ -285,11 +285,11 @@ line_highlights: 37
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Kliknij przycisk **Run**.
 
-The text appears under the subheading and uses the default paragraph styling.
+Tekst pojawia się pod podpozycją i używa domyślnej stylizacji akapitów.
 
-Well done! Your page now has a header, a subheading, and an introductory paragraph.
+Dobra robota! Twoja strona ma teraz nagłówek, podtytuł i akapit wprowadzający.
 
 <div>
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -297,17 +297,17 @@ Well done! Your page now has a header, a subheading, and an introductory paragra
 
 \--- /task ---
 
-## Save your project
+## Zapisz swój projekt
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Twój projekt zostanie zapisany automatycznie. Wróć do linku startowego w tej samej przeglądarce internetowej, aby zobaczyć swoje zmiany.
 
 \--- collapse ---
 
 ---
 
-## title: I accidentally closed my project
+## Title: Przypadkowo zamknąłem swój projekt
 
-Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+Kliknij link [projekt startowy](https://editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}, aby otworzyć swój projekt. Użyj tej samej przeglądarki internetowej, aby zobaczyć swoje zmiany.
 
 \--- /collapse ---
 
@@ -315,8 +315,8 @@ Click on the [starter project](https://editor.raspberrypi.org/en/projects/anime-
 
 ---
 
-## title: If you have a Code Editor account
+## Title: Jeśli masz konto Edytora kodu
 
-Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
+Kliknij przycisk „Zapisz”, aby utworzyć kopię projektu na swoim koncie Raspberry Pi.
 
 \--- /collapse ---

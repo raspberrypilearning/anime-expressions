@@ -2,6 +2,10 @@ De hoofdinhoud van de webpagina bevindt zich tussen de hoofdtags
 
 Webpagina voettekst
 
+The page header code goes here
+
+Include CSS style file
+
 Titel die in webbrowsers wordt weergegeven
 
 Importeer lettertypen van Google

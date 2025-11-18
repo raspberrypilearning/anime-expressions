@@ -2,6 +2,10 @@ Główna zawartość strony przechodzi między głównymi tagami
 
 Stopka strony internetowej
 
+The page header code goes here
+
+Include CSS style file
+
 Tytuł wyświetlany w przeglądarkach internetowych
 
 Importuj czcionki z Google

@@ -44,7 +44,7 @@ body {
 /* añada una imagen de fondo al body*/
 
 body {
-  /*background-image: url('nombre.jpg');*/ /* Elimine y cambie el nombre del archivo para añadir la imagen de fondo */
+  /*background-image: url('name.jpg');*/ /* Elimine y cambie el nombre del archivo para añadir la imagen de fondo */
   /*background-repeat: repeat;*/ /* Hace que la imagen se repita */
   /*background-size: cover;*/ /* Hace que la imagen cubra todo el contenedor */
 }

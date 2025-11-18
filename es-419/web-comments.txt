@@ -1,18 +1,18 @@
-The main content for the webpage goes between the main tags
+El contenido principal de la página web va entre las etiquetas principales
 
-Webpage footer
+Pie de página web
 
-Title shown in web browsers
+Título mostrado en los navegadores
 
-Import fonts from Google
+Funtes importadas de Google
 
-The first drawing and instructions goes here
+El primer dibujo e instrucciones van aquí
 
-The second drawing and instructions goes here
+El segundo dibujo e instrucciones va aquí
 
-The third drawing and instructions goes here
+El tercer dibujo e instrucciones va aquí
 
-Footer code goes here
+El código del pie de página va aquí
 
-A five-pointed yellow star.
+Una estrella amarilla de cinco puntos.
 

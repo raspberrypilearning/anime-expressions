@@ -1,44 +1,44 @@
-## Introduction
+## Introdução
 
 \--- collapse ---
 
 ---
 
-## title: New to the Raspberry Pi Editor?
+## title: Novo no Editor do Raspberry Pi?
 
-Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+Confira o [guia de primeiros passos](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
 
 \--- /collapse ---
 
-In this project, you will use HTML and CSS to create and style a webpage for an anime drawing tutorial.
+Neste projeto, você usará HTML e CSS para criar e estilizar uma página Web para um tutorial de desenho de anime.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.
+<span style="color: #0faeb0">**Linguagem de Marcação de Hipertexto (HTML)**</span> é usado para estruturar uma página Web. <span style="color: #0faeb0">**Folha de Estilo em Cascata (CSS)**</span> descreve exatamente como uma página web deve se parecer. Sem CSS, uma página Web pareceria muito chata.
 </p>
 
-You will:
+Você irá:
 
-- Use **HTML** tags to structure a webpage
-- Use **CSS** styles to apply layouts, colour palettes, and fonts to your webpage
-- Add images and text content to your webpage
+- Usar as tags do **HTML** para estruturar uma página Web
+- Usar estilos **CSS** para aplicar layouts, paletas de cores e fontes à sua página Web
+- Adicionar imagens e conteúdo de texto à sua página Web
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are hundreds of millions of active <span style="color: #0faeb0">**webpages**</span>. If you use HTML with CSS, it can help your webpage attract people's attention. 
+Existem centenas de milhões de <span style="color: #0faeb0">**páginas Web**</span> ativas. Se você usar HTML com CSS, isso pode ajudar sua página Web atrair a atenção das pessoas. 
 </p>
 
-**Tip:** Drag the scroll bar down to see the full webpage.
+\*\*Dica: \*\* Arraste a barra de rolagem para baixo para ver a página Web completa.
 
 \--- no-print ---
 \--- task ---
 
-### Try it
+### Tente isso
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Explore the anime expressions webpage. 
+Explore a página web de expressões do anime. 
 
-- What do you like about it?
-- What would you improve?
+- O que você gosta nele?
+- Como você o aprimoraria?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/anime-expressions-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>

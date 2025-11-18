@@ -4,7 +4,7 @@
 
 ## legend: Pergunta 2 de 3
 
-As classes CSS podem ser aplicadas ao código HTML para decidir como o conteúdo deve aparecer no navegador web.
+As classes CSS podem ser aplicadas ao código HTML para decidir como o conteúdo deve aparecer no navegador Web.
 
 Abaixo está um código CSS para estilizar um subtítulo. Qual linha de código você alteraria para que o subtítulo fosse exibido no lado direito?
 
@@ -39,7 +39,7 @@ Dê outra olhada. A primeira linha diz que o **seletor** ao qual a regra se apli
 
   \--- feedback ---
 
-Quase. A segunda linha diz que a fonte para elementos com a tag `h2` é fornecida pela \*\*variável` --title-font`.
+Quase. A segunda linha diz que a fonte para elementos com a tag `h2` é fornecida pela \*\*variável `--title-font`.
 
 \--- /feedback ---
 

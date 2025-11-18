@@ -2,6 +2,10 @@
 
 Нижній колонтитул сторінки
 
+The page header code goes here
+
+Include CSS style file
+
 Заголовок, який відображається у браузерах
 
 Імпортуємо шрифти з Google

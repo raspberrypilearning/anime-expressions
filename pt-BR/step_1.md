@@ -26,7 +26,7 @@ Você irá:
 Existem centenas de milhões de <span style="color: #0faeb0">**páginas Web**</span> ativas. Se você usar HTML com CSS, isso pode ajudar sua página Web atrair a atenção das pessoas. 
 </p>
 
-\*\*Dica: \*\* Arraste a barra de rolagem para baixo para ver a página Web completa.
+**Dica:** Arraste a barra de rolagem para baixo para ver a página Web completa.
 
 \--- no-print ---
 \--- task ---

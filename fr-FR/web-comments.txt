@@ -2,6 +2,10 @@ Le contenu principal de la page web se trouve entre les balises principales
 
 Pied de page du site web
 
+The page header code goes here
+
+Include CSS style file
+
 Titre affiché dans les navigateurs web
 
 Importer des polices depuis Google

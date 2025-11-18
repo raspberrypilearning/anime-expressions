@@ -1,0 +1,22 @@
+O conteúdo principal da página web fica entre as tags principais
+
+Rodapé da página Web
+
+O código do cabeçalho da página vai aqui
+
+Inclua o arquivo CSS style
+
+Título exibido em navegadores
+
+Importar fontes do Google
+
+O primeiro desenho e as instruções vão aqui
+
+O segundo desenho e as instruções vão aqui
+
+O terceiro desenho e as instruções vão aqui
+
+O código do rodapé vai aqui
+
+Uma estrela amarela de cinco pontas.
+

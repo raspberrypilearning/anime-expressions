@@ -1,0 +1,28 @@
+---
+title: Expressões do anime
+hero_image: images/banner.png
+description: Crie e estilize uma página da Web para um tutorial de desenho de anime.
+pdf: resources/rpfi-anime-expression.pdf
+meta_title: Aprenda CSS | Aprenda desenvolvimento Web | Expressões do anime
+meta_description: Aprenda desenvolvimento Web para iniciantes com Raspberry Pi Foundation. Aprenda CSS e use estilos para aplicar layouts, paletas de cores e fontes à sua página Web.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2022-05-11"
+steps:
+- title: Introdução
+- title: Comece sua página Web
+- title: Adicione uma expressão facial
+  completion: engaged
+- title: Estilize sua página
+- title: Estilize com classes
+- title: Cores e fontes
+  completion: internal
+- title: Reflexão
+  completion: external
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+- title: Atualize seu projeto

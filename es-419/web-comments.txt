@@ -2,6 +2,10 @@ El contenido principal de la página web va entre las etiquetas principales
 
 Pie de página web
 
+El código del encabezado de la página va aquí
+
+Incluir archivo de estilo CSS
+
 Título mostrado en los navegadores
 
 Funtes importadas de Google

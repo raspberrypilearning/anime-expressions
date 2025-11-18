@@ -1,6 +1,6 @@
 O conteúdo principal da página web fica entre as tags principais
 
-Rodapé da página Web
+Rodapé da página web
 
 O código do cabeçalho da página vai aqui
 

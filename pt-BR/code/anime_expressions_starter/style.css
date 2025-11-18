@@ -35,7 +35,7 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  min-height: 100vh; /* Faça o conteúdo preencher a página para que o rodapé (footer) fique na parte inferior */
+  Min-altura: 100vh; /* Faça o conteúdo preencher a página para que o rodapé(footer) fique na parte inferior */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,9 +44,9 @@ body {
 /* adicione uma imagem de fundo ao corpo (body) */
 
 body {
-  /*background-image: url('name.jpg');*/ /* Remova o comentário e modifique o nome do arquivo para adicionar uma imagem de fundo */
-  /* Faça a imagem se repetir */
-  /*background-size: cover;*/ /*Faça a imagem cobrir todo o contêiner*/
+  /*background-image: url('name.jpg'); */ /* Remova o comentário e modifique o nome do arquivo para adicionar uma imagem de fundo */
+  /*background-repeat: repeat; */ /* Faça a imagem se repetir */
+  /*background-size: cover; */ /*Faça a imagem cobrir todo o contêiner*/
 }
 
 /* O conteúdo principal da página entre cabeçalho (header) e o rodapé (footer) */
@@ -73,7 +73,7 @@ footer {
   padding-bottom: 1rem;
 }
 
-/* Estilos de seção */
+/* Seção de estilização */
 
 section {
   padding: 1rem 2rem;
@@ -99,15 +99,15 @@ section {
 /* Adicione estilos apenas para elementos h1 */
 
 h1 {
-  fonte: var(--header-font); /* Estilo de fonte armazenado na variável header-font */
+  font: var(--header-font); /* Estilo de fonte armazenado na variável header-font */
   padding: 2rem;
-   /*Centralize o elemento caso o navegador seja muito largo*/
+  margin: 0; /*Centralize o elemento caso o navegador seja muito largo*/
 }
 
 /* Adicione estilos apenas para elementos h2 */
 
 h2 {
-  fonte: var(--title-font); /* Estilo de fonte armazenado na variável title-font */
+  font: var(--title-font); /* Estilo de fonte armazenado na variável title-font */
   text-align: left; /* Alinhe o texto */
   padding: 1.5rem; /* Adicione algum espaço ao redor do título (heading) */
 }
@@ -115,7 +115,7 @@ h2 {
 /* Destaque palavras-chave em negrito e aplique uma cor de texto alternativa */
 
 strong {
-  cor: var(--detail2); /* Armazene a cor do texto na variável caption */
+  color: var(--detail2); /* Armazene a cor do texto na variável caption */
   font-weight: bold; /* Torna a espessura da fonte mais acentuada que o padrão*/
 }
 
@@ -139,7 +139,7 @@ p {
 a:link,
 a:visited {
   font-weight: bold;
-  cor: inherit; /* Use a cor do elemento pai */
+  color: inherit; /* Use a cor do elemento pai */
 }
 
 .xcenter {
@@ -203,7 +203,7 @@ a:visited {
 }
 
 .hugefont {
-  /* Usado para fazer um grande emoji */
+  /* Usado para fazer um emoji grande */
   font-size: 6rem;
   text-align: center;
   padding: 1rem;

@@ -35,7 +35,7 @@ body {
   background: var(--page);
   color: var(--onpage);
   font: var(--body-font);
-  altura mínima: 100vh; /*Llenar la página con el contenido para situar el pie de página en la parte inferior*/
+  min-height: 100vh; /*Llenar la página con el contenido para situar el pie de página en la parte inferior*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,7 +44,7 @@ body {
 /* añada una imagen de fondo al body*/
 
 body {
-  /*background-image: url('nombre.jpg');*/ /* Elimine y cambie el nombre del archivo para añadir la imagen de fondo */
+  /*background-image: url('name.jpg');*/ /* Elimine y cambie el nombre del archivo para añadir la imagen de fondo */
   /*background-repeat: repeat;*/ /* Hace que la imagen se repita */
   /*background-size: cover;*/ /* Hace que la imagen cubra todo el contenedor */
 }
@@ -108,7 +108,7 @@ h1 {
 
 h2 {
   font: var(--title-font); /* Estilo de fuente almacenado en la variable de fuente de título */
-  text-align: center; /* Alinea el texto */
+  text-align: left; /* Alinea el texto */
   padding: 1.5rem; /* Añade algo de espacio alrededor del encabezado */
 }
 

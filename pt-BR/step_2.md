@@ -43,7 +43,7 @@ Você pode usar comentários para organizar seu código e ajudar as pessoas a en
 
 ---
 
-## Título: não consigo encontrar o comentário
+## title: Não consigo encontrar o comentário
 
 Você acidentalmente fechou o `<body>` ou outra seção da sua página Web?
 
@@ -88,7 +88,7 @@ line_highlights: 30
 
 \--- /code ---
 
-\*\*Dica: \*\* é uma boa ideia adicionar espaços no início de linhas para endentação do seu código. Em HTML, você não precisa adicionar recuos para o código funcionar, mas isso torna seu código mais fácil de ler.
+**Dica:** é uma boa ideia adicionar espaços no início de linhas para endentação do seu código. Em HTML, você não precisa adicionar recuos para o código funcionar, mas isso torna seu código mais fácil de ler.
 
 \--- /task ---
 
@@ -117,7 +117,7 @@ line_highlights: 30
 
 \--- task ---
 
-\*\*Test: \*\* Clique no botão **Run**.
+**Test:** Clique no botão **Run**.
 
 O resultado será exibido à direita:
 
@@ -135,7 +135,7 @@ Qualquer conteúdo principal deve ser colocado entre as tags `<main>`. Na sua p�
 
 Sua página web precisa de uma seção de introdução. Adicione as tags `<section></section>` entre as tags `<main>`.
 
-\*\*Dica: \*\* Conforme você constrói sua página da web, você adicionará outras tags dentro da sua seção. Posicione o cursor entre as tags `<section>` e `</section>` e pressione Enter no teclado para dividir as tags em várias linhas.
+**Dica:** Conforme você constrói sua página da web, você adicionará outras tags dentro da sua seção. Posicione o cursor entre as tags `<section>` e `</section>` e pressione Enter no teclado para dividir as tags em várias linhas.
 
 ## --- code ---
 
@@ -285,7 +285,7 @@ line_highlights: 37
 
 \--- task ---
 
-\*\*Test: \*\* Clique no botão **Run**.
+**Test:** Clique no botão **Run**.
 
 O texto aparece abaixo do subtítulo e usa o estilo de parágrafo padrão.
 

@@ -1,18 +1,18 @@
-The main content for the webpage goes between the main tags
+Główna zawartość strony przechodzi między głównymi tagami
 
-Webpage footer
+Stopka strony internetowej
 
-Title shown in web browsers
+Tytuł wyświetlany w przeglądarkach internetowych
 
-Import fonts from Google
+Importuj czcionki z Google
 
-The first drawing and instructions goes here
+Pierwszy rysunek i instrukcje znajdują się tutaj
 
-The second drawing and instructions goes here
+Drugi rysunek i instrukcje znajdują się tutaj
 
-The third drawing and instructions goes here
+Trzeci rysunek i instrukcje znajdują się tutaj
 
-Footer code goes here
+Kod stopki znajduje się tutaj
 
-A five-pointed yellow star.
+Pięcioramienna żółta gwiazda.
 

@@ -1,9 +1,9 @@
-## Style with classes
+## Styl z klasami
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page.
+Ten krok pokazuje, jak dodać klasy, aby dostosować style na swojej stronie.
 
 </div>
 <div>
@@ -11,17 +11,17 @@ This step shows you how to add classes to customise the styles on your page.
 </div>
 </div>
 
-If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied.
+Jeśli chcesz zastosować styl do określonych elementów, możesz utworzyć **class** w pliku CSS. Następnie możesz dodać atrybut "class=" \*\*do elementu w swoim kodzie HTML, aby poinformować przeglądarkę, jaką stylizację należy zastosować.
 
-The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
+Stylizacja klasy zastępuje wszystkie elementy, które zostały już zastosowane. Zauważ, że zmiany mają miejsce, gdy dodasz klasy do swojego kodu.
 
 \--- task ---
 
-Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
+Twój plik CSS ma niestandardową klasę CSS o nazwie "border-bottom". Ta klasa dodaje grubą, jednolitą ramkę linii na dole dowolnego elementu HTML, który go używa.
 
-Go to your `index.html` file and find your `header`.
+Przejdź do pliku „index.html” i znajdź swój „nagłówek”.
 
-Add `class="border-bottom"` after the word `header` in your `header` tag.
+Dodaj "class="border-bottom"" po słowie "header" w znaczniku "header".
 
 ## --- code ---
 
@@ -44,7 +44,7 @@ line_highlights: 29
 
 \--- task ---
 
-Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer.
+Dodaj klasę "border-top" do kodu "stopki", aby nałożyć grubą ramkę na górną część stopki.
 
 ## --- code ---
 
@@ -64,13 +64,13 @@ line_highlights: 56
 
 \--- /task ---
 
-The `primary` class sets a contrasting background and text colour for most of the main content.
+Klasa "primary" ustawia kontrastujące tło i kolor tekstu dla większości głównej zawartości.
 
-The `secondary` class sets an additional colour combination that look good with the colours in the `primary` class.
+Klasa "drugorzędna" ustawia dodatkową kombinację kolorów, która dobrze wygląda z kolorami w klasie "primary".
 
 \--- task ---
 
-Add the `secondary` class to your `footer` code to apply a different colour background to your footer.
+Dodaj klasę "drugorzędną" do kodu "stopki", aby zastosować do stopki inne kolorowe tło.
 
 ## --- code ---
 
@@ -92,7 +92,7 @@ line_highlights: 56
 
 \--- task ---
 
-Add `class="primary"` to `<main>`.
+Dodaj "class="primary" do "<main>".
 
 ## --- code ---
 
@@ -114,7 +114,7 @@ line_highlights: 34
 
 \--- task ---
 
-Add `secondary` to `<header>`.
+Dodaj "drugorzędny" do "<header>".
 
 ## --- code ---
 
@@ -134,11 +134,11 @@ line_highlights: 29
 
 \--- /task ---
 
-The `tertiary` class sets an additional colour combination that looks good with the colours in the `primary` and `secondary` classes.
+Klasa "trzeciorzędna" ustawia dodatkową kombinację kolorów, która dobrze wygląda z kolorami w klasach "podstawowych" i "drugorzędnych".
 
 \--- task ---
 
-Add `class="tertiary"` to the **first** `<section>` element.
+Dodaj "class="trzeciorzędny"" do **first** '<section>' element.
 
 ## --- code ---
 
@@ -160,13 +160,13 @@ line_highlights: 35
 
 \--- /code ---
 
-The `xcenter` class in your CSS file aligns items horizontally across the page.
+Klasa "xcenter" w pliku CSS wyrównuje elementy poziomo na stronie.
 
 \--- /task ---
 
 \--- task ---
 
-Add `class="xcenter"` to the `<p>` in the same section.
+Dodaj "class="xcenter"" do "<p>" w tej samej sekcji.
 
 ## --- code ---
 
@@ -191,16 +191,16 @@ line_highlights: 37
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+Strony internetowe można przeglądać na wielu różnych urządzeniach i powinny być <span style="color: #0faeb0">**responsywne**</span> na każde urządzenie. Oznacza to, że jeśli użytkownik wyświetli Twoją stronę na telefonie komórkowym, powinien odpowiedzieć na mniejszy ekran, a jeśli wyświetli ją na komputerze stacjonarnym, powinien reagować na większy ekran. 
 </p>
 
-CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders.
+CSS może zmienić układ strony internetowej, a także jest używany do zmiany kolorów, czcionek i obramowań.
 
 \--- task ---
 
-Find the **second** `<section>`.
+Znajdź **drugi** „<section>”.
 
-Add `class="wrap"` to the `<section>` tag.
+Dodaj "class="wrap"" do znacznika "<section>".
 
 ## --- code ---
 
@@ -223,11 +223,11 @@ line_highlights: 40
 
 \--- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border.
+Możesz również dodać kolorowe obramowania w różnych stylach do elementów HTML. Klasa "przerywana-granica" w pliku stylu tworzy przerywaną granicę.
 
 \--- task ---
 
-Add the `dashed-border` class to the `<img>`.
+Dodaj klasę "przerywana granica" do "<img>".
 
 ## --- code ---
 
@@ -250,11 +250,11 @@ line_highlights: 41
 
 \--- /task ---
 
-You can make the corners of an element rounded with the `rounded` class.
+Możesz zaokrąglić narożniki elementu za pomocą klasy „zaokrąglone”.
 
 \--- task ---
 
-Add the `rounded` class to the `<img>`.
+Dodaj klasę "zaokrąglony" do "<img>".
 
 ## --- code ---
 
@@ -279,14 +279,14 @@ line_highlights: 41
 
 \--- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Kliknij przycisk **Run**.
 
-Drag the bar between the text editor and your webpage to make the webpage narrower.
+Przeciągnij pasek między edytorem tekstu a stroną internetową, aby zmniejszyć jej rozmiar.
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone.
+Tekst powinien znajdować się poniżej obrazu. Jest to układ dla użytkowników, którzy przeglądają stronę na telefonie komórkowym.
 
-Drag the bar back after you test it, so you can see the image and text side-by-side.
+Przeciągnij pasek z powrotem po przetestowaniu, aby zobaczyć obraz i tekst obok siebie.
 
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![w Edytorze pionowa przestrzeń między dwoma okienkami jest przeciągnięta z lewej na prawą, aby pokazać, że strona internetowa dostosowuje się do mniejszych ekranów.](images/drag-window.gif)
 
 \--- /task ---

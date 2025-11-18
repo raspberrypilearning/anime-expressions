@@ -1,10 +1,10 @@
-## What next?
+## O que vem depois?
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Top five emojis](https://projects.raspberrypi.org/en/projects/top-5-emoji-list) project. In this project, make a list of your favourite five emojis, with use of animation effects.
+Se você estiver seguindo o caminho [Introdução à web](https://projects.raspberrypi.org/en/pathways/web-intro), você pode passar para o projeto [Cinco principais emojis](https://projects.raspberrypi.org/en/projects/top-5-emoji-list). Neste projeto, faça uma lista dos seus cinco emojis favoritos, usando efeitos de animação.
 
 \--- print-only ---
 
-![The finished top 5 emojis project.](images/emoji-solution.PNG)
+![Projeto top 5 emojis finalizados.](images/emoji-solution.PNG)
 
 \--- /print-only ---
 
@@ -12,11 +12,11 @@ If you are following the [Intro to web](https://projects.raspberrypi.org/en/path
 
 \--- task ---
 
-### Try it
+### Tente isso
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this webpage. How often do they repeat? Can you spot a list, quote, and link?
+Assista às animações nesta página Web. Com que frequência eles se repetem? Você consegue identificar uma lista, citação e link?
 
 </div>
 <div>
